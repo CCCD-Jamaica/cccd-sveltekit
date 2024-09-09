@@ -1,39 +1,48 @@
-# create-svelte
+# CCCD SvelteKit Project
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Project Information
 
-## Creating a project
+- Project Name: CCCD SvelteKit Project
+- Project Description: This is a project for the CCCD Jamaica website built with SvelteKit.
+- Project Author: Kevin Miller, Jr
+- Project Version: 0.3.0
+- Project License: MIT
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Project Tools
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- SvelteKit
+- TailwindCSS
+    - Tailwind Forms
+    - Tailwind Typography
+    - Tailwind Aspect Ratio
+    - Tailwind Container Queries
+- TailwindUI
+- TypeScript
+- Vite
+- iconify
+- Umami
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Project Structure
 
-## Developing
+- `src/routes`: This is the main directory for the project. It contains the pages for the project.
+- `src/app.css`: This is the main CSS file for the project. It contains the styles for the project.
+- `src/app.html`: This is the main HTML file for the project. It contains the HTML for the project.
+- `src/app.js`: This is the main JavaScript file for the project. It contains the JavaScript for the project.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Project Development
+
+To start the development server, run the following command:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+### Project Building
 
-To create a production version of your app:
+To build the project, run the following command:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 # cccd-sveltekit
