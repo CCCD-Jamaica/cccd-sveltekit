@@ -17,8 +17,7 @@
     - Tailwind Aspect Ratio
     - Tailwind Container Queries
 - TailwindUI
-- TypeScript
-- Vite
+- [Svelte Cloudinary](https://svelte.cloudinary.dev)
 - iconify
 - Umami
 
