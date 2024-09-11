@@ -58,7 +58,40 @@
 		</div>
 	</div>
 </section>
-<section class="pt-1 bg-red-900">
+<section>
+	<div class="overflow-hidden bg-gold-50 py-32">
+	<div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+		<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+		<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
+			<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Nuturing Our Deaf Students</h2>
+			<p class="mt-6 text-xl leading-8 text-gray-600">Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.</p>
+			<p class="mt-6 text-base leading-7 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.</p>
+			<div class="mt-10 flex">
+			<a href="#" class="rounded-md bg-red-800 hover:bg-red-700 transition duration-300 px-3.5 py-2.5 text-sm font-bold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">Help Nurture our Deaf Students' Future <span aria-hidden="true">&rarr;</span></a>
+			</div>
+		</div>
+		<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+			<div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+			<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726017431/cccd_wordpress/deafjamaicangirl.webp" alt="CCCD Jamaica Deaf Student" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+			</div>
+			<div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
+			<div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1722901476/cccd_wordpress/cccdfixers-kitchen.webp" alt="CCCD Jamaica Deaf Student" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+			</div>
+			<div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/c_scale,w_1291/v1726017899/cccd_wordpress/Fellowship_with_JDV_Community.webp" alt="CCCD Jamaica Deaf Student" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
+			</div>
+			<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369815/cccd/cccd-deaf-students-kingston.webp" alt="CCCD Jamaica Deaf Student" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+</section>
+<section>
 	<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
 	<CldImage
 		src="v1722901455/cccd_wordpress/IMG_0234.jpg"
