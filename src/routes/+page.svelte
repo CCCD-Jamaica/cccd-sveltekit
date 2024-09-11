@@ -34,7 +34,7 @@
 				<h4 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h4>
 				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf community in Jamaica. Together, we 					can create opportunities and foster a supportive environment for all.<br>
 					<br>
-					<span class="font-bold italic">Purpose: To Steward God&apos;s Resources for His Glory - 1 Peter 4:7-11</span>
+					<span class="font-bold italic">Purpose: <br>&quot;To Steward God&apos;s Resources for His Glory&quot;<br> 1 Peter 4:7-11</span>
 				</p>
 				<div class="mt-4 flex justify-start">
 					<a href="/donate" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">

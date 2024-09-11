@@ -1,4 +1,5 @@
 <script>
+  import { CldImage } from 'svelte-cloudinary';
   import { slide, fade } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
   import Icon from '@iconify/svelte';
@@ -16,7 +17,13 @@
   <div class="hidden lg:flex justify-center py-4">
     <a href="/" class="-m-1.5 p-1.5">
       <span class="sr-only"><abbr title="Caribbean Christian Center for the Deaf">CCCD</abbr> Jamaica</span>
-      <img class="h-16 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+      <CldImage 
+        class="border-2 border-blue-600 rounded-md" 
+        src="v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
+        alt="CCCD Jamaica logo" 
+        width="150"
+        height="150"
+      />
     </a>
   </div>
   <nav class="mx-auto flex max-w-7xl items-center justify-between lg:py-4 lg:px-8" aria-label="Global">
@@ -41,7 +48,13 @@
   <div class="lg:hidden flex items-center justify-between p-4">
     <a href="#" class="-m-1.5 p-1.5">
       <span class="sr-only"><abbr title="Caribbean Christian Center for the Deaf">CCCD</abbr> Jamaica</span>
-      <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+      <CldImage  
+        class="border-2 border-blue-600 rounded-md" 
+        src="v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
+        alt="CCCD Jamaica logo" 
+        width="100"
+        height="100"
+      />
     </a>
     <button on:click={toggleMenu} type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
       <span class="sr-only">Open main menu</span>
@@ -53,12 +66,18 @@
   {#if isMenuOpen}
     <div class="lg:hidden" role="dialog" aria-modal="true" transition:fade={{ duration: 300 }}>
       <!-- Background backdrop, show/hide based on slide-over state. -->
-      <div class="fixed inset-0 z-10" on:click={toggleMenu}></div>
-      <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10" transition:slide={{ duration: 300, easing: quintOut }}>
+      <div class="fixed inset-0 z-30" on:click={toggleMenu}></div>
+      <div class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10" transition:slide={{ duration: 300, easing: quintOut }}>
         <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
+          <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only"><abbr title="">CCCD</abbr> Jamaica</span>
-            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            <CldImage  
+              class="border-2 border-blue-600 rounded-md" 
+              src="v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
+              alt="CCCD Jamaica logo" 
+              width="100"
+              height="100"
+            />
           </a>
           <button on:click={toggleMenu} type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
