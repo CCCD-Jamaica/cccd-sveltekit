@@ -11,10 +11,10 @@
 		<div class="w-1/2 bg-white"></div>
 		<div class="w-1/2">
 			<CldImage
-				src="v1722901480/cccd_wordpress/cccdjamaica-6.webp"
+				src="v1726012729/cccd_wordpress/cccd-deaf-graduate-jamaica.webp"
 				alt="CCCD Jamaica Deaf Student Graduation"
-				width="1600"
-				height="900"
+				width="1348"
+				height="1117"
 				class="w-full h-full object-cover"
 			/>
 		</div>
@@ -27,12 +27,12 @@
 		<div class="w-1/2"></div>
 	</div>
 	<div class="absolute inset-0 z-20 flex items-center justify-center">
-		<div class="w-full md:w-2/3 flex flex-col md:flex-row bg-white bg-opacity-65 md:bg-opacity-90 rounded-lg overflow-hidden">
-			<div class="w-full md:w-1/2 p-8 flex flex-col justify-center">
+		<div class="w-full md:w-2/3 flex flex-col md:flex-row bg-opacity-65 md:bg-opacity-90 rounded-lg overflow-hidden">
+			<div class="w-full md:w-1/2 p-8 flex flex-col justify-center bg-white opacity-75">
 				<!-- Content for the first column of the new centered layer -->
 				<h3 class="text-xl text-red-900 font-semibold mb-3 uppercase">Empowering the Deaf Community</h3>
 				<h4 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h4>
-				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf community in Jamaica. Together, we can 							create opportunities and foster a supportive environment for all.<br>
+				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf community in Jamaica. Together, we 					can create opportunities and foster a supportive environment for all.<br>
 					<br>
 					<span class="font-bold italic">Purpose: To Steward God&apos;s Resources for His Glory - 1 Peter 4:7-11</span>
 				</p>
@@ -42,14 +42,14 @@
 					</a>
 				</div>
 			</div>
-			<div class="w-full md:w-1/2 bg-gray-100">
+			<div class="w-full md:w-1/2 flex justify-center items-center">
 				<!-- Content for the second column of the new centered layer -->
 				<CldImage
 					src="v1722901498/cccd_wordpress/cccd-deafstudents.webp"
 					alt="CCCD Jamaica Deaf Student Graduation"
 					width="1400"
 					height="1035"
-					class="w-full h-full object-cover"
+					class="w-auto h-3/4 rounded-r-lg"
 				/>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8 bg-blue-900 bg-opacity-35 p-8 rounded-lg">
 		<div class="mx-auto max-w-2xl lg:mx-0">
 			<h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About CCCD Jamaica</h2>
-			<p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+			<p class="mt-6 text-lg leading-8 text-gray-300">Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica to experience the joy of knowing Jesus and serving within their community. We accomplish this by operating three residential schools spread geographically across the island (Kingston, Knockpatrick, and Montego Bay) and a centrally located Jamaica Deaf Village (Mandeville), which ministers to the adult Deaf and their children.</p>
 		</div>
 		<div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
 			<div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
