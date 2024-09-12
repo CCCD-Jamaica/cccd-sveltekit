@@ -90,6 +90,32 @@
 	</div>
 </div>
 </section>
+<section class="bg-green-600 py-16 relative border-t-4 border-b-4 border-black">
+	<div class="absolute inset-0 z-0">
+		<div class="w-full h-full bg-gradient-to-br from-green-600 via-yellow-400 to-black opacity-20"></div>
+	</div>
+	<div class="container mx-auto px-4 relative z-10">
+		<div class="flex flex-wrap items-center">
+			<div class="w-full lg:w-1/2 pr-0 lg:pr-8 mb-8 lg:mb-0">
+				<h2 class="text-4xl font-bold text-yellow-300 mb-6">Learn Jamaican Sign Language</h2>
+				<p class="text-white text-lg mb-8">
+					The ability to communicate with the Deaf community in Jamaica is crucial to expanding their opportunities. Why not take the next step and learn Jamaican Sign Language.
+				</p>
+				<div class="flex flex-wrap gap-4">
+					<a href="/learn-jsl" class="inline-block bg-black text-yellow-300 font-bold py-3 px-6 rounded-md hover:bg-gray-800 transition duration-300">
+						Learn JSL Now
+					</a>
+					<a href="/jsl-resources" class="inline-block bg-yellow-400 text-black font-bold py-3 px-6 rounded-md hover:bg-yellow-500 transition duration-300">
+						Visit our JSL Resources
+					</a>
+				</div>
+			</div>
+			<div class="w-full lg:w-1/2">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726017431/cccd_wordpress/deafjamaicangirl.webp" alt="Deaf Jamaican student" class="rounded-lg shadow-lg w-full h-auto">
+			</div>
+		</div>
+	</div>
+</section>
 <section>
 	<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
 	<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369817/cccd/cccd-jamaica-kingston.webp" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
