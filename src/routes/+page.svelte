@@ -137,3 +137,99 @@
 	</div>
 	</div>
 </section>
+<section class="py-16 relative border-t-4 border-b-4 border-gold-500">
+	<div class="absolute inset-0 z-0">
+		<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369817/cccd/christ-background.webp" alt="Background image of Christ" class="w-full h-full object-cover opacity-20">
+	</div>
+	<div class="container mx-auto px-4 text-center relative z-10">
+		<h2 class="text-3xl font-bold mb-6 text-blue-800">Nurture Deaf Students Through Christ's Love</h2>
+		<p class="text-lg mb-8 max-w-2xl mx-auto text-gray-700">
+			"And whoever welcomes one such child in my name welcomes me." - Matthew 18:5
+		</p>
+		<p class="mb-8 text-gray-700">
+			Join us in our mission to reach, teach, and nurture deaf students in Jamaica. Your support can make a lasting impact in their lives and spread God's love.
+		</p>
+		<a href="/get-involved" class="bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition duration-300 inline-block">
+			Become a Mission Partner
+		</a>
+	</div>
+</section>
+<section class="py-24 sm:py-32 relative">
+	<div class="absolute inset-0 z-0">
+		<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369817/cccd/cccd-jamaica-kingston.webp" alt="Background image of CCCD Jamaica" class="w-full h-full object-cover opacity-20">
+	</div>
+	<div class="container mx-auto px-4 relative z-10">
+		<h2 class="text-3xl font-bold mb-8 text-center text-gray-900">Meet Our Fixers</h2>
+		<p class="text-lg mb-12 max-w-3xl mx-auto text-center text-gray-700">
+			Our Fixers are dedicated individuals who work tirelessly to improve the lives of the Deaf community in Jamaica. They are the backbone of our organization, providing essential support, education, and resources to those we serve.
+		</p>
+		<div class="aspect-w-16 aspect-h-9 max-w-6xl mx-auto">
+			<iframe 
+				class="w-full h-full shadow-lg rounded-lg"
+				src="https://www.youtube.com/embed/your-video-id" 
+				title="CCCD Jamaica Fixers" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+				allowfullscreen>
+			</iframe>
+		</div>
+	</div>
+</section>
+<section class="bg-white py-24 sm:py-32">
+	<div class="container mx-auto px-4">
+		<h2 class="text-3xl font-bold mb-12 text-center">Our Locations</h2>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+		<div class="bg-gray-100 p-6 rounded-lg">
+			<h3 class="text-xl font-semibold mb-2">US Office</h3>
+			<p>Address: 123 Main St, Anytown, USA</p>
+			<p>Phone: (123) 456-7890</p>
+		</div>
+		<div class="bg-gray-100 p-6 rounded-lg">
+			<h3 class="text-xl font-semibold mb-2">Jamaica Head Office</h3>
+			<p>Address: 456 Jamaica Ave, Kingston, Jamaica</p>
+			<p>Phone: (876) 123-4567</p>
+		</div>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+		<div class="bg-gray-100 p-6 rounded-lg">
+			<h3 class="text-xl font-semibold mb-2">Knockpatrick Campus</h3>
+			<p>Address: 789 Knockpatrick Rd, Manchester, Jamaica</p>
+			<p>Phone: (876) 234-5678</p>
+		</div>
+		<div class="bg-gray-100 p-6 rounded-lg">
+			<h3 class="text-xl font-semibold mb-2">Kingston Campus</h3>
+			<p>Address: 101 Kingston St, Kingston, Jamaica</p>
+			<p>Phone: (876) 345-6789</p>
+		</div>
+		<div class="bg-gray-100 p-6 rounded-lg">
+			<h3 class="text-xl font-semibold mb-2">Montego Bay Campus</h3>
+			<p>Address: 202 Montego Blvd, Montego Bay, Jamaica</p>
+			<p>Phone: (876) 456-7890</p>
+		</div>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+		<div class="bg-gray-100 p-6 rounded-lg">
+			<h3 class="text-xl font-semibold mb-2">Deaf Village</h3>
+			<p>Address: 303 Deaf Village Rd, St. Elizabeth, Jamaica</p>
+			<p>Phone: (876) 567-8901</p>
+		</div>
+		<div class="bg-gray-100 p-6 rounded-lg">
+			<img 
+			src="https://res.cloudinary.com/your-cloud-name/image/upload/v1234567890/deaf-village.jpg" 
+			alt="Deaf Village" 
+			class="w-full h-auto rounded-lg"
+			/>
+		</div>
+		</div>
+		<div class="mt-12">
+		<iframe 
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.630107374707!2d-77.31942868513684!3d18.017013087603394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb3f4a9e5e9bbd%3A0x1db9b0b6b9f9b9f9!2sCaribbean%20Christian%20Centre%20for%20the%20Deaf!5e0!3m2!1sen!2sus!4v1625000000000!5m2!1sen!2sus" 
+			width="100%" 
+			height="450" 
+			style="border:0;" 
+			allowfullscreen="" 
+			loading="lazy">
+		</iframe>
+		</div>
+	</div>
+</section>
