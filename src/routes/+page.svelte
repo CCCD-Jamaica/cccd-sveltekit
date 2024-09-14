@@ -1,6 +1,8 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
+	import Support from '$components/support.svelte';
 </script>
+
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Caribben Christian Center for the Deaf in Jamaica" />
@@ -408,3 +410,5 @@
 		</div>
 	</div>
 </section>
+
+<Support />
