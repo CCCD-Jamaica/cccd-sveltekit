@@ -1,6 +1,5 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
-	import BackToTop from "../lib/BackToTop.svelte";
 </script>
 <svelte:head>
 	<title>Home</title>
@@ -409,4 +408,3 @@
 		</div>
 	</div>
 </section>
-<BackToTop aria-label="Back to top" />
