@@ -28,7 +28,7 @@
 - Project Name: CCCD SvelteKit Project
 - Project Description: This is a project for the CCCD Jamaica website built with SvelteKit and TailwindCSS.
 - Project Author: Kevin Miller, Jr
-- Project Version: 1.0.0-alpha
+- Project Version: 1.0.0-alpha2
 - Project License: BSD 3-Clause License (See [LICENSE](LICENSE) file for details)
 
 ## Project Tools
