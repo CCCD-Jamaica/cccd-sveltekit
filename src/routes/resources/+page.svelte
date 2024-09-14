@@ -23,7 +23,7 @@
 						<li>Downloadable JSL Alphabet Charts</li>
 						<li>Practice Quizzes and Games</li>
 					</ul>
-					<a href="/jsl-online-resources" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
+					<a href="#" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
 						Access Online Resources
 					</a>
 				</div>
@@ -54,7 +54,7 @@
 						<li>Cultural immersion experiences</li>
 						<li>Interaction with native JSL users</li>
 					</ul>
-					<a href="/jsl-in-person" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="#" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Learn More About In-Person Classes
 					</a>
 				</div>
@@ -68,7 +68,7 @@
 						<li>One-on-one virtual tutoring sessions</li>
 						<li>Online community for practice and support</li>
 					</ul>
-					<a href="/jsl-virtual" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="#" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Explore Virtual JSL Courses
 					</a>
 				</div>
@@ -83,17 +83,17 @@
 			<div class="bg-white p-6 rounded-lg shadow-md">
 				<h3 class="text-xl font-semibold mb-4">JSL Literature</h3>
 				<p class="mb-4">Explore our collection of JSL stories, poems, and literature to enhance your language skills and cultural understanding.</p>
-				<a href="/jsl-literature" class="text-blue-600 hover:underline">Browse JSL Literature</a>
+				<a href="#" class="text-blue-600 hover:underline">Browse JSL Literature</a>
 			</div>
 			<div class="bg-white p-6 rounded-lg shadow-md">
 				<h3 class="text-xl font-semibold mb-4">JSL Community Events</h3>
 				<p class="mb-4">Join our regular community events to practice JSL, meet native signers, and immerse yourself in Deaf culture.</p>
-				<a href="/jsl-events" class="text-blue-600 hover:underline">View Upcoming Events</a>
+				<a href="#" class="text-blue-600 hover:underline">View Upcoming Events</a>
 			</div>
 			<div class="bg-white p-6 rounded-lg shadow-md">
 				<h3 class="text-xl font-semibold mb-4">JSL Research and Publications</h3>
 				<p class="mb-4">Access academic resources and publications related to Jamaican Sign Language linguistics and education.</p>
-				<a href="/jsl-research" class="text-blue-600 hover:underline">Explore JSL Research</a>
+				<a href="#" class="text-blue-600 hover:underline">Explore JSL Research</a>
 			</div>
 		</div>
 	</div>

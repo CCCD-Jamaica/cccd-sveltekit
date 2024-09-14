@@ -23,7 +23,7 @@
 						<li>Maintain and improve our facilities</li>
 						<li>Fund community outreach initiatives</li>
 					</ul>
-					<a href="/donate" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
+					<a href="#" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
 						Donate Now
 					</a>
 				</div>
@@ -55,7 +55,7 @@
 					/>
 					<h3 class="text-xl font-semibold mb-2 text-center">John, 12</h3>
 					<p class="text-center mb-4">John dreams of becoming a teacher. Your sponsorship will help him achieve his goals.</p>
-					<a href="/sponsor?student=john" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="#" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Sponsor John
 					</a>
 				</div>
@@ -70,7 +70,7 @@
 					/>
 					<h3 class="text-xl font-semibold mb-2 text-center">Maria, 15</h3>
 					<p class="text-center mb-4">Maria is passionate about art and wants to become a graphic designer.</p>
-					<a href="/sponsor?student=maria" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="#" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Sponsor Maria
 					</a>
 				</div>
@@ -85,7 +85,7 @@
 					/>
 					<h3 class="text-xl font-semibold mb-2 text-center">David, 10</h3>
 					<p class="text-center mb-4">David loves mathematics and hopes to pursue a career in engineering.</p>
-					<a href="/sponsor?student=david" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="#" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Sponsor David
 					</a>
 				</div>
@@ -112,7 +112,7 @@
 				<p class="mb-4">
 					Support our eco-friendly lodging project that provides employment opportunities for deaf individuals while offering unique cultural experiences to visitors.
 				</p>
-				<a href="/projects/eco-lodge" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
+				<a href="#" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
 					Learn More
 				</a>
 			</div>
@@ -128,7 +128,7 @@
 				<p class="mb-4">
 					Purchase handmade crafts created by our talented deaf artisans. Your support helps provide sustainable income and preserves traditional Jamaican craftsmanship.
 				</p>
-				<a href="/projects/craft-market" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
+				<a href="#" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
 					Shop Now
 				</a>
 			</div>

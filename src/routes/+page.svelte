@@ -39,10 +39,10 @@
 					<span class="font-bold italic">Purpose: <br>&quot;To Steward God&apos;s Resources for His Glory&quot;<br> 1 Peter 4:7-11</span>
 				</p>
 				<div class="mt-4 flex justify-start space-x-4">
-					<a href="/donate" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
+					<a href="#" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
 						Donate Now
 					</a>
-					<a href="/learn-jsl" class="inline-block bg-green-600 text-yellow-300 font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="#" class="inline-block bg-green-600 text-yellow-300 font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Learn Jamaican Sign Language
 					</a>
 				</div>
@@ -104,10 +104,10 @@
 					The ability to communicate with the Deaf community in Jamaica is crucial to expanding their opportunities. Why not take the next step and learn Jamaican Sign Language.
 				</p>
 				<div class="flex flex-wrap gap-4">
-					<a href="/learn-jsl" class="inline-block bg-black text-yellow-300 font-bold py-3 px-6 rounded-md hover:bg-gray-800 transition duration-300">
+					<a href="#" class="inline-block bg-black text-yellow-300 font-bold py-3 px-6 rounded-md hover:bg-gray-800 transition duration-300">
 						Learn JSL Now
 					</a>
-					<a href="/jsl-resources" class="inline-block bg-yellow-400 text-black font-bold py-3 px-6 rounded-md hover:bg-yellow-500 transition duration-300">
+					<a href="#" class="inline-block bg-yellow-400 text-black font-bold py-3 px-6 rounded-md hover:bg-yellow-500 transition duration-300">
 						Visit our JSL Resources
 					</a>
 				</div>

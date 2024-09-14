@@ -23,7 +23,7 @@
 						<li>Support our administrative team</li>
 						<li>Contribute to community outreach initiatives</li>
 					</ul>
-					<a href="/missionary-application" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Apply Now</a>
+					<a href="#" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Apply Now</a>
 				</div>
 				<div>
 					<CldImage
@@ -58,7 +58,7 @@
 						<li>Event planning and fundraising</li>
 						<li>Virtual volunteering options</li>
 					</ul>
-					<a href="/volunteer-signup" class="inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
+					<a href="#" class="inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
 				</div>
 			</div>
 		</div>
@@ -75,7 +75,7 @@
 						<li>Cultural immersion programs</li>
 						<li>Certification opportunities</li>
 					</ul>
-					<a href="/learn-jsl" class="inline-block bg-yellow-500 text-black font-bold py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Start Learning JSL</a>
+					<a href="#" class="inline-block bg-yellow-500 text-black font-bold py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Start Learning JSL</a>
 				</div>
 				<div>
 					<CldImage
@@ -102,8 +102,8 @@
 						<li>Help fund our community outreach initiatives</li>
 					</ul>
 					<div class="flex space-x-4">
-						<a href="/donate" class="inline-block bg-red-600 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Donate Now</a>
-						<a href="/sponsor-student" class="inline-block bg-purple-600 text-white font-bold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">Sponsor a Student</a>
+						<a href="#" class="inline-block bg-red-600 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Donate Now</a>
+						<a href="#" class="inline-block bg-purple-600 text-white font-bold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">Sponsor a Student</a>
 					</div>
 				</div>
 				<div>
