@@ -29,7 +29,7 @@
 - Project Description: This is a project for the CCCD Jamaica website built with SvelteKit and TailwindCSS.
 - Project Author: Kevin Miller, Jr
 - Project Version: 1.0.0-alpha
-- Project License: MIT (See LICENSE file for details)
+- Project License: MIT (See [LICENSE](LICENSE) file for details)
 
 ## Project Tools
 
