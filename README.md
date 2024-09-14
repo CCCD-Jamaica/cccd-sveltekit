@@ -1,4 +1,15 @@
-# CCCD SvelteKit Project
+# CCCD Jamaica / VSP Peace Corps Project
+
+<p align="center">
+    <img 
+        style="display: block; 
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;"
+        src="https://res.cloudinary.com/shinkirin/image/upload/v1707677503/shinkirin/CCCD-Jamaica/project-logo.webp" 
+        alt="CCCD Jamaica and PC Jamaica VSP Project logo">
+    </img>
+</p>
 
 ## Table of Contents
 - [Project Information](#project-information)
