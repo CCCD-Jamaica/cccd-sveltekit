@@ -41,7 +41,10 @@
       <!-- Add Search and icon later -->
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="#" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Log in <span aria-hidden="true">&rarr;</span></a>
+      <a href="/donate" class="flex items-center text-md font-semibold leading-6 text-white bg-red-800 hover:bg-red-700 px-4 py-2 rounded-md transition duration-300">
+        <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
+        Support Our Mission
+      </a>
     </div>
   </nav>
   <!-- Mobile menu, show/hide based on menu open state. -->
