@@ -105,7 +105,10 @@
               <!-- Add Search and icon later -->
             </div>
             <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+              <a href="/donate" class="-mx-3 flex items-center justify-center rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-red-600 hover:bg-red-700 transition duration-300">
+                <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
+                Support Our Mission
+              </a>
             </div>
           </div>
         </div>
