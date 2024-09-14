@@ -44,6 +44,7 @@
 - [TailwindUI](https://tailwindui.com)
 - [Svelte Cloudinary](https://svelte.cloudinary.dev)
 - [iconify](https://iconify.design)
+- [favicon.io](https://favicon.io)
 - [Umami](https://umami.is)
 
 ### AI Tools
