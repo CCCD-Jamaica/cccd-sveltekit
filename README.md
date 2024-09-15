@@ -29,6 +29,7 @@
 - Project URL: [https://cccdjamaica.vercel.app](https://cccdjamaica.vercel.app)
 - Project Team: [Shinkirin](https://vercel.com/shinkirin)
 - Development URL: [https://deafjamaica.dev](https://deafjamaica.dev)
+- Production URL: [https://cccd.org.jm](https://cccd.org.jm)
 - Project Description: This is a project for the CCCD Jamaica website built with SvelteKit and TailwindCSS.
 - Project Author: Kevin Miller, Jr
 - Project Version: 1.0.0-alpha4
@@ -47,6 +48,8 @@
 - [TailwindUI](https://tailwindui.com)
 - [Svelte Cloudinary](https://svelte.cloudinary.dev)
 - [iconify](https://iconify.design)
+- [Unsplash](https://unsplash.com)
+- [Undraw](https://undraw.co)
 - [favicon.io](https://favicon.io)
 - [Umami](https://umami.is)
 
