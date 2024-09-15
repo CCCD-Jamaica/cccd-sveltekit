@@ -31,7 +31,7 @@
 - Development URL: [https://deafjamaica.dev](https://deafjamaica.dev)
 - Project Description: This is a project for the CCCD Jamaica website built with SvelteKit and TailwindCSS.
 - Project Author: Kevin Miller, Jr
-- Project Version: 1.0.0-alpha3
+- Project Version: 1.0.0-alpha4
 - Project License: BSD 3-Clause License (See [LICENSE](LICENSE) file for details)
 
 ## Project Tools
