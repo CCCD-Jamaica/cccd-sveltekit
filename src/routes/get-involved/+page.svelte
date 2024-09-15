@@ -12,7 +12,7 @@
 		<h1 class="text-4xl font-bold text-center mb-8">Get Involved</h1>
 		
 		<!-- Missionary Duty -->
-		<div class="mb-16">
+		<div id="missionary" class="mb-16">
 			<h2 class="text-3xl font-semibold mb-6">Become a Missionary</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
@@ -38,7 +38,7 @@
 		</div>
 
 		<!-- Volunteering -->
-		<div class="mb-16">
+		<div id="volunteer" class="mb-16">
 			<h2 class="text-3xl font-semibold mb-6">Volunteer Opportunities</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
@@ -90,7 +90,7 @@
 		</div>
 
 		<!-- Donation and Sponsorship -->
-		<div>
+		<div id="donate">
 			<h2 class="text-3xl font-semibold mb-6">Donate or Sponsor a Student</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>

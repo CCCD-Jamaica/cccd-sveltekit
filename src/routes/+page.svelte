@@ -187,17 +187,17 @@
 		<div class="mx-auto max-w-7xl px-6 lg:px-8">
 			<div class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
 			<div class="w-full lg:max-w-lg lg:flex-auto">
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How you can help</h2>
-				<p class="mt-6 text-xl leading-8 text-gray-600">Your support can make a significant difference in the lives of deaf students in Jamaica. Whether through volunteering, donations, or becoming a missionary, every contribution helps us reach, teach, and nurture the deaf community.</p>
+				<h2 class="text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">How you can help</h2>
+				<p class="mt-6 text-lg leading-8 text-black">Your support can make a significant difference in the lives of deaf students in Jamaica. Whether through volunteering, donations, or becoming a missionary, every contribution helps us reach, teach, and nurture the deaf community.</p>
 				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726012729/cccd_wordpress/cccd-deaf-graduate-jamaica.webp" alt="CCCD Jamaica Deaf Student" class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]">
 			</div>
 			<div class="w-full lg:max-w-xl lg:flex-auto">
 				<h3 class="sr-only">Ways to Help</h3>
-				<ul class="-my-8 divide-y divide-gray-100">
+				<ul class="-my-8 divide-y divide-gold-300">
 				<li class="py-8">
 					<dl class="relative flex flex-wrap gap-x-3">
 					<dt class="sr-only">Role</dt>
-					<dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+					<dd class="w-full flex-none text-lg font-semibold tracking-tight text-red-900">
 						<a href="/get-involved#volunteer">
 						Volunteer Opportunities
 						<span class="absolute inset-0" aria-hidden="true"></span>
@@ -206,10 +206,10 @@
 					<dt class="sr-only">Description</dt>
 					<dd class="mt-2 w-full flex-none text-base leading-7 text-gray-600">Join us in Jamaica to help with teaching, mentoring, or supporting our various programs. Your skills and time can make a lasting impact on our students' lives.</dd>
 					<dt class="sr-only">Duration</dt>
-					<dd class="mt-4 text-base font-semibold leading-7 text-gray-900">Short-term and long-term options available</dd>
+					<dd class="mt-4 text-base font-semibold leading-7 text-blue-800">Short-term and long-term options available</dd>
 					<dt class="sr-only">Location</dt>
 					<dd class="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
-						<svg viewBox="0 0 2 2" class="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
+						<svg viewBox="0 0 2 2" class="h-0.5 w-0.5 flex-none fill-gold-300" aria-hidden="true">
 						<circle cx="1" cy="1" r="1" />
 						</svg>
 						Various locations in Jamaica
@@ -219,7 +219,7 @@
 				<li class="py-8">
 					<dl class="relative flex flex-wrap gap-x-3">
 					<dt class="sr-only">Role</dt>
-					<dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+					<dd class="w-full flex-none text-lg font-semibold tracking-tight text-red-900">
 						<a href="/get-involved#missionary">
 						Missionary Opportunities
 						<span class="absolute inset-0" aria-hidden="true"></span>
@@ -228,10 +228,10 @@
 					<dt class="sr-only">Description</dt>
 					<dd class="mt-2 w-full flex-none text-base leading-7 text-gray-600">Serve as a full-time missionary, dedicating your skills and passion to our mission of reaching and teaching the deaf in Jamaica. Experience personal growth while making a difference.</dd>
 					<dt class="sr-only">Commitment</dt>
-					<dd class="mt-4 text-base font-semibold leading-7 text-gray-900">Long-term commitment required</dd>
+					<dd class="mt-4 text-base font-semibold leading-7 text-blue-800">Long-term commitment required</dd>
 					<dt class="sr-only">Location</dt>
 					<dd class="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
-						<svg viewBox="0 0 2 2" class="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
+						<svg viewBox="0 0 2 2" class="h-0.5 w-0.5 flex-none fill-gold-300" aria-hidden="true">
 						<circle cx="1" cy="1" r="1" />
 						</svg>
 						Jamaica
@@ -241,7 +241,7 @@
 				<li class="py-8">
 					<dl class="relative flex flex-wrap gap-x-3">
 					<dt class="sr-only">Role</dt>
-					<dd class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900">
+					<dd class="w-full flex-none text-lg font-semibold tracking-tight text-red-900">
 						<a href="/get-involved#donate">
 						Make a Donation
 						<span class="absolute inset-0" aria-hidden="true"></span>
@@ -250,10 +250,10 @@
 					<dt class="sr-only">Description</dt>
 					<dd class="mt-2 w-full flex-none text-base leading-7 text-gray-600">Your financial support helps us provide education, resources, and opportunities for deaf students in Jamaica. Every contribution, big or small, makes a difference in their lives.</dd>
 					<dt class="sr-only">Options</dt>
-					<dd class="mt-4 text-base font-semibold leading-7 text-gray-900">One-time or recurring donations accepted</dd>
+					<dd class="mt-4 text-base font-semibold leading-7 text-blue-800">One-time or recurring donations accepted</dd>
 					<dt class="sr-only">Method</dt>
 					<dd class="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
-						<svg viewBox="0 0 2 2" class="h-0.5 w-0.5 flex-none fill-gray-300" aria-hidden="true">
+						<svg viewBox="0 0 2 2" class="h-0.5 w-0.5 flex-none fill-gold-300" aria-hidden="true">
 						<circle cx="1" cy="1" r="1" />
 						</svg>
 						Secure online payment options available
@@ -261,8 +261,8 @@
 					</dl>
 				</li>
 				</ul>
-				<div class="mt-8 flex border-t border-gray-100 pt-8">
-				<a href="/get-involved" class="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Explore all ways to help <span aria-hidden="true">&rarr;</span></a>
+				<div class="mt-8 flex border-t border-gold-300 pt-8">
+				<a href="/get-involved" class="text-sm font-semibold leading-6 text-blue-800 hover:text-red-800">Explore all ways to help <span aria-hidden="true">&rarr;</span></a>
 				</div>
 			</div>
 			</div>
