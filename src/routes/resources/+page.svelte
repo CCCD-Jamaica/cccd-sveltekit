@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-	<title>Jamaican Sign Language Resources</title>
-	<meta name="description" content="About this app" />
+	<title>Jamaican Sign Language at CCCD Jamaica</title>
+	<meta name="description" content="Learn Jamaican Sign Language (JSL) at CCCD Jamaica. Our programs offer in-person and virtual learning options, literature, community events, and more." />
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
@@ -40,7 +40,7 @@
 		</div>
 
 		<!-- JSL Programs -->
-		<div>
+		<div id="jsl-programs">
 			<h2 class="text-3xl font-semibold mb-6">JSL Programs: In-Person and Virtual</h2>
 			<p class="mb-4">Join our comprehensive JSL programs designed for various skill levels and learning preferences:</p>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
