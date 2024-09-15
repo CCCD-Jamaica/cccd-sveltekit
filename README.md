@@ -54,6 +54,8 @@
 
 - [Cursor](https://cursor.sh)
 - [Google Gemini](https://gemini.google/)
+- [OpenAI](https://openai.com)
+    - [DALL-E 3](https://openai.com/product/dall-e-3)
 - [Grammarly](https://grammarly.com)
 
 ### Source Code Management
