@@ -348,7 +348,7 @@
 				src="https://www.byutv.org/embeddedPlayer/?content-id=f90808a9-897b-4c5c-877b-acae2d51803c" 
 				title="CCCD meets The Fixers" 
 				frameborder="0" 
-				allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen" 
+				allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" 
 				allowfullscreen>
 			</iframe>
 		</div>
@@ -408,14 +408,15 @@
 			</div>
 		</div>
 		</div>
-		<div class="mt-12">
+		<div class="mt-12 rounded-lg overflow-hidden">
 		<iframe 
-			title="CCCD Jamaica and The Fixers"
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.630107374707!2d-77.31942868513684!3d18.017013087603394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb3f4a9e5e9bbd%3A0x1db9b0b6b9f9b9f9!2sCaribbean%20Christian%20Centre%20for%20the%20Deaf!5e0!3m2!1sen!2sus!4v1625000000000!5m2!1sen!2sus" 
+			title="Map of Jamaica with CCCD Campus Locations and the Deaf Village"
+			src="https://www.google.com/maps/d/embed?mid=1iGR3Kgk-dO1KF9HhzxbN2D40ciahZwc&ll=18.23223017483946%2C-77.28366071703978&z=9" 
 			width="100%" 
 			height="450" 
 			style="border:0;" 
-			allowfullscreen="" 
+			allowfullscreen
+			referrerpolicy="no-referrer-when-downgrade"
 			loading="lazy">
 		</iframe>
 		</div>
