@@ -1,6 +1,6 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
-	import Support from '$components/Support.svelte';
+	import Support from '$components/1Support.svelte';
 </script>
 
 <svelte:head>
