@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>CCCD Jamaica</title>
 	<meta name="description" content="Caribben Christian Center for the Deaf in Jamaica" />
 </svelte:head>
 
@@ -24,7 +24,7 @@
 	<div class="absolute inset-0 z-10 flex">
 		<div class="w-1/2 p-8">
 			<!-- Main content for the first column -->
-			<!-- No content -->
+			<!-- No content, intentionally left blank -->
 		</div>
 		<div class="w-1/2"></div>
 	</div>
