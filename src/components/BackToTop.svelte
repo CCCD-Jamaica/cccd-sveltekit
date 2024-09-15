@@ -41,6 +41,6 @@
 
 <svelte:window on:scroll={handleOnScroll} />
 
-<div class="back-to-top" on:click={goTop} class:hidden>
+<div class="back-to-top z-40" on:click={goTop} class:hidden>
   <div class="flex items-center justify-center text-center text-white bg-red-800 h-20 w-20 p-4 rounded-full shadow-lg hover:bg-red-700 transition-colors duration-300 z-99">Back to top</div>
 </div>

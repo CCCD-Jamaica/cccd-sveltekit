@@ -26,9 +26,12 @@
 ## Project Information
 
 - Project Name: CCCD SvelteKit Project
+- Project URL: [https://cccdjamaica.vercel.app](https://cccdjamaica.vercel.app)
+- Project Team: [Shinkirin](https://vercel.com/shinkirin)
+- Development URL: [https://deafjamaica.dev](https://deafjamaica.dev)
 - Project Description: This is a project for the CCCD Jamaica website built with SvelteKit and TailwindCSS.
 - Project Author: Kevin Miller, Jr
-- Project Version: 1.0.0-alpha2
+- Project Version: 1.0.0-alpha3
 - Project License: BSD 3-Clause License (See [LICENSE](LICENSE) file for details)
 
 ## Project Tools
@@ -67,8 +70,7 @@
 - [Coolify](https://coolify.io) - Container platform for hosting the project
 - [Cloudflare](https://cloudflare.com) - CDN and DNS services
 - [Cloudinary](https://cloudinary.com) - Media management
-- [Linode](https://linode.com) - VPS hosting
-    - [Rocky Linux](https://rockylinux.org)
+- [Vercel](https://vercel.com) - Static site hosting
 
 ### Project Structure
 
