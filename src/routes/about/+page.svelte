@@ -52,7 +52,7 @@
 		</div>
 	</div>
 </section>
-<section class="bg-blue-50 py-12">
+<section id="statement-of-faith" class="bg-blue-50 py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8">Our Beliefs</h2>
 		<div class="flex flex-col md:flex-row items-start gap-8">
@@ -80,7 +80,7 @@
 		</div>
 	</div>
 </section>
-<section class="bg-gray-100 py-12">
+<section id="board" class="bg-gray-100 py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8">Our Board Members</h2>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
