@@ -41,7 +41,7 @@
       <!-- Add Search and icon later -->
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="#" class="flex items-center text-md font-semibold leading-6 text-white bg-red-800 hover:bg-red-700 px-4 py-2 rounded-md transition duration-300">
+      <a href="/get-involved#missionary" class="flex items-center text-md font-semibold leading-6 text-white bg-red-800 hover:bg-red-700 px-4 py-2 rounded-md transition duration-300">
         <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
         Support Our Mission
       </a>
@@ -105,7 +105,7 @@
               <!-- Add Search and icon later -->
             </div>
             <div class="py-6">
-              <a href="#" class="-mx-3 flex items-center justify-center rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-red-600 hover:bg-red-700 transition duration-300">
+              <a href="/get-involved#missionary" class="-mx-3 flex items-center justify-center rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-red-600 hover:bg-red-700 transition duration-300">
                 <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
                 Support Our Mission
               </a>

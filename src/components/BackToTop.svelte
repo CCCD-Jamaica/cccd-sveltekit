@@ -42,5 +42,9 @@
 <svelte:window on:scroll={handleOnScroll} />
 
 <div class="back-to-top z-40" on:click={goTop} class:hidden>
-  <div class="flex items-center justify-center text-center text-white bg-red-800 h-20 w-20 p-4 rounded-full shadow-lg hover:bg-red-700 transition-colors duration-300 z-99">Back to top</div>
+  <div class="flex items-center justify-center text-center text-white bg-red-800 h-14 w-14 p-3 rounded-full shadow-lg hover:bg-red-700 transition-colors duration-300 z-99">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+    </svg>
+  </div>
 </div>
