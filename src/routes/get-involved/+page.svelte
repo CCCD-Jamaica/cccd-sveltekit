@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Get Involved</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="Get involved with CCCD Jamaica" />
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
