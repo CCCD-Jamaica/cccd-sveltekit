@@ -15,20 +15,20 @@
 		<div id="missionary" class="mb-16">
 			<h2 class="text-3xl font-semibold mb-6">Become a Missionary</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-				<div>
+				<div class="text-md font-semibold">
 					<p class="mb-4">Join our mission to serve the Deaf community in Jamaica. As a missionary, you'll have the opportunity to:</p>
-					<ul class="list-disc list-inside mb-4">
+					<ul class="list-disc list-inside mb-4 pl-4">
 						<li>Teach at one of our campuses</li>
 						<li>Assist with vocational training programs</li>
 						<li>Support our administrative team</li>
 						<li>Contribute to community outreach initiatives</li>
 					</ul>
-					<a href="#" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Apply Now</a>
+					<a href="/contact" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Apply Now</a>
 				</div>
 				<div>
 					<CldImage
-						src="v1726012729/cccd_wordpress/cccd-deaf-graduate-jamaica.webp"
-						alt="CCCD Missionary teaching students"
+						src="https://res.cloudinary.com/shinkirin/image/upload/v1726613536/cccd/missionariescccdjamaica.webp"
+						alt="Missionaries at CCCD Jamaica Deaf Village in July, 2024"
 						width="600"
 						height="400"
 						class="rounded-lg shadow-md"
@@ -43,44 +43,57 @@
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<CldImage
-						src="v1722901498/cccd_wordpress/cccd-deafstudents.webp"
+						src="https://res.cloudinary.com/shinkirin/image/upload/v1726613626/cccd/cccdvolunteer.webp"
 						alt="Volunteers working with CCCD students"
 						width="600"
-						height="400"
+						height="600"
 						class="rounded-lg shadow-md"
 					/>
 				</div>
-				<div>
+				<div class="text-md font-semibold">
 					<p class="mb-4">We offer various volunteering opportunities for those who want to make a difference:</p>
-					<ul class="list-disc list-inside mb-4">
+					<ul class="list-disc list-inside mb-4 pl-4">
 						<li>Short-term mission trips</li>
 						<li>Skills-based volunteering (e.g., IT, maintenance, healthcare)</li>
 						<li>Event planning and fundraising</li>
 						<li>Virtual volunteering options</li>
 					</ul>
-					<a href="#" class="inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
+					<a href="/contact" class="inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
+					<p class="text-md text-black mt-4">Volunteering with CCCD Jamaica is a rewarding experience that allows you to make a positive impact on the lives of the Deaf community.</p>
+					<h3 class="text-2xl font-semibold mb-4 pt-6">US Peace Corps Volunteer Opportunities</h3>
+					<p class="text-md text-black mb-4">The US Peace Corps Virtual Service Pilot is a program that allows Americans to serve in Jamaica remotely. Visit the US Peace Corps website to learn about any opportunities available in Jamaica.</p>
+					<a href="https://www.peacecorps.gov/volunteer/virtual-service-pilot/" target="_blank" rel="noopener noreferrer" aria-label="Inquire about the US Peace Corps Virtual Service Pilot opportunities for Jamaica" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">US Peace Corps Virtual Service Pilot</a>
+					<div class="mt-4">
+						<CldImage
+							src="https://res.cloudinary.com/shinkirin/image/upload/v1726614247/cccd/pcjamaica-logo.webp"
+							alt="US Peace Corps Jamaica Logo"
+							width="300"
+							height="165"
+							class="rounded-lg border shadow-md p-4 shadow-blue-500/40"
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- Learn Jamaican Sign Language -->
 		<div class="mb-16">
-			<h2 class="text-3xl font-semibold mb-6">Learn Jamaican Sign Language (JSL)</h2>
+			<h2 class="text-2xl font-semibold mb-6">Volunteer and Learn Jamaican Sign Language (JSL)</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-				<div>
+				<div class="text-md font-semibold">
 					<p class="mb-4">Enhance your ability to communicate with the Deaf community by learning JSL:</p>
-					<ul class="list-disc list-inside mb-4">
+					<ul class="list-disc list-inside mb-4 pl-4">
 						<li>Online courses for beginners to advanced learners</li>
 						<li>In-person workshops at our campuses</li>
 						<li>Cultural immersion programs</li>
 						<li>Certification opportunities</li>
 					</ul>
-					<a href="#" class="inline-block bg-yellow-500 text-black font-bold py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Start Learning JSL</a>
+					<a href="/resources" class="inline-block bg-yellow-500 text-black font-bold py-2 px-4 rounded-md hover:bg-yellow-600 transition duration-300">Start Learning JSL</a>
 				</div>
 				<div>
 					<CldImage
-						src="v1726012729/cccd_wordpress/cccd-deaf-graduate-jamaica.webp"
-						alt="JSL learning session"
+						src="https://res.cloudinary.com/shinkirin/image/upload/v1720369822/cccd/volunteercccdjamaica.webp"
+						alt="Missionary teaching at CCCD Jamaica"
 						width="600"
 						height="400"
 						class="rounded-lg shadow-md"
@@ -93,22 +106,22 @@
 		<div id="donate">
 			<h2 class="text-3xl font-semibold mb-6">Donate or Sponsor a Student</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-				<div>
+				<div class="text-md font-semibold">
 					<p class="mb-4">Your financial support can make a lasting impact:</p>
-					<ul class="list-disc list-inside mb-4">
+					<ul class="list-disc list-inside mb-4 pl-4">
 						<li>Sponsor a student's education</li>
 						<li>Contribute to our building and maintenance fund</li>
 						<li>Support our vocational training programs</li>
 						<li>Help fund our community outreach initiatives</li>
 					</ul>
 					<div class="flex space-x-4">
-						<a href="#" class="inline-block bg-red-600 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Donate Now</a>
-						<a href="#" class="inline-block bg-purple-600 text-white font-bold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">Sponsor a Student</a>
+						<a href="/fundraising" class="inline-block bg-red-600 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Donate Now</a>
+						<a href="/fundraising#sponsor" class="inline-block bg-purple-600 text-white font-bold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">Sponsor a Student</a>
 					</div>
 				</div>
 				<div>
 					<CldImage
-						src="v1726012729/cccd_wordpress/cccd-deaf-graduate-jamaica.webp"
+						src="https://res.cloudinary.com/shinkirin/image/upload/v1720369820/cccd/donate.jpg"
 						alt="CCCD students benefiting from sponsorship"
 						width="600"
 						height="400"
