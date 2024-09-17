@@ -8,6 +8,10 @@
   function toggleMenu() {
     isMenuOpen = !isMenuOpen;
   }
+
+  function closeMenu() {
+    isMenuOpen = false;
+  }
 </script>
 
 <header class="bg-gold-50 pb-4 border-b-2 border-red-800">
@@ -92,20 +96,20 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a href="/" class="-mx-3  rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 flex items-center">
+              <a href="/" on:click={closeMenu} class="-mx-3  rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 flex items-center">
                 <Icon icon="material-symbols:church" width="24" height="24" class="mr-2" />
               </a>
-              <a href="about" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
-              <a href="education" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Education</a>
-              <a href="stories" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Stories</a>
-              <a href="get-involved" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Get Involved</a>
-              <a href="fundraising" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Fundraising</a>
-              <a href="resources" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Resources</a>
-              <a href="contact" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
+              <a href="about" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
+              <a href="education" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Education</a>
+              <a href="stories" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Stories</a>
+              <a href="get-involved" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Get Involved</a>
+              <a href="fundraising" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Fundraising</a>
+              <a href="resources" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Resources</a>
+              <a href="contact" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
               <!-- Add Search and icon later -->
             </div>
             <div class="py-6">
-              <a href="/get-involved#missionary" class="-mx-3 flex items-center justify-center rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-red-600 hover:bg-red-700 transition duration-300">
+              <a href="/get-involved#missionary" on:click={closeMenu} class="-mx-3 flex items-center justify-center rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-red-600 hover:bg-red-700 transition duration-300">
                 <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
                 Support Our Mission
               </a>
