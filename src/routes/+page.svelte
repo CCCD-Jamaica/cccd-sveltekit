@@ -345,10 +345,10 @@
 		<div class="aspect-w-16 aspect-h-9 max-w-6xl mx-auto">
 			<iframe 
 				class="w-full h-full shadow-lg rounded-xl border-4 border-red-900"
-				src="https://www.byutv.org/embeddedPlayer/?content-id=f90808a9-897b-4c5c-877b-acae2d51803c" 
+				src="https://www.byutv.org/embeddedPlayer/?content-id=f90808a9-897b-4c5c-877b-acae2d51803c&autoplay=false" 
 				title="CCCD meets The Fixers" 
 				frameborder="0" 
-				allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" 
+				allow="clipboard-write; encrypted-media; picture-in-picture;" 
 				allowfullscreen>
 			</iframe>
 		</div>

@@ -22,7 +22,7 @@
 						src="https://res.cloudinary.com/shinkirin/image/upload/v1726533553/cccd_wordpress/cccdstudent1.webp"
 						alt="Our students achieving their goals through education"
 						width="400"
-						height="300"
+						height="400"
 						class="w-full h-auto rounded-lg border-2 border-blue-800"
 					/>
 					<p class="text-md text-gray-900 mt-2">Our students achieving their goals through education</p>
@@ -38,7 +38,7 @@
 						src="https://res.cloudinary.com/shinkirin/image/upload/v1726533554/cccd_wordpress/cccdstudent2.webp"
 						alt="Empowering the Deaf community for a brighter future"
 						width="400"
-						height="300"
+						height="400"
 						class="w-full h-auto rounded-lg border-2 border-blue-800"
 					/>
 					<p class="text-md text-gray-900 mt-2">Empowering the Deaf community for a brighter future</p>
@@ -147,8 +147,8 @@
 		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
 			<div class="w-full md:w-1/2">
 				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1720369818/cccd/cccdhistory2.webp"
-					alt="More early photos of CCCD in Jamaica"
+					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611569/cccd/knockpatrickcampus.jpg"
+					alt="Deaf student and her mother at the Knockpatrick Campus"
 					width="600"
 					height="450"
 					class="w-full h-auto rounded-lg shadow-md"
@@ -163,8 +163,8 @@
 		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
 			<div class="w-full md:w-1/2">
 				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726536327/cccd/cccdcampus.webp"
-					alt="Volunteers and Missionaries with CCCD in Jamaica"
+					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611096/cccd/montegobaycccd.webp"
+					alt="Active Deaf students at CCCD in Montego Bay Campus, Montego Bay, Jamaica"
 					width="600"
 					height="450"
 					class="w-full h-auto rounded-lg shadow-md"
@@ -213,8 +213,8 @@
 		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
 			<div class="w-full md:w-1/2">
 				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726536695/cccd/cccdplayground.webp"
-					alt="CCCD Playground"
+					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611183/cccd/deafvillagechurch.webp"
+					alt="Church at the Deaf Village outside Knockpatrick, J"
 					width="600"
 					height="450"
 					class="w-full h-auto rounded-lg shadow-md"

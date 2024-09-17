@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Fundraising</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="Support our mission to reach, teach, and nurture the Deaf community in Jamaica." />
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
@@ -40,7 +40,7 @@
 		</div>
 
 		<!-- Student Sponsorship -->
-		<div>
+		<div id="sponsor">
 			<h2 class="text-3xl font-semibold mb-6">Sponsor a Deaf Student</h2>
 			<p class="mb-4">Change a life by sponsoring a deaf student. Your monthly contribution provides education, accommodation, and support for a student in need.</p>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
