@@ -360,30 +360,32 @@
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">US Office</h3>
-			<p>Address: 123 Main St, Anytown, USA</p>
-			<p>Phone: (123) 456-7890</p>
+			<p>Address: 100 South Pine St., Suite 283, Zeeland MI 49464</p>
+			<p>Phone: (616) 748-6020</p>
 		</div>
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">Jamaica Head Office</h3>
-			<p>Address: 456 Jamaica Ave, Kingston, Jamaica</p>
-			<p>Phone: (876) 123-4567</p>
+			<p>Address: 4 Cassia Park Road, Kingston 10, Jamaica, W.I.</p>
+			<p>Phone: (876) 619-8487</p>
+			<p>Mobile: (876) 556-5125</p>
+			<p>Email: info@cccd.org.jm</p>
 		</div>
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">Knockpatrick Campus</h3>
-			<p>Address: 789 Knockpatrick Rd, Manchester, Jamaica</p>
-			<p>Phone: (876) 234-5678</p>
+			<p>Phone: (876) 904-9092</p>
+			<p>Email: knockpatrick@cccdjamaica.org</p>
 		</div>
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">Kingston Campus</h3>
-			<p>Address: 101 Kingston St, Kingston, Jamaica</p>
-			<p>Phone: (876) 345-6789</p>
+			<p>Phone: (876)679-9687, (876)758-8155, (876)758-3027</p>
+			<p>Email: kingston@cccdjamaica.org</p>
 		</div>
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">Montego Bay Campus</h3>
-			<p>Address: 202 Montego Blvd, Montego Bay, Jamaica</p>
-			<p>Phone: (876) 456-7890</p>
+			<p>Phone: (876) 979-9153</p>
+			<p>Email: montegobay@cccdjamaica.org</p>
 		</div>
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
@@ -391,8 +393,8 @@
 			<div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://res.cloudinary.com/shinkirin/image/upload/c_scale,o_100,w_850/v1726439904/cccd_wordpress/20240725_104312.webp');"></div>
 			<div class="relative z-10">
 				<h3 class="text-xl font-semibold mb-2">Deaf Village</h3>
-				<p>Address: 303 Deaf Village Rd, St. Elizabeth, Jamaica</p>
-				<p>Phone: (876) 567-8901</p>
+				<p>Phone: (876) 603-3773, (876) 494-7501</p>
+				<p>Email: info@cccdjamaica.org</p>
 			</div>
 		</div>
 		<div class="bg-gray-100 p-6 rounded-lg">
