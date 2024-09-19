@@ -135,7 +135,7 @@
 	<div class="container mx-auto px-4">
 		<div class="aspect-w-16 aspect-h-9 relative">
 			<CldImage
-				src="https://res.cloudinary.com/shinkirin/image/upload/v1726617591/cccd/dalle-jesus.webp"
+				src="https://res.cloudinary.com/shinkirin/image/upload/o_69/v1726621785/cccd/200343_Image_of_Jesus_Christ_in_Jamaica_with_Jamaican_dea_xl-1024-v1-0.webp"
 				alt="Group of Jamaican students signing together"
 				width="1920"
 				height="864"
