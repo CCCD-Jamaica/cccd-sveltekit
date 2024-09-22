@@ -3,7 +3,7 @@
 	import Support from '$components/Support.svelte';
 	import Locations from '$components/Locations.svelte';
 	import { onMount } from 'svelte';
-	import { PUBLIC_MAILGUN_API_KEY, PUBLIC_MAILGUN_DOMAIN } from '$env/static/public';
+	import { PUBLIC_MAILGUN_API_KEY, PUBLIC_MAILGUN_DOMAIN, PUBLIC_EMAIL_BRANCH } from '$env/static/public';
 	import { goto } from '$app/navigation';
 
 	let name = '';
@@ -18,7 +18,7 @@
 
 		const formData = new FormData();
 		formData.append('from', `${name} <postmaster@${PUBLIC_MAILGUN_DOMAIN}>`);
-		formData.append('to', import.meta.env.PUBLIC_EMAIL_BRANCH);
+		formData.append('to', PUBLIC_EMAIL_BRANCH);
 		formData.append('subject', subject);
 		formData.append('text', message);
 
@@ -51,7 +51,7 @@
 	};
 
 	onMount(() => {
-		if (!PUBLIC_MAILGUN_API_KEY || !PUBLIC_MAILGUN_DOMAIN) {
+		if (!PUBLIC_MAILGUN_API_KEY || !PUBLIC_MAILGUN_DOMAIN || !PUBLIC_EMAIL_BRANCH) {
 			console.error('Mailgun API key or domain is not set');
 		}
 	});
