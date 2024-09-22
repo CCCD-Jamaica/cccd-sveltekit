@@ -32,8 +32,8 @@
 - Production URL: [https://cccd.org.jm](https://cccd.org.jm)
 - Project Description: This is a project for the CCCD Jamaica website built with SvelteKit and TailwindCSS.
 - Project Author: Kevin Miller, Jr
-- Project Production Version: 1.0.0-rc.3
-- Project Development Version: 1.0.0-rc.4
+- Project Production Version: 1.0.0-rc.4
+- Project Development Version: 1.0.0-rc.5
 - Project License: BSD 3-Clause License (See [LICENSE](LICENSE) file for details)
 
 ## Project Tools
