@@ -39,6 +39,10 @@
     }}
 />
 
+<!-- Accessibility Checks
+	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+-->
+
 <section class="bg-white py-12">
     <div class="container mx-auto px-4">
         <h2 class="text-3xl font-bold mb-8 text-center text-red-900">Accessibility Statement</h2>

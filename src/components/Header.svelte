@@ -15,11 +15,11 @@
 </script>
 
 <header class="bg-gold-50 pb-4 border-b-2 border-red-800">
-  <div class="bg-red-800 mx-auto flex max-w-7xl items-center justify-center xl:rounded-b-lg" aria-label="Global">
+  <div class="bg-red-800 text-white mx-auto flex max-w-7xl items-center justify-center xl:rounded-b-lg" aria-label="Global">
     <h1 class="text-white uppercase font-bold p-2">Reach, Teach, and Nurture the Deaf</h1>
   </div>
   <div class="hidden lg:flex justify-center py-4">
-    <a href="/" aria-label="Homepage" class="-m-1.5 p-1.5">
+    <div class="-m-1.5 p-1.5">
       <span class="sr-only"><abbr title="Caribbean Christian Center for the Deaf">CCCD</abbr> Jamaica</span>
       <CldImage 
         class="border-2 border-blue-600 rounded-md" 
@@ -28,29 +28,47 @@
         width="150"
         height="150"
       />
-    </a>
-  </div>
-  <nav class="mx-auto flex max-w-7xl items-center justify-between lg:py-4 lg:px-8" aria-label="Global">
-    <div class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
-      <a href="/" aria-label="Homepage" class="hover:text-red-800">
-        <Icon icon="material-symbols:church" aria-label="Church" width="24" height="24" />
-      </a>
-      <a href="about" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">About</a>
-      <a href="education" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Education</a>
-      <a href="stories" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Stories</a>
-      <a href="get-involved" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Get Involved</a>
-      <a href="fundraising" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Fundraising</a>
-      <a href="resources" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Resources</a>
-      <a href="contact" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Contact</a>
-      <!-- Add Search and icon later -->
     </div>
+  </div>
+  <div class="mx-auto flex max-w-7xl items-center justify-between lg:py-4 lg:px-8">
+    <nav role="navigation" class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
+      <ul class="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
+        <li>
+          <a href="/" aria-label="Homepage" class="hover:text-red-800">
+            <Icon icon="material-symbols:church" aria-label="Church" width="24" height="24" />
+          </a>
+        </li>
+        <li>
+          <a href="about" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">About</a>
+        </li>
+        <li>
+          <a href="education" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Education</a>
+        </li>
+        <li>
+          <a href="stories" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Stories</a>
+        </li>
+        <li>
+          <a href="get-involved" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Get Involved</a>
+        </li>
+        <li>
+          <a href="fundraising" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Fundraising</a>
+        </li>
+        <li>
+          <a href="resources" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Resources</a>
+        </li>
+        <li>
+          <a href="contact" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Contact</a>
+        </li>
+        <!-- Add Search and icon later -->
+      </ul>
+    </nav>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
       <a href="/get-involved#missionary" class="flex items-center text-md font-semibold leading-6 text-white bg-red-800 hover:bg-red-700 px-4 py-2 rounded-md transition duration-300">
         <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
         Support Our Mission
       </a>
     </div>
-  </nav>
+  </div>  
   <!-- Mobile menu, show/hide based on menu open state. -->
   <div class="lg:hidden flex items-center justify-between p-4">
     <a href="/" class="-m-1.5 p-1.5">

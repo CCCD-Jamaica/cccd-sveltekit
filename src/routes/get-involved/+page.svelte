@@ -40,6 +40,10 @@
     }}
 />
 
+<!-- Accessibility Checks
+	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+-->
+	
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Get Involved</h2>
@@ -91,7 +95,7 @@
 						<li>Event planning and fundraising</li>
 						<li>Virtual volunteering options</li>
 					</ul>
-					<a href="/contact" class="inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
+					<a href="/contact" class="inline-block bg-green-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
 					<p class="text-md text-black mt-4">Volunteering with CCCD Jamaica is a rewarding experience that allows you to make a positive impact on the lives of the Deaf community.</p>
 					<h3 class="text-2xl font-semibold mb-4 pt-6 text-red-900">US Peace Corps Volunteer Opportunities</h3>
 					<p class="text-md text-black mb-4">The US Peace Corps Virtual Service Pilot is a program that allows Americans to serve in Jamaica remotely. Visit the US Peace Corps website to learn about any opportunities available in Jamaica.</p>
@@ -148,8 +152,8 @@
 						<li>Help fund our community outreach initiatives</li>
 					</ul>
 					<div class="flex space-x-4">
-						<a href="/fundraising" class="inline-block bg-red-600 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Donate Now</a>
-						<a href="/fundraising#sponsor" class="inline-block bg-purple-600 text-white font-bold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">Sponsor a Student</a>
+						<a href="/fundraising" class="inline-block bg-red-900 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Donate Now</a>
+						<a href="/fundraising#sponsor" class="inline-block bg-purple-600 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">Sponsor a Student</a>
 					</div>
 				</div>
 				<div>

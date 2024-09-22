@@ -5,6 +5,11 @@
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
+<!-- Accessibility Checks
+	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+	2. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-09-22.
+-->
+
 <MetaTags
 	title="Caribbean Christian Centre for the Deaf"
 	titleTemplate="%s | CCCD Jamaica"
@@ -106,7 +111,7 @@
 					<a href="/fundraising" aria-label="Donate Now" class="inline-block bg-red-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-blue-800 transition duration-300">
 						Donate Now
 					</a>
-					<a href="/resources#jsl-programs" aria-label="Learn Jamaican Sign Language" class="inline-block bg-green-600 text-yellow-300 text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="/resources#jsl-programs" aria-label="Learn Jamaican Sign Language" class="inline-block bg-green-700 text-yellow-400 text-xl font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Learn Jamaican Sign Language
 					</a>
 				</div>
@@ -156,15 +161,15 @@
 	</div>
 </div>
 </section>
-<section class="bg-green-600 py-16 relative border-t-4 border-b-4 border-black">
+<section class="bg-green-700 py-16 relative border-t-4 border-b-4 border-black">
 	<div class="absolute inset-0 z-0">
 		<div class="w-full h-full bg-gradient-to-br from-green-600 via-yellow-400 to-black opacity-20"></div>
 	</div>
 	<div class="container mx-auto px-4 relative z-10">
 		<div class="flex flex-wrap items-center">
 			<div class="w-full lg:w-1/2 pr-0 lg:pr-8 mb-8 lg:mb-0">
-				<h2 class="text-4xl font-bold text-yellow-300 mb-6">Learn Jamaican Sign Language</h2>
-				<p class="text-white text-lg mb-8">
+				<h2 class="text-4xl font-extrabold text-yellow-400 mb-6">Learn Jamaican Sign Language</h2>
+				<p class="text-white text-lg font-semibold mb-8">
 					The ability to communicate with the Deaf community in Jamaica is crucial to expanding their opportunities. Why not take the next step and learn Jamaican Sign Language.
 				</p>
 				<div class="flex flex-wrap gap-4 justify-center md:justify-start">
@@ -342,7 +347,7 @@
 				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726436148/cccd/cccdteam.webp" alt="CCCD Jamaica Deaf Village Experience" class="w-full h-48 object-cover">
 				<div class="p-6">
 					<h3 class="text-xl font-semibold mb-2">Jamaica Deaf Village Experience</h3>
-					<p class="text-gray-600 mb-4">Going to JDV for the first time is an experience that has forever impacted my life...</p>
+					<p class="text-black font-semibold mb-4">Going to JDV for the first time is an experience that has forever impacted my life...</p>
 					<a href="https://www.facebook.com/cccdjamaica/posts/pfbid023y6z6EX4TwpF8udRZCeCMtdtobjJoPRg6VXHg5Kr4rRXdxqTegNv6XoEsYnPrBVMl" target="_blank" rel="noopener noreferrer" aria-label="Read more about the Upcoming Fundraising Event" class="text-blue-800 hover:text-red-800 flex items-center">
 						Read more
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
@@ -352,10 +357,10 @@
 				</div>
 			</div>
 			<div class="bg-gray-100 rounded-lg overflow-hidden shadow-md">
-				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726435830/cccd/dormrenovation-cccd.webp" alt="Knockpatrick Dorm Renovation" class="w-full h-48 object-cover">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726435830/cccd/dormrenovation-cccd.webp" alt="Volunteers from CCCD Jamaica renovating the Knockpatrick Dorm" class="w-full h-48 object-cover">
 				<div class="p-6">
 					<h3 class="text-xl font-semibold mb-2">Knockpatrick Dorm Renovation</h3>
-					<p class="text-gray-600 mb-4">Getting ready for students!! This summer we had the opportunity to re-vamp the student dorms...</p>
+					<p class="text-black font-semibold mb-4">Getting ready for students!! This summer we had the opportunity to re-vamp the student dorms...</p>
 					<a href="https://www.facebook.com/cccdjamaica/posts/pfbid02nL7WRrYcviDJaZUpgvqPzPdrfdu8kUZoaFiwUpXkUEZSXkUg8wyuvzZxoFqbhFgDl" target="_blank" rel="noopener noreferrer" aria-label="Read more about the Knockpatrick Dorm Renovation" class="text-blue-800 hover:text-red-800 flex items-center">
 						Read more
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
@@ -368,8 +373,8 @@
 				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726436298/cccd/cadeprogram.webp" alt="CADE Program in Montego Bay, Jamaica" class="w-full h-48 object-cover">
 				<div class="p-6">
 					<h3 class="text-xl font-semibold mb-2">CADE Program</h3>
-					<p class="text-gray-600 mb-4">August is here, and that means our campuses are getting ready for students this fall...</p>
-					<a href="https://www.facebook.com/cccdjamaica/posts/pfbid02fXKT2SpSi7wam7YWv3zqQ52UrFm5otLMxA6nBaNoQkjTX7iFB8NQZexG2R7ZeXjnl" class="text-blue-800 hover:text-red-800 flex items-center">
+					<p class="text-black font-semibold mb-4">August is here, and that means our campuses are getting ready for students this fall...</p>
+					<a href="https://www.facebook.com/cccdjamaica/posts/pfbid02fXKT2SpSi7wam7YWv3zqQ52UrFm5otLMxA6nBaNoQkjTX7iFB8NQZexG2R7ZeXjnl" class="text-blue-800 hover:text-red-800 flex items-center" target="_blank" rel="noopener noreferrer" aria-label="Read more about the CADA Program">
 						Read more
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
 							<path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -378,10 +383,10 @@
 				</div>
 			</div>
 			<div class="bg-gray-100 rounded-lg overflow-hidden shadow-md">
-				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726435386/cccd/berylcleanupcccde.webp" alt="Hurricane Beryl Cleanup" class="w-full h-48 object-cover">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726435386/cccd/berylcleanupcccde.webp" alt="Volunteers from CCCD Jamaica cleaning up after Hurricane Beryl" class="w-full h-48 object-cover">
 				<div class="p-6">
 					<h3 class="text-xl font-semibold mb-2">Hurricane Beryl Cleanup</h3>
-					<p class="text-gray-600 mb-4">Check your email for an update on the cleanup and repairs from Hurricane Beryl. Our campuses are receiving help from teams, funds from generous donors...</p>
+					<p class="text-black font-semibold mb-4">Check your email for an update on the cleanup and repairs from Hurricane Beryl. Our campuses are receiving help from teams, funds from generous donors...</p>
 					<a href="https://www.facebook.com/cccdjamaica/posts/pfbid0Hhnw7vD8MXR8JxfMLaD1aHEw5Y2AayFv1vjKDwtwD4j3KZP3p4tv2T1zCbcwTSkNl" target="_blank" rel="noopener noreferrer" aria-label="Read more about the Hurricane Beryl Cleanup" class="text-blue-800 hover:text-red-800 flex items-center">
 						Read more
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
@@ -409,11 +414,13 @@
 			<iframe 
 				class="w-full h-full shadow-lg rounded-xl border-4 border-red-900"
 				src="https://www.byutv.org/embeddedPlayer/?content-id=f90808a9-897b-4c5c-877b-acae2d51803c&autoplay=false" 
+				aria-labelledby="video1-label"
 				title="CCCD meets The Fixers" 
 				frameborder="0" 
 				allow="clipboard-write; encrypted-media; picture-in-picture;" 
 				allowfullscreen>
 			</iframe>
+			<p id="video1-label">This video is about The Fixers collaborating with CCCD Kingston to renovate the old manager's house into a new culinary space for students.</p>
 		</div>
 	</div>
 </section>
@@ -464,7 +471,7 @@
 			<div class="relative">
 				<img 
 					src="https://res.cloudinary.com/shinkirin/image/upload/c_scale,w_1400/v1726439540/cccd_wordpress/20240725_105731.webp" 
-					alt="Jamaican Deaf Village" 
+					alt="Several buildings in the Deaf Village" 
 					class="h-full w-auto rounded-lg"
 				/>
 				<span class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 text-md rounded">

@@ -58,6 +58,11 @@
 	});
 </script>
 
+<!-- Accessibility Checks
+	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+	2. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-09-22.
+-->
+
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold mb-4 text-center text-red-900">Contact Us</h2>
@@ -75,23 +80,23 @@
 			<div class="w-full md:w-2/3 max-w-2xl">
 				<form on:submit={sendEmail} class="space-y-6">
 					<div>
-						<label for="name" class="block text-black text-md font-bold">Name</label>
-						<input type="text" id="name" bind:value={name} required pattern="^[a-zA-Z\s]+$" title="Please enter a valid name (letters and spaces only)" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+						<label for="name" class="block text-black text-lg font-bold">Name</label>
+						<input type="text" id="name" autocomplete="name" bind:value={name} required pattern="^[a-zA-Z\s]+$" title="Please enter a valid name (letters and spaces only)" class="mt-1 block w-full rounded-md border-gray-800 shadow-sm focus:border-blue-500 focus:ring-blue-500">
 					</div>
 					<div>
-						<label for="email" class="block text-black text-md font-bold">Email</label>
-						<input type="email" id="email" bind:value={email} required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+						<label for="email" class="block text-black text-lg font-bold">Email</label>
+						<input type="email" id="email" autocomplete="email" bind:value={email} required class="mt-1 block w-full rounded-md border-gray-800 shadow-sm focus:border-blue-500 focus:ring-blue-500">
 					</div>
 					<div>
 						<label for="subject" class="block text-black text-md font-bold">Subject</label>
-						<input type="text" id="subject" bind:value={subject} required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+						<input type="text" id="subject" bind:value={subject} required class="mt-1 block w-full rounded-md border-gray-ゆ00 shadow-sm focus:border-blue-500 focus:ring-blue-500">
 					</div>
 					<div>
-						<label for="message" class="block text-black text-md font-bold">Message</label>
-						<textarea id="message" bind:value={message} rows="4" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+						<label for="message" class="block text-black text-lg font-bold">Message</label>
+						<textarea id="message" bind:value={message} rows="4" required class="mt-1 block w-full rounded-md border-gray-800 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
 					</div>
 					<div>
-						<button type="submit" class="w-full bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-800 transition duration-300">
+						<button type="submit" class="w-full bg-red-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-blue-800 transition duration-300">
 							Send Message
 						</button>
 					</div>

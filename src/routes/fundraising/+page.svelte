@@ -35,6 +35,10 @@
     }}
 />
 
+<!-- Accessibility Checks
+	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+-->
+
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Support Our Mission</h2>
@@ -86,7 +90,7 @@
 					<p class="mb-4 font-semibold">Mickaylia lives with her grandmother and has one brother. She loves breakfast time with tea and her favorite Bible story is Joseph's coat of many colors. Her dream is to become a doctor.</p>
 					<p class="mb-4 font-semibold">Mickaylia's favorites include the color blue, vegetables, and running. She loves spending time with her grandparents, learning new words in sign language, and enjoys math class.</p>
 					<p class="mb-4 font-semibold">At CCCD's Knockpatrick Campus, Mickaylia receives an education, learns sign language, and is taught the Word of God.</p>
-					<a href="https://www.cccdjamaica.org/sponsor-a-student/mickaylia-robinson/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Mickaylia" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
+					<a href="https://www.cccdjamaica.org/sponsor-a-student/mickaylia-robinson/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Mickaylia" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
 						Sponsor Mickaylia
 					</a>
 				</div>
@@ -104,7 +108,7 @@
 					<p class="text-center mb-4 font-semibold">Campus: Knockpatrick</p>
 					<p class="mb-4 font-semibold">D'Andrew lives with his mother, sister and brother. He enjoys hanging out with his classmates.</p>
 					<p class="mb-4 font-semibold">Reading is D'Andrew's favorite subject, and he likes to play football. He attends CCCD's Knockpatrick Campus, where he receives an education, learns sign language, and is taught the Word of God.</p>
-					<a href="https://www.cccdjamaica.org/sponsor-a-student/dandrew-treasure/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor D'Andrew" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
+					<a href="https://www.cccdjamaica.org/sponsor-a-student/dandrew-treasure/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor D'Andrew" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
 						Sponsor D'Andrew
 					</a>
 				</div>
@@ -124,7 +128,7 @@
 					<p class="mb-4 font-semibold">Ashley enjoys physical education, storytelling, and the Bible. Her favorite class is English, and she loves the colors pink and purple. She likes to try new foods but especially loves KFC. Ashley enjoys playing basketball and football with her friends.</p>
 					<p class="mb-4 font-semibold">Ashley is gifted at dramatizing stories and has a talent for music and dance. She is a good student who tries hard and doesn't give up.</p>
 					<p class="mb-4 font-semibold">At CCCD's Kingston Campus, Ashley receives an education, learns sign language, and is taught the Word of God.</p>
-					<a href="https://www.cccdjamaica.org/sponsor-a-student/dandrew-treasure/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Ashley" class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
+					<a href="https://www.cccdjamaica.org/sponsor-a-student/dandrew-treasure/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Ashley" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
 						Sponsor Ashley
 					</a>
 				</div>
