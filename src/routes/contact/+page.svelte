@@ -58,11 +58,6 @@
 	});
 </script>
 
-<svelte:head>
-	<title>Contact Us</title>
-	<meta name="description" content="About this app" />
-</svelte:head>
-
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold mb-4 text-center text-red-900">Contact Us</h2>
