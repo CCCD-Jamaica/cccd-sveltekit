@@ -1,3 +1,26 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Disallow access to SvelteKit-specific files and directories
+Disallow: /_app/
+Disallow: /__data.json
+
+# Disallow access to Tailwind CSS-related files
+Disallow: /tailwind.css
+
+# Disallow access to API routes
+Disallow: /api/
+
+# Prevent indexing of development-specific routes
+Disallow: /_dev/
+
+# Block GPTBot from accessing the entire site
+User-agent: GPTBot
+Disallow: /
+
+# Allow crawling of static assets
+Allow: /static/
+
+# Sitemap location (adjust if necessary)
+Sitemap: /sitemap.xml
