@@ -3,11 +3,6 @@
     import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
-<svelte:head>
-    <title>Accessibility Statement - Caribbean Christian Centre for the Deaf</title>
-    <meta name="description" content="Accessibility Statement for Caribbean Christian Centre for the Deaf (CCCD) Jamaica" />
-</svelte:head>
-
 <MetaTags
     title="Accessibility Statement - Caribbean Christian Centre for the Deaf"
     description="Read our accessibility statement and learn about our commitment to digital inclusivity at Caribbean Christian Centre for the Deaf (CCCD) Jamaica."

@@ -2,10 +2,6 @@
 	import { CldImage } from 'svelte-cloudinary';
 </script>
 
-<svelte:head>
-	<title>Jamaican Sign Language at CCCD Jamaica</title>
-	<meta name="description" content="Learn Jamaican Sign Language (JSL) at CCCD Jamaica. Our programs offer in-person and virtual learning options, literature, community events, and more." />
-</svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Jamaican Sign Language Resources</h2>

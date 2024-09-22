@@ -4,11 +4,6 @@
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
-<svelte:head>
-	<title>Stories of Hope (Coming Soon)</title>
-	<meta name="description" content="Stories of Hope and Transformation" />
-</svelte:head>
-
 <MetaTags
     title="Success Stories - Caribbean Christian Centre for the Deaf"
     description="Read inspiring stories from the Deaf community supported by Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Discover how education and support are transforming lives."

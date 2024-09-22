@@ -4,11 +4,6 @@
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
-<svelte:head>
-	<title>Education</title>
-	<meta name="description" content="Education Programs for the Deaf in Jamaica" />
-</svelte:head>
-
 <MetaTags
     title="Education Programs - Caribbean Christian Centre for the Deaf"
     description="Explore the education programs offered by Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Empowering Deaf students through quality education and skill development."
