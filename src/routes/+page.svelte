@@ -72,8 +72,6 @@
 		}
 	}}
 />
->>>>>>> development
-
 <section class="relative h-[900px]">
 	<div class="absolute inset-0 flex">
 		<div class="w-1/2 bg-white"></div>
