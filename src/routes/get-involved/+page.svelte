@@ -9,11 +9,11 @@
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h1 class="text-4xl font-bold text-center mb-8">Get Involved</h1>
+		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Get Involved</h2>
 		
 		<!-- Missionary Duty -->
 		<div id="missionary" class="mb-16">
-			<h2 class="text-3xl font-semibold mb-6">Become a Missionary</h2>
+			<h2 class="text-2xl font-semibold mb-6 ">Become a Missionary</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Join our mission to serve the Deaf community in Jamaica. As a missionary, you'll have the opportunity to:</p>
@@ -39,7 +39,7 @@
 
 		<!-- Volunteering -->
 		<div id="volunteer" class="mb-16">
-			<h2 class="text-3xl font-semibold mb-6">Volunteer Opportunities</h2>
+			<h3 class="text-2xl font-semibold mb-6">Volunteer Opportunities</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<CldImage
@@ -104,7 +104,7 @@
 
 		<!-- Donation and Sponsorship -->
 		<div id="donate">
-			<h2 class="text-3xl font-semibold mb-6">Donate or Sponsor a Student</h2>
+			<h2 class="text-2xl font-semibold mb-6">Donate or Sponsor a Student</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Your financial support can make a lasting impact:</p>

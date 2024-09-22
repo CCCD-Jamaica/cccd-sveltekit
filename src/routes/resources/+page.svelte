@@ -8,11 +8,11 @@
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h1 class="text-4xl font-bold text-center mb-8">Jamaican Sign Language Resources</h1>
+		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Jamaican Sign Language Resources</h2>
 		
 		<!-- Online Resources -->
 		<div class="mb-16">
-			<h2 class="text-3xl font-semibold mb-6">Online Learning Materials</h2>
+			<h3 class="text-2xl font-semibold mb-6">Online Learning Materials</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="bg-gold-100 p-6 rounded-lg border-2 border-red-900 font-semibold text-md">
 					<p class="mb-4">Explore our collection of online resources to start learning Jamaican Sign Language (JSL) from the comfort of your home:</p>
@@ -47,7 +47,7 @@
 
 		<!-- JSL Programs -->
 		<div id="jsl-programs">
-			<h2 class="text-3xl font-semibold mb-6">JSL Programs: In-Person and Virtual</h2>
+			<h2 class="text-2xl font-semibold mb-6">JSL Programs: In-Person and Virtual</h2>
 			<p class="mb-4 font-semibold text-md">Join our comprehensive JSL programs designed for various skill levels and learning preferences:</p>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
 				<!-- In-Person Programs -->

@@ -9,11 +9,11 @@
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h1 class="text-4xl font-bold text-center mb-8">Education for the Deaf in Jamaica</h1>
+		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Education for the Deaf in Jamaica</h2>
 		
 		<!-- Educational Programs Section -->
 		<div class="mb-16">
-			<h2 class="text-3xl font-semibold mb-6">Educational Programs</h2>
+			<h3 class="text-2xl font-semibold mb-6">Educational Programs</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Our educational programs are designed to empower deaf students in Jamaica with knowledge and skills for a brighter future. We offer a comprehensive curriculum that includes:</p>
@@ -48,7 +48,7 @@
 
 		<!-- Dormitories and Support Section -->
 		<div class="mb-16">
-			<h2 class="text-3xl font-semibold mb-6">Dormitories and Support</h2>
+			<h3 class="text-2xl font-semibold mb-6">Dormitories and Support</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<CldImage
@@ -78,7 +78,7 @@
 
 		<!-- Vocational Training Section -->
 		<div>
-			<h2 class="text-3xl font-semibold mb-6">Vocational Training Programs</h2>
+			<h3 class="text-2xl font-semibold mb-6">Vocational Training Programs</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Our vocational training programs aim to make deaf individuals marketable in Jamaica's job market. We offer training in:</p>
@@ -104,7 +104,7 @@
 		</div>
 		<!-- Graduate Success Stories Section -->
 		<div class="mt-16">
-			<h2 class="text-3xl font-semibold mb-6">Graduate Success Stories</h2>
+			<h3 class="text-2xl font-semibold mb-6">Graduate Success Stories</h3>
 			<p class="text-lg mb-8 font-semibold">Our graduates have gone on to achieve great things. Here are just a few of their photos:</p>
 			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 				<!-- Graduate 1 -->
