@@ -56,8 +56,8 @@ This project is a modern, responsive website for [CCCD Jamaica](https://cccd.org
 This project is licensed under the [BSD 3-Clause License](LICENSE).
 
 ### Project Status
-- Project Production Version: 1.0.0-rc.6
-- Project Development Version: 1.0.0-rc.7
+- Project Production Version: 1.0.0-rc.7
+- Project Development Version: 1.0.0-rc.8
 
 ### Hosting
 
