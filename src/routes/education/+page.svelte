@@ -1,12 +1,50 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
 	import Support from '$components/Support.svelte';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
 	<title>Education</title>
 	<meta name="description" content="Education Programs for the Deaf in Jamaica" />
 </svelte:head>
+
+<MetaTags
+    title="Education Programs - Caribbean Christian Centre for the Deaf"
+    description="Explore the education programs offered by Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Empowering Deaf students through quality education and skill development."
+    canonical="https://cccd.org.jm/education"
+    openGraph={{
+        url: 'https://cccd.org.jm/education',
+        title: 'CCCD Jamaica Education Programs',
+        description: 'Discover our comprehensive education programs for Deaf students in Jamaica. From primary education to vocational training, we\'re committed to empowering the Deaf community.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary_large_image',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        name: "Caribbean Christian Centre for the Deaf",
+        description: "Providing quality education and vocational training for Deaf students in Jamaica.",
+        url: "https://cccd.org.jm/education",
+        address: {
+            "@type": "PostalAddress",
+            addressLocality: "Kingston",
+            addressRegion: "St. Andrew",
+            addressCountry: "Jamaica"
+        },
+        sameAs: [
+            "https://www.facebook.com/cccdjamaica",
+            "https://www.instagram.com/cccdjamaica/"
+        ]
+    }}
+/>
+
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Education for the Deaf in Jamaica</h2>

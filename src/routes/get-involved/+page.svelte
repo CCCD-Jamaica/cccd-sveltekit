@@ -1,19 +1,57 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
 	import Support from '$components/Support.svelte';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
 	<title>Get Involved</title>
 	<meta name="description" content="Get involved with CCCD Jamaica" />
 </svelte:head>
+
+<MetaTags
+    title="Get Involved - Caribbean Christian Centre for the Deaf"
+    description="Discover ways to get involved with Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Volunteer, donate, or become a missionary to support the Deaf community in Jamaica."
+    canonical="https://cccd.org.jm/get-involved"
+    openGraph={{
+        url: 'https://cccd.org.jm/get-involved',
+        title: 'Get Involved with CCCD Jamaica',
+        description: 'Join us in our mission to empower the Deaf community in Jamaica. Find out how you can contribute through volunteering, donations, or becoming a missionary.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary_large_image',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: "Get Involved with CCCD Jamaica",
+        description: "Opportunities to support and engage with Caribbean Christian Centre for the Deaf in Jamaica.",
+        url: "https://cccd.org.jm/get-involved",
+        mainEntity: {
+            "@type": "VolunteerAction",
+            name: "Volunteer with CCCD Jamaica",
+            description: "Volunteer opportunities to support the Deaf community in Jamaica through education and community development.",
+            organizer: {
+                "@type": "NGO",
+                name: "Caribbean Christian Centre for the Deaf",
+                url: "https://cccd.org.jm"
+            }
+        }
+    }}
+/>
+
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Get Involved</h2>
 		
 		<!-- Missionary Duty -->
 		<div id="missionary" class="mb-16">
-			<h2 class="text-2xl font-semibold mb-6 ">Become a Missionary</h2>
+			<h2 class="text-2xl font-semibold mb-6 text-red-900">Become a Missionary</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Join our mission to serve the Deaf community in Jamaica. As a missionary, you'll have the opportunity to:</p>
@@ -39,7 +77,7 @@
 
 		<!-- Volunteering -->
 		<div id="volunteer" class="mb-16">
-			<h3 class="text-2xl font-semibold mb-6">Volunteer Opportunities</h3>
+			<h3 class="text-2xl font-semibold mb-6 text-red-900">Volunteer Opportunities</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<CldImage
@@ -60,7 +98,7 @@
 					</ul>
 					<a href="/contact" class="inline-block bg-green-600 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
 					<p class="text-md text-black mt-4">Volunteering with CCCD Jamaica is a rewarding experience that allows you to make a positive impact on the lives of the Deaf community.</p>
-					<h3 class="text-2xl font-semibold mb-4 pt-6">US Peace Corps Volunteer Opportunities</h3>
+					<h3 class="text-2xl font-semibold mb-4 pt-6 text-red-900">US Peace Corps Volunteer Opportunities</h3>
 					<p class="text-md text-black mb-4">The US Peace Corps Virtual Service Pilot is a program that allows Americans to serve in Jamaica remotely. Visit the US Peace Corps website to learn about any opportunities available in Jamaica.</p>
 					<a href="https://www.peacecorps.gov/volunteer/virtual-service-pilot/" target="_blank" rel="noopener noreferrer" aria-label="Inquire about the US Peace Corps Virtual Service Pilot opportunities for Jamaica" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">US Peace Corps Virtual Service Pilot</a>
 					<div class="mt-4">
@@ -78,7 +116,7 @@
 
 		<!-- Learn Jamaican Sign Language -->
 		<div class="mb-16">
-			<h2 class="text-2xl font-semibold mb-6">Volunteer and Learn Jamaican Sign Language (JSL)</h2>
+			<h2 class="text-2xl font-semibold mb-6 text-red-900">Volunteer and Learn Jamaican Sign Language (JSL)</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Enhance your ability to communicate with the Deaf community by learning JSL:</p>
@@ -104,7 +142,7 @@
 
 		<!-- Donation and Sponsorship -->
 		<div id="donate">
-			<h2 class="text-2xl font-semibold mb-6">Donate or Sponsor a Student</h2>
+			<h2 class="text-2xl font-semibold mb-6 text-red-900">Donate or Sponsor a Student</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Your financial support can make a lasting impact:</p>

@@ -1,12 +1,50 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
 	import Support from '$components/Support.svelte';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
 	<title>Stories of Hope (Coming Soon)</title>
 	<meta name="description" content="Stories of Hope and Transformation" />
 </svelte:head>
+
+<MetaTags
+    title="Success Stories - Caribbean Christian Centre for the Deaf"
+    description="Read inspiring stories from the Deaf community supported by Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Discover how education and support are transforming lives."
+    canonical="https://cccd.org.jm/stories"
+    openGraph={{
+        url: 'https://cccd.org.jm/stories',
+        title: 'CCCD Jamaica Success Stories',
+        description: 'Inspiring stories of transformation and achievement from the Deaf community in Jamaica. See the impact of education and support provided by CCCD.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary_large_image',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: "CCCD Jamaica Success Stories",
+        description: "A collection of inspiring stories from the Deaf community supported by Caribbean Christian Centre for the Deaf in Jamaica.",
+        url: "https://cccd.org.jm/stories",
+        inLanguage: "en-US",
+        isAccessibleForFree: "True",
+        publisher: {
+            "@type": "Organization",
+            name: "Caribbean Christian Centre for the Deaf",
+            logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+            }
+        }
+    }}
+/>
+
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Stories of Hope (Coming Soon)</h2>

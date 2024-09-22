@@ -1,11 +1,48 @@
 <script>
     import Support from '$components/Support.svelte';
+    import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
     <title>Privacy Policy - Caribbean Christian Centre for the Deaf</title>
-    <meta name="description" content="Privacy Policy for Caribbean Christian Centre for the Deaf (CCCD) Jamaica" />
+    <meta name="description" content="Read our privacy policy to understand how Caribbean Christian Centre for the Deaf (CCCD) Jamaica collects, uses, and protects your personal information." />
 </svelte:head>
+
+<MetaTags
+    title="Privacy Policy - Caribbean Christian Centre for the Deaf"
+    description="Read our privacy policy to understand how Caribbean Christian Centre for the Deaf (CCCD) Jamaica collects, uses, and protects your personal information."
+    canonical="https://cccd.org.jm/privacy-policy"
+    openGraph={{
+        url: 'https://cccd.org.jm/privacy-policy',
+        title: 'CCCD Jamaica Privacy Policy',
+        description: 'Our commitment to protecting your privacy and personal information. Learn about our data collection and usage practices.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: "Privacy Policy",
+        description: "Privacy policy for Caribbean Christian Centre for the Deaf (CCCD) Jamaica website.",
+        url: "https://cccd.org.jm/privacy-policy",
+        inLanguage: "en-US",
+        isAccessibleForFree: "True",
+        publisher: {
+            "@type": "Organization",
+            name: "Caribbean Christian Centre for the Deaf",
+            logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+            }
+        }
+    }}
+/>
 
 <section class="bg-white py-12">
     <div class="container mx-auto px-4">

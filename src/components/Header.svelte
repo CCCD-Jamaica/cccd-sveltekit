@@ -19,7 +19,7 @@
     <h1 class="text-white uppercase font-bold p-2">Reach, Teach, and Nurture the Deaf</h1>
   </div>
   <div class="hidden lg:flex justify-center py-4">
-    <a href="/" class="-m-1.5 p-1.5">
+    <a href="/" aria-label="Homepage" class="-m-1.5 p-1.5">
       <span class="sr-only"><abbr title="Caribbean Christian Center for the Deaf">CCCD</abbr> Jamaica</span>
       <CldImage 
         class="border-2 border-blue-600 rounded-md" 
@@ -32,7 +32,7 @@
   </div>
   <nav class="mx-auto flex max-w-7xl items-center justify-between lg:py-4 lg:px-8" aria-label="Global">
     <div class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
-      <a href="/" class="hover:text-red-800">
+      <a href="/" aria-label="Homepage" class="hover:text-red-800">
         <Icon icon="material-symbols:church" aria-label="Church" width="24" height="24" />
       </a>
       <a href="about" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">About</a>

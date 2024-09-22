@@ -5,6 +5,7 @@
 	import { onMount } from 'svelte';
 	import { PUBLIC_MAILGUN_API_KEY, PUBLIC_MAILGUN_DOMAIN, PUBLIC_EMAIL_BRANCH } from '$env/static/public';
 	import { goto } from '$app/navigation';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 
 	let name = '';
 	let email = '';
@@ -112,3 +113,43 @@
 
 <Locations />
 <Support />
+
+<MetaTags
+    title="Contact Us - Caribbean Christian Centre for the Deaf"
+    description="Get in touch with Caribbean Christian Centre for the Deaf (CCCD) Jamaica. We're here to answer your questions and provide support."
+    canonical="https://cccd.org.jm/contact"
+    openGraph={{
+        url: 'https://cccd.org.jm/contact',
+        title: 'Contact CCCD Jamaica',
+        description: 'Reach out to Caribbean Christian Centre for the Deaf. We\'re here to assist you with any inquiries about our programs, donations, or volunteer opportunities.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        name: "Contact CCCD Jamaica",
+        description: "Contact information and form for Caribbean Christian Centre for the Deaf (CCCD) Jamaica.",
+        url: "https://cccd.org.jm/contact",
+        mainEntity: {
+            "@type": "Organization",
+            name: "Caribbean Christian Centre for the Deaf",
+            telephone: "+1-876-619-8487",
+            email: "info@cccd.org.jm",
+            address: {
+                "@type": "PostalAddress",
+                streetAddress: "4 Cassia Park Road",
+                addressLocality: "Kingston",
+                addressRegion: "St. Andrew",
+                postalCode: "JMCAN09",
+                addressCountry: "JM"
+            }
+        }
+    }}
+/>

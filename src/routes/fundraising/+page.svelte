@@ -1,15 +1,48 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
 	import Support from '$components/Support.svelte';
+    import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
 	<title>Fundraising</title>
 	<meta name="description" content="Support our mission to reach, teach, and nurture the Deaf community in Jamaica." />
 </svelte:head>
+
+<MetaTags
+    title="Support Our Cause - Caribbean Christian Centre for the Deaf"
+    description="Support the mission of Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Your donations help us provide education and support to the Deaf community in Jamaica."
+    canonical="https://cccd.org.jm/fundraising"
+    openGraph={{
+        url: 'https://cccd.org.jm/fundraising',
+        title: 'Support CCCD Jamaica - Empower the Deaf Community',
+        description: 'Make a difference in the lives of Deaf individuals in Jamaica. Your support enables us to provide quality education, vocational training, and community support.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary_large_image',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "DonateAction",
+        name: "Donate to CCCD Jamaica",
+        description: "Support the mission of Caribbean Christian Centre for the Deaf by making a donation.",
+        url: "https://cccd.org.jm/fundraising",
+        recipient: {
+            "@type": "NGO",
+            name: "Caribbean Christian Centre for the Deaf",
+            url: "https://cccd.org.jm"
+        }
+    }}
+/>
+
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-800">Support Our Mission</h2>
+		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Support Our Mission</h2>
 		
 		<!-- Standard Donations -->
 		<div class="mb-16">
@@ -106,7 +139,7 @@
 </section>
 <section id="social-enterprise" class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-800">Social Enterprise Projects</h2>
+		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Social Enterprise Projects</h2>
 		<p class="text-lg text-center mb-8 font-semibold">
 			Help promote CCCD projects and support the deaf community in Jamaica by contributing to our sustainable initiatives.
 		</p>
