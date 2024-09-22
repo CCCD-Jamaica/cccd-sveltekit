@@ -1,11 +1,48 @@
 <script>
     import Support from '$components/Support.svelte';
+    import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
 <svelte:head>
     <title>Accessibility Statement - Caribbean Christian Centre for the Deaf</title>
     <meta name="description" content="Accessibility Statement for Caribbean Christian Centre for the Deaf (CCCD) Jamaica" />
 </svelte:head>
+
+<MetaTags
+    title="Accessibility Statement - Caribbean Christian Centre for the Deaf"
+    description="Read our accessibility statement and learn about our commitment to digital inclusivity at Caribbean Christian Centre for the Deaf (CCCD) Jamaica."
+    canonical="https://cccd.org.jm/accessibility"
+    openGraph={{
+        url: 'https://cccd.org.jm/accessibility',
+        title: 'CCCD Jamaica Accessibility Statement',
+        description: 'Our commitment to digital accessibility for all users, including those with disabilities. Learn about our accessibility standards and practices.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: "Accessibility Statement",
+        description: "Caribbean Christian Centre for the Deaf (CCCD) Jamaica's commitment to digital accessibility and inclusivity.",
+        url: "https://cccd.org.jm/accessibility",
+        inLanguage: "en-US",
+        isAccessibleForFree: "True",
+        publisher: {
+            "@type": "Organization",
+            name: "Caribbean Christian Centre for the Deaf",
+            logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+            }
+        }
+    }}
+/>
 
 <section class="bg-white py-12">
     <div class="container mx-auto px-4">

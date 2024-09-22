@@ -2,12 +2,77 @@
 	import { CldImage } from 'svelte-cloudinary';
 	import Icon from '@iconify/svelte';
 	import Support from '$components/Support.svelte';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
-<svelte:head>
-	<title>CCCD Jamaica</title>
-	<meta name="description" content="Caribben Christian Center for the Deaf in Jamaica" />
-</svelte:head>
+<MetaTags
+	title="Caribbean Christian Centre for the Deaf"
+	titleTemplate="%s | CCCD Jamaica"
+	description="Caribbean Christian Centre for the Deaf (CCCD) exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf community."
+	canonical="https://cccd.org.jm/"
+	openGraph={{
+		url: 'https://cccd.org.jm',
+		title: 'Caribbean Christian Centre for the Deaf - Empowering the Deaf Community',
+		description: 'CCCD Jamaica provides education, vocational training, and support to the Deaf community in Jamaica. Learn how you can get involved and make a difference.',
+		images: [
+		{
+			url: 'https://res.cloudinary.com/shinkirin/image/upload/c_crop,h_600,w_800/v1726612157/cccd/graduatesfromcccd.webp',
+			width: 800,
+			height: 600,
+			alt: 'CCCD Jamaica Deaf Student Graduation'
+		},
+		{
+			url: 'https://res.cloudinary.com/shinkirin/image/upload/c_crop,h_800,w_900/v1726612157/cccd/graduatesfromcccd.webp',
+			width: 900,
+			height: 800,
+			alt: 'Young CCCD Deaf Jamaican Student Graduation'
+		}
+		],
+		siteName: 'CCCD Jamaica'
+	}}
+	twitter={{
+		handle: '@CCCDJamaica',
+		site: '@CCCDJamaica',
+		cardType: 'summary_large_image',
+		title: 'Caribbean Christian Centre for the Deaf - Empowering the Deaf in Jamaica',
+		description: 'CCCD Jamaica provides education, vocational training, and support to the Deaf community. Learn how you can get involved and make a difference.',
+		image: 'https://res.cloudinary.com/shinkirin/image/upload/c_crop,h_800,w_900/v1726612157/cccd/graduatesfromcccd.webp',
+		imageAlt: 'CCCD Jamaica Deaf Student at her Graduation'
+	}}
+/>
+
+<JsonLd
+	schema={{
+		'@type': 'Organization',
+		'@id': 'https://cccd.org.jm',
+		name: 'Caribbean Christian Centre for the Deaf',
+		url: 'https://cccd.org.jm',
+		logo: 'https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp',
+		sameAs: [
+			'https://www.facebook.com/cccdjamaica',
+			'https://www.instagram.com/cccdjamaica/',
+			'https://www.youtube.com/@caribbeanchristiancentre',
+			'https://deafjamaica.dev/',
+			'https://cccdjamaica.org'
+		],
+		description: 'Caribbean Christian Centre for the Deaf (CCCD) exists to reach, teach, and nurture the Deaf of Jamaica. We provide education, vocational training, and support to the Deaf community.',
+		address: {
+			'@type': 'PostalAddress',
+			streetAddress: '4 Manchester Road',
+			addressLocality: 'Knockpatrick',
+			addressRegion: 'Manchester',
+			postalCode: 'JMMAN07',
+			addressCountry: 'JM'
+		},
+		contactPoint: {
+			'@type': 'ContactPoint',
+			telephone: '+1-876-904-3501',
+			contactType: '	support',
+			email: 'info@cccdjamaica.org'
+		}
+	}}
+/>
+>>>>>>> development
 
 <section class="relative h-[900px]">
 	<div class="absolute inset-0 flex">
@@ -35,15 +100,15 @@
 				<!-- Content for the first column of the new centered layer -->
 				<h2 class="text-xl text-red-900 font-semibold mb-3 uppercase">Empowering the Deaf Community</h2>
 				<h3 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h3>
-				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf 					community in Jamaica. Together, we 	can create opportunities and foster a supportive environment for all.
+				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf community in Jamaica. Together, we can create opportunities and foster a supportive environment for all.
 				</p>
 				<h4 class="text-lg text-black font-semibold mb-3 mt-4">Purpose</h4>
 				<p class="mb-4 italic text-md sm:text-lg text-black font-semibold">To Steward God&apos;s Resources for His Glory - 1 Peter 4:7-11</p>
 				<div class="mt-4 flex justify-start space-x-4">
-					<a href="/fundraising" class="inline-block bg-red-800 text-white text-md font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
+					<a href="/fundraising" aria-label="Donate Now" class="inline-block bg-red-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-blue-800 transition duration-300">
 						Donate Now
 					</a>
-					<a href="/resources#jsl-programs" class="inline-block bg-green-600 text-yellow-300 text-md font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="/resources#jsl-programs" aria-label="Learn Jamaican Sign Language" class="inline-block bg-green-600 text-yellow-300 text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Learn Jamaican Sign Language
 					</a>
 				</div>
@@ -114,14 +179,14 @@
 				</div>
 			</div>
 			<div class="w-full lg:w-1/2">
-				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726420106/cccd/dall-e-jsl-girl.webp" alt="Jamaican student using sign langauge generated by DALL-E 3" class="rounded-lg shadow-lg w-full h-auto border-4 border-white">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726420106/cccd/dall-e-jsl-girl.webp" alt="Jamaican student using sign language generated by DALL-E 3" class="rounded-lg shadow-lg w-full h-auto border-4 border-white">
 			</div>
 		</div>
 	</div>
 </section>
 <section>
 	<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-	<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369817/cccd/cccd-jamaica-kingston.webp" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+	<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369817/cccd/cccd-jamaica-kingston.webp" alt="CCCD Jamaica Kingston Campus" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
 	<div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl">
 		<div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
 	</div>
@@ -189,7 +254,7 @@
 			<div class="w-full lg:max-w-lg lg:flex-auto">
 				<h2 class="text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">How you can help</h2>
 				<p class="mt-6 text-lg leading-8 text-black">Your support can make a significant difference in the lives of deaf students in Jamaica. Whether through volunteering, donations, or becoming a missionary, every contribution helps us reach, teach, and nurture the deaf community.</p>
-				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726434833/cccd/backtoschoolcccd.webp" alt="Back to school wih four CCCD Jamaica Deaf Student" class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726434833/cccd/backtoschoolcccd.webp" alt="Back to school with four CCCD Jamaica Deaf Students" class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]">
 			</div>
 			<div class="w-full lg:max-w-xl lg:flex-auto relative">
 				<div class="absolute inset-0 bg-no-repeat bg-center opacity-20" style="background-image: url('https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp'); background-size: 75%; background-position: center;"></div>
@@ -340,7 +405,7 @@
 	<div class="container mx-auto px-4 relative z-10">
 		<h2 class="text-3xl font-bold mb-8 text-center text-gray-900">CCCD meets The Fixers</h2>
 		<p class="text-xl font-bold mb-12 max-w-3xl mx-auto text-center text-red-900">
-			The Fixers recently collaborated with CCCD Kingston to renovate the old manager's house into a new culinary space for students. It looks great! We are excited to see how this benefits our students and grows their hospitality & culinary skills
+			The Fixers recently collaborated with CCCD Kingston to renovate the old manager's house into a new culinary space for students. It looks great! We are excited to see how this benefits our students and grows their hospitality & culinary skills.
 		</p>
 		<div class="aspect-w-16 aspect-h-9 max-w-6xl mx-auto">
 			<iframe 
