@@ -1,6 +1,38 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
+
+<MetaTags
+	title="Jamaican Sign Language Resources - Caribbean Christian Centre for the Deaf"
+	description="Explore our resources to learn Jamaican Sign Language (JSL) and connect with the Deaf community in Jamaica."
+	canonical="https://cccd.org.jm/resources"
+	openGraph={{
+		url: 'https://cccd.org.jm/resources',
+		title: 'Jamaican Sign Language Resources - Caribbean Christian Centre for the Deaf',
+		description: 'Explore our resources to learn Jamaican Sign Language (JSL) and connect with the Deaf community in Jamaica.',
+	}}
+	twitter={{
+		handle: '@CCCDJamaica',
+		site: '@CCCDJamaica',
+		cardType: 'summary',
+	}}
+/>
+
+<JsonLd
+	schema={{
+		'@context': 'https://schema.org',
+		'@type': 'WebPage',
+		name: 'Jamaican Sign Language Resources',
+		description: 'Explore our resources to learn Jamaican Sign Language (JSL) and connect with the Deaf community in Jamaica.',
+		url: 'https://cccd.org.jm/resources',
+	}}
+/>
+
+<!-- Accessibility Checks
+	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+	2. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-09-22.
+-->
 
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
@@ -56,7 +88,7 @@
 						<li>Cultural immersion experiences</li>
 						<li>Interaction with native JSL users</li>
 					</ul>
-					<button class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<button class="block w-full bg-green-800  text-lg text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Learn More About In-Person Classes (coming soon)
 					</button>
 				</div>
@@ -70,7 +102,7 @@
 						<li>One-on-one virtual tutoring sessions</li>
 						<li>Online community for practice and support</li>
 					</ul>
-					<button class="block w-full bg-green-600 text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<button class="block w-full bg-green-800 text-lg text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Explore Virtual JSL Courses (coming soon)
 					</button>
 				</div>

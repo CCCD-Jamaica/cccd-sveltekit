@@ -13,18 +13,6 @@
 
 ## Table of Contents
 - [Project Information](#project-information)
-- [Project Tools](#project-tools)
-  - [Frontend Web Development](#frontend-web-development)
-  - [AI Tools](#ai-tools)
-  - [Source Code Management](#source-code-management)
-  - [Project Management](#project-management)
-  - [Hosting](#hosting)
-- [Project Structure](#project-structure)
-
-## Project Information
-
-## Table of Contents
-- [Project Information](#project-information)
   - [Project Description](#project-description)
   - [Project Goals](#project-goals)
   - [Project License](#project-license)
@@ -37,6 +25,8 @@
   - [Source Code Management](#source-code-management)
   - [Project Management](#project-management)
 - [Project Structure](#project-structure)
+
+## Project Information
 
 ### Project Description
 
@@ -56,8 +46,8 @@ This project is a modern, responsive website for [CCCD Jamaica](https://cccd.org
 This project is licensed under the [BSD 3-Clause License](LICENSE).
 
 ### Project Status
-- Project Production Version: 1.0.0-rc.8
-- Project Development Version: 1.0.0-rc.9
+- Project Production Version: 1.0.0-rc.9
+- Project Development Version: 1.0.0-rc.10
 
 ### Hosting
 
@@ -107,13 +97,14 @@ This project first started to use [Drupal](https://www.drupal.org/) as the main 
 The goal for this project is to meet with [WCAG 2.1 AA standards](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&levels=aa), but strive for [WCAG 2.1 AAA standards](https://www.w3.org/WAI/WCAG21/quickref/?versions=2.1&levels=aaa) whenever possible.
 
 - [Accessibility Insights](https://accessibilityinsights.io) - Accessibility Insights accessibility evaluation tool for the project
-- [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Lighthouse accessibility evaluation tool for the project
-- [AxeDevTools](https://www.deque.com/axe/) - Accessibility testing tool
-- [WAVE Evaluation Tool](https://wave.webaim.org/) - Web accessibility evaluation tool
-- [pa11y](https://pa11y.org/) - Automated accessibility testing tool
-- [WCAG Contrast Checker](https://webaim.org/resources/contrastchecker/) - Color contrast checker for accessibility
 - [AInspector](https://ainspector.github.io/) - Accessibility inspection tool
+- [AxeDevTools](https://www.deque.com/axe/) - Accessibility testing tool
+- [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Lighthouse accessibility evaluation tool for the project
+- [pa11y](https://pa11y.org/) - Automated accessibility testing tool
 - [Siteimprove Accessibility Checker](https://siteimprove.com/en-us/accessibility/) - Comprehensive accessibility checker
+- [SkillTide](https://skilltide.com) - SkillTide SEO and content optimization tool
+- [WAVE Evaluation Tool](https://wave.webaim.org/) - Web accessibility evaluation tool
+- [WCAG Contrast Checker](https://webaim.org/resources/contrastchecker/) - Color contrast checker for accessibility
 
 ## Project Management
 
