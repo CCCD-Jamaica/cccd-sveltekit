@@ -70,7 +70,7 @@
                 <a href="/fundraising" class="text-lg leading-6 text-red-800 hover:text-b00 hover:underline underline-offset-2 decoration-4 decoration-dotted hover:decoration-red-900">Donate</a>
               </li>
               <li class="list-disc list-inside">
-                <a href="/fundraising#fundraising" class="text-lg leading-6 text-red-800 hover:text-b00 hover:underline underline-offset-2 decoration-4 decoration-dotted hover:decoration-red-900">Sponsor Students</a>
+                <a href="/fundraising#sponsor" class="text-lg leading-6 text-red-800 hover:text-b00 hover:underline underline-offset-2 decoration-4 decoration-dotted hover:decoration-red-900">Sponsor Students</a>
               </li>
               <li class="list-disc list-inside">
                 <a href="/get-involved#missionary" class="text-lg leading-6 text-red-800 hover:text-b00 hover:underline underline-offset-2 decoration-4 decoration-dotted hover:decoration-red-900">Missionary</a>
