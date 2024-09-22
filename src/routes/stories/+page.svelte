@@ -9,11 +9,11 @@
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h1 class="text-4xl font-bold text-center mb-8 text-red-900">Stories of Hope (Coming Soon)</h1>
+		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Stories of Hope (Coming Soon)</h2>
 		
 		<!-- Story of our Deaf Students -->
 		<div class="mb-16 bg-gold-100 border-2 border-red-800 p-4 rounded-lg shadow-md">
-			<h2 class="text-3xl font-semibold mb-6">Stories of our Deaf Students</h2>
+			<h3 class="text-2xl font-semibold mb-6">Stories of our Deaf Students</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<p class="mb-4 text-md font-semibold">We are gathering stories from our deaf students and alumni. They are inspiring.</p>
@@ -35,7 +35,7 @@
 
 		<!-- Graduate's Story -->
 		<div class="mb-16 bg-gold-100 border-2 border-red-800 p-4 rounded-lg shadow-md">
-			<h2 class="text-3xl font-semibold mb-6">Stories of our Graduates</h2>
+			<h3 class="text-2xl font-semibold mb-6">Stories of our Graduates</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<CldImage
@@ -61,7 +61,7 @@
 
 		<!-- Alumni's Story -->
 		<div class="mb-16 bg-gold-100 border-2 border-red-800 p-4 rounded-lg shadow-md">
-			<h2 class="text-3xl font-semibold mb-6">CCCD Alumni: Changing Jamaica</h2>
+			<h3 class="text-2xl font-semibold mb-6">CCCD Alumni: Changing Jamaica</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<p class="mb-4 text-md font-semibold">Our future alumni will make waves in their communities. Here's how we envision them creating change:</p>

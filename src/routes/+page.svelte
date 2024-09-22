@@ -33,17 +33,17 @@
 		<div class="w-full md:w-2/3 flex flex-col md:flex-row bg-opacity-65 md:bg-opacity-90 rounded-lg overflow-hidden">
 			<div class="w-full md:w-1/2 p-8 flex flex-col justify-center bg-white opacity-75">
 				<!-- Content for the first column of the new centered layer -->
-				<h3 class="text-xl text-red-900 font-semibold mb-3 uppercase">Empowering the Deaf Community</h3>
-				<h4 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h4>
+				<h2 class="text-xl text-red-900 font-semibold mb-3 uppercase">Empowering the Deaf Community</h2>
+				<h3 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h3>
 				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf 					community in Jamaica. Together, we 	can create opportunities and foster a supportive environment for all.
 				</p>
-				<h5 class="text-lg text-black font-semibold mb-3 mt-4">Purpose</h5>
+				<h4 class="text-lg text-black font-semibold mb-3 mt-4">Purpose</h4>
 				<p class="mb-4 italic text-md sm:text-lg text-black font-semibold">To Steward God&apos;s Resources for His Glory - 1 Peter 4:7-11</p>
 				<div class="mt-4 flex justify-start space-x-4">
-					<a href="/fundraising" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
+					<a href="/fundraising" class="inline-block bg-red-800 text-white text-md font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
 						Donate Now
 					</a>
-					<a href="/resources#jsl-programs" class="inline-block bg-green-600 text-yellow-300 font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
+					<a href="/resources#jsl-programs" class="inline-block bg-green-600 text-yellow-300 text-md font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Learn Jamaican Sign Language
 					</a>
 				</div>
@@ -70,7 +70,7 @@
 			<p class="mt-6 text-xl leading-8 text-black">It is not often that you can touch a life in such a tangible way. Your contributions will allow you to invest in their physical and, most importantly, spiritual well-being.</p>
 			<p class="mt-6 text-lg leading-7 text-black">In Jamaica, we nurture the deaf students through specialized education, loving care, and spiritual guidance. We ensure that each child receives a quality education tailored to their unique needs. Through Bible lessons and Christian fellowship, we instill the values of faith, hope, and love, empowering them to embrace their God-given potential and become beacons of light within their communities.</p>
 			<div class="mt-10 flex">
-			<a href="/get-involved" class="rounded-md bg-red-800 hover:bg-red-700 transition duration-300 px-3.5 py-2.5 text-sm font-bold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">Help Nurture our Deaf Students' Future <span aria-hidden="true">&rarr;</span></a>
+			<a href="/get-involved" class="rounded-md bg-red-800 hover:bg-red-700 transition duration-300 px-3.5 py-2.5 text-md font-bold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">Help Nurture our Deaf Students' Future <span aria-hidden="true">&rarr;</span></a>
 			</div>
 		</div>
 		<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -148,7 +148,7 @@
 			<div class="text-base leading-7">
 			<h3 class="font-semibold text-white">Our Purpose</h3>
 			<a href="/about">
-				<p class="mt-2 text-white">CCCD exists to reach, teach, and nurture the Deaf of Jamaica so that they can experience the joy of knowing Jesus and serving within their community.</p>
+				<p class="mt-2 text-white text-md font-semibold">CCCD exists to reach, teach, and nurture the Deaf of Jamaica so that they can experience the joy of knowing Jesus and serving within their community.</p>
 			</a>
 			</div>
 		</div>
@@ -264,7 +264,7 @@
 					</li>
 					</ul>
 					<div class="mt-8 flex border-t border-gold-300 pt-8">
-					<a href="/get-involved" class="text-sm font-semibold leading-6 text-blue-800 hover:text-red-800">Explore all ways to help <span aria-hidden="true">&rarr;</span></a>
+					<a href="/get-involved" class="text-md font-semibold leading-6 text-blue-800 hover:text-red-800">Explore all ways to help <span aria-hidden="true">&rarr;</span></a>
 					</div>
 				</div>
 			</div>
@@ -404,7 +404,7 @@
 					alt="Jamaican Deaf Village" 
 					class="h-full w-auto rounded-lg"
 				/>
-				<span class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 text-sm rounded">
+				<span class="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white px-2 py-1 text-md rounded">
 					Jamaican Deaf Village
 				</span>
 			</div>

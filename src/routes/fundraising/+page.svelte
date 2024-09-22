@@ -9,11 +9,11 @@
 </svelte:head>
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h1 class="text-4xl font-bold text-center mb-8 text-red-800">Support Our Mission</h1>
+		<h2 class="text-3xl font-bold text-center mb-8 text-red-800">Support Our Mission</h2>
 		
 		<!-- Standard Donations -->
 		<div class="mb-16">
-			<h2 class="text-3xl font-semibold mb-6 text-red-800">Be a part of the amazing things God is doing!</h2>
+			<h3 class="text-2xl font-semibold mb-6 text-red-800">Be a part of the amazing things God is doing!</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="bg-gold-100 p-6 rounded-lg text-black font-bold text-md shadow-md">
 					<p class="mb-4">You are the reason we are here. Your gifts make our outreach to the Deaf possible. The Caribbean Christian Centre for the Deaf could not exist without the generous donations we receive from you and all our supporters. Feel free to contact us if you have any questions.</p>
@@ -40,7 +40,7 @@
 
 		<!-- Student Sponsorship -->
 		<div id="sponsor">
-			<h2 class="text-3xl font-semibold mb-6 text-red-800">Sponsor a Deaf Student</h2>
+			<h3 class="text-2xl font-semibold mb-6 text-red-800">Sponsor a Deaf Student</h3>
 			<p class="mb-4 text-lg font-semibold">Change a life by sponsoring a deaf student. Your monthly contribution provides education, accommodation, and support for a student in need.</p>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
 				<!-- Student Mickaylia -->
@@ -104,7 +104,7 @@
 		</div>
 	</div>
 </section>
-<section class="bg-white py-12">
+<section id="social-enterprise" class="bg-white py-12">
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-800">Social Enterprise Projects</h2>
 		<p class="text-lg text-center mb-8 font-semibold">

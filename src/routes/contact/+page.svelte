@@ -1,6 +1,7 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
 	import Support from '$components/Support.svelte';
+	import Locations from '$components/Locations.svelte';
 	import { onMount } from 'svelte';
 	import { PUBLIC_MAILGUN_API_KEY, PUBLIC_MAILGUN_DOMAIN } from '$env/static/public';
 	import { goto } from '$app/navigation';
@@ -17,7 +18,7 @@
 
 		const formData = new FormData();
 		formData.append('from', `${name} <postmaster@${PUBLIC_MAILGUN_DOMAIN}>`);
-		formData.append('to', 'kevin.matsunaga@outlook.com');
+		formData.append('to', import.meta.env.PUBLIC_EMAIL_BRANCH);
 		formData.append('subject', subject);
 		formData.append('text', message);
 
@@ -63,7 +64,7 @@
 
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h1 class="text-4xl font-bold text-center mb-8 text-red-900">Contact Us</h1>
+		<h2 class="text-3xl font-bold mb-4 text-center text-red-900">Contact Us</h2>
 		
 		<div class="flex flex-col md:flex-row items-center md:items-start justify-center gap-8">
 			<div class="w-full md:w-1/3">
@@ -109,27 +110,5 @@
 	</div>
 </section>
 
-<section class="bg-gold-100 py-12 border-t-2 border-blue-500">
-	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8">Our Locations</h2>
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-			<div class="bg-white p-6 rounded-lg shadow-md">
-				<h3 class="text-xl font-semibold mb-4">Kingston Campus</h3>
-				<p class="mb-2">4 Cassia Park Road</p>
-				<p class="mb-2">Kingston, Jamaica</p>
-				<p>Phone: (876) 679-9687</p>
-			</div>
-			<div class="bg-white p-6 rounded-lg shadow-md">
-				<h3 class="text-xl font-semibold mb-4">Knockpatrick Campus</h3>
-				<p class="mb-2">Mandeville, Jamaica</p>
-				<p>Phone: (876) 904-9092</p>
-			</div>
-			<div class="bg-white p-6 rounded-lg shadow-md">
-				<h3 class="text-xl font-semibold mb-4">Montego Bay Campus</h3>
-				<p class="mb-2">Montego Bay, Jamaica</p>
-				<p>Phone: (876) 979-9153</p>
-			</div>
-		</div>
-	</div>
-</section>
+<Locations />
 <Support />
