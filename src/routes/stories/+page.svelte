@@ -53,7 +53,7 @@
 			<h3 class="text-2xl font-semibold mb-6">Stories of our Deaf Students</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
-					<p class="mb-4 text-md font-semibold">We are gathering stories from our deaf students and alumni. They are inspiring.</p>
+					<p class="mb-4 text-md font-semibold">We are gathering stories from our Deaf students and alumni. They are inspiring.</p>
 					<p class="mb-4 text-md font-semibold">If you have a story to share, please contact us at <a href="mailto:info@cccd.edu.jm">info@cccd.edu.jm</a>.</p>
 					<p class="mb-4 text-md font-semibold">We will feature your story here.</p>
 					<p class="mb-4 text-md font-semibold">Please check back soon.</p>
@@ -61,7 +61,7 @@
 				<div>
 					<CldImage
 						src="https://res.cloudinary.com/shinkirin/image/upload/v1726536326/cccd/cccdstudents4.jpg"
-						alt="Two deaf students at CCCD"
+						alt="Two Deaf students at CCCD"
 						width="600"
 						height="400"
 						class="rounded-lg shadow-md"
@@ -89,7 +89,7 @@
 						<li>Discovering their passions through our vocational training programs</li>
 						<li>Overcoming challenges in their chosen fields</li>
 						<li>Gaining valuable work experience through internships</li>
-						<li>Planning innovative businesses that serve both deaf and hearing communities</li>
+						<li>Planning innovative businesses that serve both Deaf and hearing communities</li>
 					</ul>
 					<p class="mb-4 text-md font-semibold">Check back soon to read about the amazing journeys of our CCCD graduates!</p>
 				</div>
@@ -104,15 +104,15 @@
 					<p class="mb-4 text-md font-semibold">Our future alumni will make waves in their communities. Here's how we envision them creating change:</p>
 					<ul class="list-disc list-inside mb-4 pl-4 text-md font-semibold">
 						<li>Teaching JSL to hearing community members</li>
-						<li>Advocating for deaf rights in local government</li>
-						<li>Starting businesses that employ deaf workers</li>
+						<li>Advocating for Deaf rights in local government</li>
+						<li>Starting businesses that employ Deaf workers</li>
 						<li>Mentoring future CCCD students</li>
 					</ul>
 					<p class="mb-4 text-md font-semibold">These potential stories showcase how CCCD will not just educate individuals, but transform entire communities.</p>
 				</div>
 				<div>
 					<CldImage
-						src="v1726012729/cccd_wordpress/cccd-deaf-graduate-jamaica.webp"
+						src="v1726012729/cccd_wordpress/cccd-Deaf-graduate-jamaica.webp"
 						alt="CCCD graduate with her diploma"
 						width="600"
 						height="600"

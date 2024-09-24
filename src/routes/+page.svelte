@@ -57,7 +57,7 @@
 			'https://www.facebook.com/cccdjamaica',
 			'https://www.instagram.com/cccdjamaica/',
 			'https://www.youtube.com/@caribbeanchristiancentre',
-			'https://deafjamaica.dev/',
+			'https://Deafjamaica.dev/',
 			'https://cccdjamaica.org'
 		],
 		description: 'Caribbean Christian Centre for the Deaf (CCCD) exists to reach, teach, and nurture the Deaf of Jamaica. We provide education, vocational training, and support to the Deaf community.',
@@ -83,7 +83,7 @@
 		<div class="w-1/2 bg-white"></div>
 		<div class="w-1/2">
 			<CldImage
-				src="v1726012729/cccd_wordpress/cccd-deaf-graduate-jamaica.webp"
+				src="v1726012729/cccd_wordpress/cccd-Deaf-graduate-jamaica.webp"
 				alt="CCCD Jamaica Deaf Student at her Graduation"
 				width="1348"
 				height="1117"
@@ -104,7 +104,7 @@
 				<!-- Content for the first column of the new centered layer -->
 				<h2 class="text-xl text-red-900 font-semibold mb-3 uppercase">Empowering the Deaf Community</h2>
 				<h3 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h3>
-				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education and vocational training to the Deaf community in Jamaica. Together, we can create opportunities and foster a supportive environment for all.
+				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education, vocational training transitional services and discipleship training to the Deaf community for their full integration into the society.  Together, we can create opportunities and foster a supportive environment for all.
 				</p>
 				<h4 class="text-lg text-black font-semibold mb-3 mt-4">Purpose</h4>
 				<p class="mb-4 italic text-md sm:text-lg text-black font-semibold">To Steward God&apos;s Resources for His Glory - 1 Peter 4:7-11</p>
@@ -120,7 +120,7 @@
 			<div class="w-full md:w-1/2 flex justify-center items-center">
 				<!-- Content for the second column of the new centered layer -->
 				<CldImage
-					src="v1722901498/cccd_wordpress/cccd-deafstudents.webp"
+					src="v1722901498/cccd_wordpress/cccd-Deafstudents.webp"
 					alt="Young CCCD Deaf Jamaican Student smiling"
 					width="1400"
 					height="1035"
@@ -136,15 +136,15 @@
 		<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
 		<div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
 			<h2 class="text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">Nuturing Our Deaf Students</h2>
-			<p class="mt-6 text-xl leading-8 text-black">It is not often that you can touch a life in such a tangible way. Your contributions will allow you to invest in their physical and, most importantly, spiritual well-being.</p>
-			<p class="mt-6 text-lg leading-7 text-black">In Jamaica, we nurture the deaf students through specialized education, loving care, and spiritual guidance. We ensure that each child receives a quality education tailored to their unique needs. Through Bible lessons and Christian fellowship, we instill the values of faith, hope, and love, empowering them to embrace their God-given potential and become beacons of light within their communities.</p>
+			<p class="mt-6 text-lg leading-8 text-black">It is not often that you can touch a life in such a tangible way. Your contributions will allow you to invest in their physical and, most importantly, spiritual well-being.</p>
+			<p class="mt-6 text-lg leading-7 text-black">Here&apos;s your opportunity to touch the life of a Deaf student in a meaningful and tangible way. Your contributions allow you to invest in the mental, physical social and, most importantly, spiritual well-being of a Deaf student of your choosing or the collective Deaf population.</p>
 			<div class="mt-10 flex">
 			<a href="/get-involved" class="rounded-md bg-red-800 hover:bg-red-700 transition duration-300 px-3.5 py-2.5 text-md font-bold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 uppercase">Help Nurture our Deaf Students' Future <span aria-hidden="true">&rarr;</span></a>
 			</div>
 		</div>
 		<div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
 			<div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-			<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726017431/cccd_wordpress/deafjamaicangirl.webp" alt="CCCD Jamaica Deaf Student giving the peace sign" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+			<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726017431/cccd_wordpress/Deafjamaicangirl.webp" alt="CCCD Jamaica Deaf Student giving the peace sign" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 			</div>
 			<div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
 			<div class="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
@@ -154,7 +154,7 @@
 				<img src="https://res.cloudinary.com/shinkirin/image/upload/c_scale,w_1291/v1726017899/cccd_wordpress/Fellowship_with_JDV_Community.webp" alt="CCCD Jamaica Deaf Students and visitors at the Jamaica Deaf Village Community" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover">
 			</div>
 			<div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369815/cccd/cccd-deaf-students-kingston.webp" alt="CCCD Jamaica Deaf Students working on a computer" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
+				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1720369815/cccd/cccd-Deaf-students-kingston.webp" alt="CCCD Jamaica Deaf Students working on a computer" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover">
 			</div>
 			</div>
 		</div>
@@ -171,7 +171,7 @@
 			<div class="w-full lg:w-1/2 pr-0 lg:pr-8 mb-8 lg:mb-0">
 				<h2 class="text-4xl font-extrabold text-yellow-400 mb-6">Learn Jamaican Sign Language</h2>
 				<p class="text-white text-lg font-semibold mb-8">
-					The ability to communicate with the Deaf community in Jamaica is crucial to expanding their opportunities. Why not take the next step and learn Jamaican Sign Language.
+					The ability to communicate with the Deaf community in Jamaica is crucial to improving and expanding opportunities for their integration and creating awareness among the Hearing. Why not take the next step and learn Jamaican Sign Language?
 				</p>
 				<div class="flex flex-wrap gap-4 justify-center md:justify-start">
 					<a href="/resources#jsl-programs" class="inline-block bg-black text-yellow-300 font-bold py-3 px-6 rounded-md hover:bg-gray-800 transition duration-300">
@@ -200,7 +200,7 @@
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto max-w-2xl lg:mx-0">
 		<h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">About CCCD Jamaica</h2>
-		<p class="mt-6 text-xl leading-8 text-white">Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica to experience the joy of knowing Jesus and serving within their community. We accomplish this by operating three residential schools spread geographically across the island (Kingston, Knockpatrick, and Montego Bay) and a centrally located Jamaica Deaf Village (Mandeville), which ministers to the adult Deaf and their children.</p>
+		<p class="mt-6 text-xl leading-8 text-white">Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica to experience the joy of knowing Jesus, personal and professional development and wholesome integration into the wider society and the world. We accomplish this by operating three residential schools spread geographically across the island (Kingston, Manchester and St. James) and a centrally located Jamaica Deaf Village (Manchester), which ministers to the adult Deaf and their families.  </p>
 		</div>
 		<div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
 		<div class="flex gap-x-4 rounded-xl bg-white/80 p-6 ring-2 ring-inset ring-white/10 hover:ring-red-800 transition-all duration-300">
@@ -208,7 +208,7 @@
 			<div class="text-base leading-7">
 			<h3 class="font-semibold text-red-800">Statement of Faith</h3>
 			<a href="about#statement-of-faith">
-				<p class="mt-2 text-black">In One God, who has revealed Himself in Scripture through the Old and New Testaments as three Persons; Father, Son and Holy Spirit.</p>
+				<p class="mt-2 text-black text-md font-semibold">In One God, who has revealed Himself in Scripture through the Old and New Testaments as three Persons; Father, Son and Holy Spirit.</p>
 			</a>
 			</div>
 		</div>
@@ -226,7 +226,7 @@
 			<div class="text-base leading-7">
 			<h3 class="font-semibold text-white">Our Board and Staff</h3>
 			<a href="/about#board">
-				<p class="mt-2 text-gray-200">Learn more about our dedicated board and staff that work tirelessly to ensure the mission's success to nurture deaf students in Jamaica.</p>
+				<p class="mt-2 text-gray-200 text-md font-semibold">Learn more about our dedicated board and staff that work tirelessly to ensure the mission's success to nurture Deaf students in Jamaica.</p>
 			</a>
 			</div>
 		</div>
@@ -236,15 +236,15 @@
 </section>
 <section class="py-32 md:py-48 relative border-t-4 border-b-4 border-gold-300">
 	<div class="absolute inset-0 z-0 overflow-hidden">
-		<img src="https://res.cloudinary.com/shinkirin/image/upload/o_69/v1726621785/cccd/200343_Image_of_Jesus_Christ_in_Jamaica_with_Jamaican_dea_xl-1024-v1-0.webp" alt="Jesus Christ with Jamaican deaf students behind Him generated by DALL-E 3" class="w-full h-full object-cover object-top opacity-20">
+		<img src="https://res.cloudinary.com/shinkirin/image/upload/o_69/v1726621785/cccd/200343_Image_of_Jesus_Christ_in_Jamaica_with_Jamaican_dea_xl-1024-v1-0.webp" alt="Jesus Christ with Jamaican Deaf students behind Him generated by DALL-E 3" class="w-full h-full object-cover object-top opacity-20">
 	</div>
 	<div class="container mx-auto px-4 text-center relative z-10">
 		<h2 class="text-4xl font-bold mb-8 text-blue-800">Nurture Deaf Students Through Christ's Love</h2>
-		<p class="text-xl mb-10 max-w-2xl mx-auto text-black">
+		<p class="text-xl mb-10 max-w-2xl mx-auto text-black font-semibold">
 			"And whoever welcomes one such child in my name welcomes me." - Matthew 18:5
 		</p>
 		<p class="mb-10 text-xl text-black">
-			Join us in our mission to reach, teach, and nurture deaf students in Jamaica. Your support can make a lasting impact in their lives and spread God's love.
+			Join us in our mission to reach, teach, and nurture Deaf students in Jamaica. Your support will make a lasting impact in their lives and spread God's love.
 		</p>
 		<a href="/get-involved" class="bg-blue-700 text-white font-bold py-4 px-8 rounded-full hover:bg-blue-800 transition duration-300 inline-block text-lg">
 			Become a Mission Partner
@@ -257,7 +257,7 @@
 			<div class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row">
 			<div class="w-full lg:max-w-lg lg:flex-auto">
 				<h2 class="text-3xl font-bold tracking-tight text-red-800 sm:text-4xl">How you can help</h2>
-				<p class="mt-6 text-lg leading-8 text-black">Your support can make a significant difference in the lives of deaf students in Jamaica. Whether through volunteering, donations, or becoming a missionary, every contribution helps us reach, teach, and nurture the deaf community.</p>
+				<p class="mt-6 text-lg leading-8 text-black">Your support can make a significant difference in the lives of Deaf students in Jamaica. Whether through volunteering, donations, or becoming a missionary, every contribution helps us reach, teach, and nurture the Deaf community.</p>
 				<img src="https://res.cloudinary.com/shinkirin/image/upload/v1726434833/cccd/backtoschoolcccd.webp" alt="Back to school with four CCCD Jamaica Deaf Students" class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]">
 			</div>
 			<div class="w-full lg:max-w-xl lg:flex-auto relative">
@@ -297,7 +297,7 @@
 							</a>
 						</dd>
 						<dt class="sr-only">Description</dt>
-						<dd class="mt-2 w-full flex-none text-base leading-7 text-black">Serve as a full-time missionary, dedicating your skills and passion to our mission of reaching and teaching the deaf in Jamaica. Experience personal growth while making a difference.</dd>
+						<dd class="mt-2 w-full flex-none text-base leading-7 text-black">Serve as a full-time missionary, dedicating your skills and passion to our mission of reaching and teaching the Deaf in Jamaica. Experience personal growth while making a difference.</dd>
 						<dt class="sr-only">Commitment</dt>
 						<dd class="mt-4 text-base font-semibold leading-7 text-blue-800">Long-term commitment required</dd>
 						<dt class="sr-only">Location</dt>
@@ -319,7 +319,7 @@
 							</a>
 						</dd>
 						<dt class="sr-only">Description</dt>
-						<dd class="mt-2 w-full flex-none text-base leading-7 text-black">Your financial support helps us provide education, resources, and opportunities for deaf students in Jamaica. Every contribution, big or small, makes a difference in their lives.</dd>
+						<dd class="mt-2 w-full flex-none text-base leading-7 text-black">Your financial support helps us provide education, resources, and opportunities for Deaf students in Jamaica. Every contribution, big or small, makes a difference in their lives.</dd>
 						<dt class="sr-only">Options</dt>
 						<dd class="mt-4 text-base font-semibold leading-7 text-blue-800">One-time or recurring donations accepted</dd>
 						<dt class="sr-only">Method</dt>
@@ -446,15 +446,18 @@
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">Knockpatrick Campus</h3>
 			<p>Phone: (876) 904-9092</p>
+			<p>Knockpatrick District, P.O. Box 14, Manchester, Jamaica, W.I </p>
 			<p>Email: knockpatrick@cccdjamaica.org</p>
 		</div>
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">Kingston Campus</h3>
+			<p>4 Cassia Park Road, Kingston 10, Jamaica, W.I.</p>
 			<p>Phone: (876)679-9687, (876)758-8155, (876)758-3027</p>
 			<p>Email: kingston@cccdjamaica.org</p>
 		</div>
 		<div class="bg-gray-100 p-6 rounded-lg">
 			<h3 class="text-xl font-semibold mb-2">Montego Bay Campus</h3>
+			<p>PO Box 24, Granville Road, St. James</p>
 			<p>Phone: (876) 979-9153</p>
 			<p>Email: montegobay@cccdjamaica.org</p>
 		</div>
@@ -463,7 +466,8 @@
 		<div class="bg-gray-100 p-6 rounded-lg relative overflow-hidden">
 			<div class="absolute inset-0 bg-cover bg-center opacity-20" style="background-image: url('https://res.cloudinary.com/shinkirin/image/upload/c_scale,o_100,w_850/v1726439904/cccd_wordpress/20240725_104312.webp');"></div>
 			<div class="relative z-10">
-				<h3 class="text-xl font-semibold mb-2">Deaf Village</h3>
+				<h3 class="text-xl font-semibold mb-2">Jamaica Deaf Village</h3>
+				<p>5954 Shooters Hill, Mandeville, Manchester Jamaica, W.I</p>
 				<p>Phone: (876) 603-3773, (876) 494-7501</p>
 				<p>Email: info@cccdjamaica.org</p>
 			</div>

@@ -38,7 +38,7 @@ This project is a modern, responsive website for [CCCD Jamaica](https://cccd.org
 - To leverage cutting-edge web technologies and AI-assisted development
 - To build a fast, efficient web application
 - To ensure a high performance and seamless deployment
-- To create a user-friendly and accessible website for the deaf community in Jamaica
+- To create a user-friendly and accessible website for the Deaf community in Jamaica
 - To implement a Jamaican Sign Language (JSL) Resource Page utilizing AI to learn and teach JSL
 
 ### Project License
@@ -46,8 +46,8 @@ This project is a modern, responsive website for [CCCD Jamaica](https://cccd.org
 This project is licensed under the [BSD 3-Clause License](LICENSE).
 
 ### Project Status
-- Project Production Version: 1.0.0-rc.9
-- Project Development Version: 1.0.0-rc.10
+- Project Production Version: 1.0.0
+- Project Development Version: 1.0.1
 
 ### Hosting
 
