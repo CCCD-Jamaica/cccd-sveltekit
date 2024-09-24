@@ -14,9 +14,10 @@
   }
 </script>
 
-<header class="bg-gold-50 pb-4 border-b-2 border-red-800">
-  <div class="bg-red-800 text-white mx-auto flex max-w-7xl items-center justify-center xl:rounded-b-lg" aria-label="Global">
+<header class="bg-gold-50 pb-4">
+  <div class="bg-red-800 text-white mx-auto flex max-w-7xl items-center justify-center lg:rounded-b-lg" aria-label="Global">
     <h1 class="text-white uppercase font-bold p-2">Reach, Teach, and Nurture the Deaf</h1>
+
   </div>
   <div class="hidden lg:flex justify-center py-4">
     <div class="-m-1.5 p-1.5">
@@ -25,8 +26,8 @@
         class="border-2 border-blue-600 rounded-md" 
         src="v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
         alt="CCCD Jamaica logo" 
-        width="150"
-        height="150"
+        width="200"
+        height="200"
       />
     </div>
   </div>
