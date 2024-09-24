@@ -59,6 +59,10 @@
 						<li>Assist with vocational training programs</li>
 						<li>Support our administrative team</li>
 						<li>Contribute to community outreach initiatives</li>
+						<li>Undertake infrastructure project in partnership with Deaf workers</li>
+						<li>Engage and interact with Deaf students and adults on a social and spiritual level</li>
+						<li>Learning from and creating lasting impacts with the Deaf</li>
+
 					</ul>
 					<a href="/contact" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Apply Now</a>
 				</div>

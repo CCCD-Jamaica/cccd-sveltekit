@@ -49,7 +49,7 @@
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="bg-gold-100 p-6 rounded-lg text-black font-bold text-md shadow-md">
 					<p class="mb-4">You are the reason we are here. Your gifts make our outreach to the Deaf possible. The Caribbean Christian Centre for the Deaf could not exist without the generous donations we receive from you and all our supporters. Feel free to contact us if you have any questions.</p>
-					<p class="mb-4">Student sponsorship with the CCCD is such a rewarding experience. It's just $35 a month to change the life of a Deaf child in our care.</p>
+					<p class="mb-4">Student sponsorship with the CCCD is such a rewarding experience. It's just USD $35 a month to change the life of a Deaf child in our care.</p>
 
 					<p class="mb-4">When you sponsor a student you will receive letters and updates throughout the year. We encourage all of our sponsors to write back to their student(s), interact, and have a relationship.</p>
 
@@ -60,7 +60,7 @@
 				</div>
 				<div>
 					<CldImage
-						src="https://res.cloudinary.com/shinkirin/image/upload/v1726955376/cccd/cccddeaffacts1.webp"
+						src="https://res.cloudinary.com/shinkirin/image/upload/v1726955376/cccd/cccdDeaffacts1.webp"
 						alt="CCCD students benefiting from donations"
 						width="600"
 						height="600"
@@ -73,7 +73,7 @@
 		<!-- Student Sponsorship -->
 		<div id="sponsor">
 			<h3 class="text-2xl font-semibold mb-6 text-red-800">Sponsor a Deaf Student</h3>
-			<p class="mb-4 text-lg font-semibold">Change a life by sponsoring a deaf student. Your monthly contribution provides education, accommodation, and support for a student in need.</p>
+			<p class="mb-4 text-lg font-semibold">Change a life by sponsoring a Deaf student. Your monthly contribution provides education, accommodation, and support for a student in need.</p>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
 				<!-- Student Mickaylia -->
 				<div class="bg-gold-100 p-6 rounded-lg shadow-md shadow-blue-800">
@@ -140,8 +140,23 @@
 	<div class="container mx-auto px-4">
 		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Social Enterprise Projects</h2>
 		<p class="text-lg text-center mb-8 font-semibold">
-			Help promote CCCD projects and support the deaf community in Jamaica by contributing to our sustainable initiatives.
+			Help promote CCCD projects and support the Deaf community in Jamaica by contributing to our sustainable initiatives.
 		</p>
+	
+			<p class="mb-4 text-lg font-semibold">
+				<div class="max-w-5xl mx-auto">
+					<p class="mb-4 text-lg font-semibold">
+						In order to generate sustained income streams to achieve its vision, mission, and objectives, CCCD operates various business/enterprise activities. These include:
+					</p>
+					<ul class="list-disc list-inside text-lg font-semibold mb-6 pl-4">
+					<li>Facility Rental</li>
+					<li>Textile and Sewing Projects</li>
+					<li>Business Lease Opportunities for Local Businesses</li>
+					<li>Agriculture - Crops and Livestock Production</li>
+					<li>Deaf Handmade Craft</li>
+								</ul>
+				</div>
+		
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			<div class="bg-gray-100 p-6 rounded-lg">
 				<CldImage
@@ -153,7 +168,7 @@
 				/>
 				<h3 class="text-xl font-semibold mb-4">Deaf Village Retreat</h3>
 				<p class="mb-4">
-					Support our eco-friendly lodging project that provides employment opportunities for deaf individuals while offering unique cultural experiences to visitors.
+					Support our eco-friendly lodging project that provides employment opportunities for Deaf individuals while offering unique cultural experiences to visitors.
 				</p>
 				<button class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
 					Learn More (Coming Soon)
@@ -169,7 +184,7 @@
 				/>
 				<h3 class="text-xl font-semibold mb-4">CCCD Handmade Craft</h3>
 				<p class="mb-4">
-					Purchase handmade crafts created by our talented deaf artisans. Your support helps provide sustainable income and preserves traditional Jamaican craftsmanship.
+					Purchase handmade crafts created by our talented Deaf artisans. Your support helps provide sustainable income and preserves traditional Jamaican craftsmanship.
 				</p>
 				<button class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
 					Shop Now (Coming Soon)
@@ -181,7 +196,7 @@
 			<ul class="list-disc list-inside text-left max-w-2xl mx-auto text-lg font-semibold">
 				<li>Spread the word about our social enterprise projects on social media</li>
 				<li>Volunteer your skills to help develop and grow our initiatives</li>
-				<li>Partner with us to create new sustainable opportunities for the deaf community</li>
+				<li>Partner with us to create new sustainable opportunities for the Deaf community</li>
 				<li>Make a donation to support the expansion of our social enterprise programs</li>
 			</ul>
 		</div>

@@ -87,6 +87,7 @@
 						<li>Small group sessions for personalized attention</li>
 						<li>Cultural immersion experiences</li>
 						<li>Interaction with native JSL users</li>
+						<li>Join our Sunday worship sessions at New Life Church for the Deaf</li>
 					</ul>
 					<button class="block w-full bg-green-800  text-lg text-white text-center font-bold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">
 						Learn More About In-Person Classes (coming soon)

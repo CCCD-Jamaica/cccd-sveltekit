@@ -234,14 +234,14 @@
 			</div>
 			<div class="w-full md:w-1/2">
 				<h3 class="text-2xl font-semibold mb-4">The Kingston Campus</h3>
-				<p class="mb-4 text-md font-semibold">In July 1994, the CCCD reopened the old Christian Deaf Fellowship campus in the heart of Kingston as a new CCCD school. Kingston is home to half the population of Jamaica, as well as many deaf who do not have access to the Knockpatrick and MoBay campuses. Today, the Kingston campus serves around 40 students and is home to the Deaf Can! Coffee enterprise.</p>
+				<p class="mb-4 text-md font-semibold">In July 1994, the CCCD reopened the old Christian Deaf Fellowship campus in the heart of Kingston as a new CCCD school. Kingston is home to half the population of Jamaica, as well as many Deaf who do not have access to the Knockpatrick and MoBay campuses. Today, the Kingston campus serves around 40 students and is home to the Deaf Can! Coffee enterprise.</p>
 			</div>
 		</div>
 
 		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
 			<div class="w-full md:w-1/2">
 				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726536329/cccd/jamaicadeafvillage.webp"
+					src="https://res.cloudinary.com/shinkirin/image/upload/v1726536329/cccd/jamaicaDeafvillage.webp"
 					alt="Jamaica Deaf Village"
 					width="600"
 					height="450"
@@ -251,7 +251,7 @@
 			<div class="w-full md:w-1/2">
 				<h3 class="text-2xl font-semibold mb-4">The Jamaica Deaf Village</h3>
 				<p class="mb-4 text-md font-semibold">The three school campuses continued to run smoothly, and graduated class after class -- but the Deaf graduating from high school still struggled to find employment. Employers did not have the time or resources to devote to learning to communicate with the Deaf, and did not hire them.</p>
-				<p class="mb-4 text-md font-semibold">No job means no money, and no money means that, despite their education and potential, the deaf graduates were unable to provide for their own basic needs. Many turned to desperate means to obtain food, clothing, and shelter.</p>
+				<p class="mb-4 text-md font-semibold">No job means no money, and no money means that, despite their education and potential, the Deaf graduates were unable to provide for their own basic needs. Many turned to desperate means to obtain food, clothing, and shelter.</p>
 				<p class="	mb-4 text-md font-semibold">And so in June of 1984, the CCCD ministry began development of the 100-acre Jamaica Deaf Village, which would serve as a safe place where Deaf adults and their families could live in community, attend worship, and find meaningful employment.</p>
 			</div>
 		</div>
@@ -259,7 +259,7 @@
 		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
 			<div class="w-full md:w-1/2">
 				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611183/cccd/deafvillagechurch.webp"
+					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611183/cccd/Deafvillagechurch.webp"
 					alt="Church at the Deaf Village outside Knockpatrick, J"
 					width="600"
 					height="450"

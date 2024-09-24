@@ -53,7 +53,7 @@
 			<h3 class="text-2xl font-semibold mb-6">Educational Programs</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
-					<p class="mb-4">Our educational programs are designed to empower deaf students in Jamaica with knowledge and skills for a brighter future. We offer a comprehensive curriculum that includes:</p>
+					<p class="mb-4">Our educational programs are designed to empower Deaf students in Jamaica with knowledge and skills for a brighter future. We offer a comprehensive curriculum that includes:</p>
 					<ul class="list-disc list-inside mb-4 pl-4">
 						<li>Primary and Secondary Education</li>
 						<li>Jamaican Sign Language (JSL) instruction</li>
@@ -63,7 +63,7 @@
 					</ul>
 					<div class="flex justify-center mt-4 p-4">
 						<CldImage
-							src="https://res.cloudinary.com/shinkirin/image/upload/v1720369815/cccd/cccd-deaf-students-kingston.webp"
+							src="https://res.cloudinary.com/shinkirin/image/upload/v1720369815/cccd/cccd-Deaf-students-kingston.webp"
 							alt="CCCD Jamaica Deaf Students in a computer lab"
 							width="600"
 							height="300"
@@ -103,8 +103,9 @@
 						<li>Nutritious meals and health services</li>
 						<li>Counseling and mental health support</li>
 						<li>Extracurricular activities and sports programs</li>
-						<li>Mentorship opportunities with deaf role models</li>
+						<li>Mentorship opportunities with Deaf role models</li>
 						<li>Life skills training (laundry, cooking, cleaning)</li>
+						<li>Spiritual guidance and discipleship training</li>
 					</ul>
 					<p class="mt-4">As CCCD students grow, they learn life skills like laundry, cooking, and cleaning. This helps ensure they receive instructions in their own language: Jamaican Sign Language.</p>
 					<p class="mt-4">So if you walk by on campus and see smiling faces like these, you'll know these girls are hanging out, doing their laundry, and probably laughing together.</p>
@@ -118,10 +119,13 @@
 			<h3 class="text-2xl font-semibold mb-6">Vocational Training Programs</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
-					<p class="mb-4">Our vocational training programs aim to make deaf individuals marketable in Jamaica's job market. We offer training in:</p>
+					<p class="mb-4">Our vocational training programs aim to make Deaf individuals marketable in Jamaica's job market. We offer training in:</p>
 					<ul class="list-disc list-inside mb-4 pl-4">
 						<li>Information Technology and Computer Skills</li>
 						<li>Culinary Arts and Hospitality</li>
+						<li>Commercial Food Preparation</li>
+						<li>Housekeeping Operation</li>
+						<li>Early Childhood Education</li>
 						<li>Carpentry and Woodworking</li>
 						<li>Tailoring and Fashion Design</li>
 						<li>Agriculture and Horticulture</li>
