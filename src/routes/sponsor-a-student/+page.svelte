@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { CldImage } from 'svelte-cloudinary';
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 	import { PUBLIC_DIRECTUS_URL } from '$env/static/public';
@@ -65,7 +65,12 @@
 				</div>
 			</div>
 		</div>
-		<ul role="list" class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
+		<div class="mt-8 text-center">
+			<p class="text-lg font-semibold text-red-900 bg-gold-100 inline-block px-4 py-2 rounded-lg border-2 border-red-900 uppercase">
+				To sponsor a student, hover or select their photos to click the sponsor button.
+			</p>
+		</div>
+		<ul role="list" class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
 			{#if data?.Sponsor?.length}
 				{#each data.Sponsor.sort(() => 0.5 - Math.random()).slice(0, 9) as student}
 				<li class="flex flex-col gap-6 xl:flex-row rounded-lg shadow-lg shadow-blue-900 sm:transition-all sm:duration-300 sm:ease-in-out sm:hover:scale-105 sm:hover:z-10 sm:hover:shadow-red-900 relative group">
@@ -98,12 +103,14 @@
 							{student.studentSummary}
 						</div>
 					</div>
+					
 					<div class="absolute bottom-0 left-0 right-0 p-4 bg-white bg-opacity-90 rounded-b-lg transition-all duration-300 opacity-0 group-hover:opacity-100 transform translate-y-full group-hover:translate-y-0">
 						<p class="text-center text-black font-bold italic mb-2">"Whoever is kind to the poor lends to the LORD, and he will reward them for what they have done." - Proverbs 19:17</p>
 						<a href="/sponsor-form?student={student.studentName}" class="block w-full text-center bg-red-800 hover:bg-red-900 text-white font-bold py-2 px-4 rounded transition duration-300 uppercase">
 							Sponsor {student.studentName}
 						</a>
 					</div>
+					
 				</li>
 				{/each}
 			{:else}
