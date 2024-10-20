@@ -82,12 +82,11 @@
 					<li class="flex flex-col gap-6 xl:flex-row rounded-lg shadow-lg shadow-blue-900 relative">
 						<img class="w-full h-96 aspect-[4/5] xl:w-52 xl:h-auto flex-none rounded-t-lg sm:rounded-l-lg object-cover object-top mx-auto" src="{PUBLIC_DIRECTUS_URL}/assets/{student.studentPhoto}" alt={student.studentName}>
 						<div class="flex-auto p-4 bg-white">
-							<h3 class="text-lg font-semibold leading-8 tracking-tight text-black uppercase">{student.studentName}</h3>
-							<p class="text-md leading-7 text-black">Birthday: {student.studentBirthday}</p>
-							<p class="text-md leading-7 text-black">Age: {student.Age}</p>
-							<p class="text-md leading-7 text-black">{student.studentCampus}</p>						
-							<div class="mt-6 text-md leading-7 text-black font-semibold">
-								{student.studentSummary.split(' ').slice(0, 12).join(' ')}...
+							<h3 class="text-sm text-black uppercase">{student.studentName}</h3>
+							<p class="text-sm leading-7 text-gray-800">Age: {student.Age}</p>
+							<p class="text-sm leading-7 text-gray-800">{student.studentCampus}</p>						
+							<div class="mt-6 text-sm leading-7 text-gray-800">
+								{student.studentSummary.split(' ').slice(0, 20).join(' ')}...
 							</div>
 						</div>
 					</li>
@@ -97,7 +96,7 @@
 				{/if}
 			</ul>
 			<div class="text-center mt-8">
-				<a href="/sponsor-a-student" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
+				<a href="/sponsor-a-student" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300 uppercase">
 					Learn more about these Deaf Students and how you can sponsor them or other Deaf Students at CCCD
 				</a>
 			</div>
