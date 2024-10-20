@@ -67,7 +67,7 @@
 		</div>
 		<div class="mt-8 text-center">
 			<p class="text-lg font-semibold text-red-900 bg-gold-100 inline-block px-4 py-2 rounded-lg border-2 border-red-900 uppercase">
-				To sponsor a student, hover or select their photos to click the sponsor button.
+				To sponsor a student, hover or select their photos and click the sponsor button.
 			</p>
 		</div>
 		<ul role="list" class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">

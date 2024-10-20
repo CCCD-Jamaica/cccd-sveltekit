@@ -69,6 +69,8 @@ This project is licensed under the [BSD 3-Clause License](LICENSE).
     - [Tailwind Aspect Ratio](https://tailwindcss.com/docs/aspect-ratio) - Aspect ratio for the project
     - [Tailwind Container Queries](https://tailwindcss.com/docs/container-queries) - Container queries for the project
 - [TailwindUI](https://tailwindui.com) - UI components for the project, but not used extensively
+- [Svelte Legos](https://github.com/setbap/svelte-legos/) - Svelte components for the project
+- [shadvn-svelte](https://www.shadcn-svelte.com/) - Shadcn Svelte components for the project
 - [Pixelmator](https://pixelmator.com/pro/) - Image editing for the project before being uploaded to Cloudinary
 - [Svelte Cloudinary](https://svelte.cloudinary.dev) - Cloudinary integration for the project
 - [iconify](https://iconify.design) - Iconify icons for the project
