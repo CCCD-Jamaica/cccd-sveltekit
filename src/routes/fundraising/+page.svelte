@@ -48,7 +48,7 @@
 		<!-- Standard Donations -->
 		<div class="mb-16">
 			<h3 class="text-2xl font-semibold mb-6 text-red-800">Be a part of the amazing things God is doing!</h3>
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+			<div class="grid grid-cols-1 md:grid-cols-2">
 				<div class="bg-gold-100 p-6 rounded-lg text-black font-bold text-md shadow-md">
 					<p class="mb-4">You are the reason we are here. Your gifts make our outreach to the Deaf possible. The Caribbean Christian Centre for the Deaf could not exist without the generous donations we receive from you and all our supporters. Feel free to contact us if you have any questions.</p>
 					<p class="mb-4">Student sponsorship with the CCCD is such a rewarding experience. It's just USD $35 a month to change the life of a Deaf child in our care.</p>
@@ -60,7 +60,7 @@
 						Donate Now
 					</a>
 				</div>
-				<div>
+				<div class="flex justify-end">
 					<CldImage
 						src="https://res.cloudinary.com/shinkirin/image/upload/v1726955376/cccd/cccdDeaffacts1.webp"
 						alt="CCCD students benefiting from donations"
