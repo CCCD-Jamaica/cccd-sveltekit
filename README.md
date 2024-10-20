@@ -82,6 +82,7 @@ This project is licensed under the [BSD 3-Clause License](LICENSE).
 This project first started to use [Drupal](https://www.drupal.org/) as the main content management system, but due to the complexity of Drupal, it was decided to use [WordPress](https://wordpress.org/). Due to time constraints, the developer decided to switch to [Directus](https://directus.io/) for the next phase of the project for editing, updating, and adding content to the project. With the help of [Cursor AI](https://cursor.sh/), this is more realistic resource-wise.
 
 - [Directus](https://directus.io) - Decoupled content management system for the second phase of the project
+    - [Directus SDK](https://docs.directus.io/sdk/) - Directus SDK for the project
 
 ### AI Tools
 

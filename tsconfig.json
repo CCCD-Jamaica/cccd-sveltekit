@@ -9,8 +9,10 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"strict": true,
+		"types": ["svelte"],
 		"moduleResolution": "bundler"
-	}
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.svelte"],
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	// except $lib which is handled by https://kit.svelte.dev/docs/configuration#files
 	//

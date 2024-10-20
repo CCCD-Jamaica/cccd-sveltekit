@@ -1,7 +1,7 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
-	import Support from '$components/Support.svelte';
-	import Locations from '$components/Locations.svelte';
+	import Support from '$lib/Support.svelte';
+	import Locations from '$lib/Locations.svelte';
 	import { onMount } from 'svelte';
 	import { PUBLIC_MAILGUN_API_KEY, PUBLIC_MAILGUN_DOMAIN, PUBLIC_EMAIL_BRANCH } from '$env/static/public';
 	import { goto } from '$app/navigation';

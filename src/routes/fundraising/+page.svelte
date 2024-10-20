@@ -1,7 +1,9 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
-	import Support from '$components/Support.svelte';
+	import Support from '$lib/Support.svelte';	
     import { MetaTags, JsonLd } from 'svelte-meta-tags';
+	import { PUBLIC_DIRECTUS_URL } from '$env/static/public';
+	export let data
 </script>
 
 <MetaTags
@@ -70,71 +72,36 @@
 			</div>
 		</div>
 
-		<!-- Student Sponsorship -->
-		<div id="sponsor">
-			<h3 class="text-2xl font-semibold mb-6 text-red-800">Sponsor a Deaf Student</h3>
+		<!-- Student a Deaf Student -->
+		<div id="sponsor" class="bg-gold-100 p-6 rounded-lg text-black font-bold text-md shadow-md">
+			<h3 class="text-2xl font-semibold mb-6 text-red-900">Sponsor a Deaf Student</h3>
 			<p class="mb-4 text-lg font-semibold">Change a life by sponsoring a Deaf student. Your monthly contribution provides education, accommodation, and support for a student in need.</p>
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-				<!-- Student Mickaylia -->
-				<div class="bg-gold-100 p-6 rounded-lg shadow-md shadow-blue-800">
-					<CldImage
-						src="https://res.cloudinary.com/shinkirin/image/upload/v1726955665/cccd/mickaylia-robinson.webp"
-						alt="Mickaylia Robinson, a CCCD student"
-						width="300"
-						height="400"
-						class="rounded-xl mx-auto mb-4 border border-blue-800 shadow-md shadow-blue-800"
-					/>
-					<h3 class="text-xl font-semibold mb-2 text-center">Mickaylia Robinson</h3>
-					<p class="text-center mb-4 font-semibold">Birthday: January 19th</p>
-					<p class="text-center mb-4 font-semibold">Campus: Knockpatrick</p>
-					<p class="mb-4 font-semibold">Mickaylia lives with her grandmother and has one brother. She loves breakfast time with tea and her favorite Bible story is Joseph's coat of many colors. Her dream is to become a doctor.</p>
-					<p class="mb-4 font-semibold">Mickaylia's favorites include the color blue, vegetables, and running. She loves spending time with her grandparents, learning new words in sign language, and enjoys math class.</p>
-					<p class="mb-4 font-semibold">At CCCD's Knockpatrick Campus, Mickaylia receives an education, learns sign language, and is taught the Word of God.</p>
-					<a href="https://www.cccdjamaica.org/sponsor-a-student/mickaylia-robinson/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Mickaylia" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
-						Sponsor Mickaylia
-					</a>
-				</div>
-				<!-- Student D'Andrew -->
-				<div class="bg-gold-100 p-6 rounded-lg shadow-md shadow-blue-800">
-					<CldImage
-						src="https://res.cloudinary.com/shinkirin/image/upload/v1726955844/cccd/dandrew-treasure.webp"
-						alt="D'Andrew Treasure, a CCCD student"
-						width="300"
-						height="400"
-						class="rounded-xl mx-auto mb-4 border border-blue-800 shadow-md shadow-blue-800"
-					/>
-					<h3 class="text-xl font-semibold mb-2 text-center">D'Andrew Treasure</h3>
-					<p class="text-center mb-4 font-semibold">Birthday: February 26th</p>
-					<p class="text-center mb-4 font-semibold">Campus: Knockpatrick</p>
-					<p class="mb-4 font-semibold">D'Andrew lives with his mother, sister and brother. He enjoys hanging out with his classmates.</p>
-					<p class="mb-4 font-semibold">Reading is D'Andrew's favorite subject, and he likes to play football. He attends CCCD's Knockpatrick Campus, where he receives an education, learns sign language, and is taught the Word of God.</p>
-					<a href="https://www.cccdjamaica.org/sponsor-a-student/dandrew-treasure/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor D'Andrew" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
-						Sponsor D'Andrew
-					</a>
-				</div>
-				<!-- Student Ashley -->
-				<div class="bg-gold-100 p-6 rounded-lg shadow-md shadow-blue-800">
-					<CldImage
-						src="https://res.cloudinary.com/shinkirin/image/upload/v1726955931/cccd/ashley-gordon.webp"
-						alt="Ashley Gordon, a CCCD student"
-						width="300"
-						height="400"
-						class="rounded-xl mx-auto mb-4 border border-blue-800 shadow-md shadow-blue-800"
-					/>
-					<h3 class="text-xl font-semibold mb-2 text-center">Ashley Gordon</h3>
-					<p class="text-center mb-4 font-semibold">Birthday: April 8th</p>
-					<p class="text-center mb-4 font-semibold">Campus: Kingston</p>
-					<p class="mb-4 font-semibold">Ashley is shy but friendly and likes to watch others. She lives in Saint Catherine with her mother and is an only child. They live on a farm with cows, goats, dogs, and cats.</p>
-					<p class="mb-4 font-semibold">Ashley enjoys physical education, storytelling, and the Bible. Her favorite class is English, and she loves the colors pink and purple. She likes to try new foods but especially loves KFC. Ashley enjoys playing basketball and football with her friends.</p>
-					<p class="mb-4 font-semibold">Ashley is gifted at dramatizing stories and has a talent for music and dance. She is a good student who tries hard and doesn't give up.</p>
-					<p class="mb-4 font-semibold">At CCCD's Kingston Campus, Ashley receives an education, learns sign language, and is taught the Word of God.</p>
-					<a href="https://www.cccdjamaica.org/sponsor-a-student/dandrew-treasure/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Ashley" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
-						Sponsor Ashley
-					</a>
-				</div>
+			<ul role="list" class="mx-auto mt-10 mb-10 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-4xl lg:gap-x-8 xl:max-w-none">
+				{#if data?.Sponsor?.length}
+					{#each data.Sponsor.sort(() => 0.5 - Math.random()).slice(0, 3) as student}
+					<li class="flex flex-col gap-6 xl:flex-row rounded-lg shadow-lg shadow-blue-900 relative">
+						<img class="w-full h-96 aspect-[4/5] xl:w-52 xl:h-auto flex-none rounded-t-lg sm:rounded-l-lg object-cover object-top mx-auto" src="{PUBLIC_DIRECTUS_URL}/assets/{student.studentPhoto}" alt={student.studentName}>
+						<div class="flex-auto p-4 bg-white">
+							<h3 class="text-lg font-semibold leading-8 tracking-tight text-black uppercase">{student.studentName}</h3>
+							<p class="text-md leading-7 text-black">Birthday: {student.studentBirthday}</p>
+							<p class="text-md leading-7 text-black">Age: {student.Age}</p>
+							<p class="text-md leading-7 text-black">{student.studentCampus}</p>						
+							<div class="mt-6 text-md leading-7 text-black font-semibold">
+								{student.studentSummary.split(' ').slice(0, 12).join(' ')}...
+							</div>
+						</div>
+					</li>
+					{/each}
+				{:else}
+					<p>Loading...</p>
+				{/if}
+			</ul>
+			<div class="text-center mt-8">
+				<a href="/sponsor-a-student" class="inline-block bg-red-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">
+					Learn more about these Deaf Students and how you can sponsor them or other Deaf Students at CCCD
+				</a>
 			</div>
 		</div>
-	</div>
 </section>
 <section id="social-enterprise" class="bg-white py-12">
 	<div class="container mx-auto px-4">

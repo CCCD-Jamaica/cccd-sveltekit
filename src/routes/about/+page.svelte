@@ -1,6 +1,6 @@
 <script>
 	import { CldImage } from 'svelte-cloudinary';
-	import Support from '$components/Support.svelte';
+	import Support from '$lib/Support.svelte';
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
