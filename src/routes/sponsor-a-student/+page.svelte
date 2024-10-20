@@ -1,9 +1,40 @@
-<script lang="ts">
+<script>
 	import { CldImage } from 'svelte-cloudinary';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 	import { PUBLIC_DIRECTUS_URL } from '$env/static/public';
 	export let data
-	console.log(data) // Check the structure of the `data` object here
 </script>
+
+<MetaTags
+    title="Sponsor a Jamaican Deaf Student"
+    description="Support the mission of Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Your donations help us provide education and support to the Deaf Students community in Jamaica."
+    canonical="https://cccd.org.jm/fundraising"
+    openGraph={{
+        url: 'https://cccd.org.jm/fundraising',
+        title: 'Sponsor a Jamaican Deaf Student',
+        description: 'Support the mission of Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Your donations help us provide education and support to the Deaf Students community in Jamaica.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary_large_image',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "DonateAction",
+        name: "Sponsor a Jamaican Deaf Student",
+        description: "Support the mission of Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Your donations help us provide education and support to the Deaf Students community in Jamaica",
+        url: "https://cccd.org.jm/sponsor-a-student",
+        recipient: {
+            "@type": "NGO",
+            name: "Caribbean Christian Centre for the Deaf",
+            url: "https://cccd.org.jm"
+        }
+    }}
+/>
 
 <div class="bg-white py-12 sm:py-24">
 	<div class="mx-auto w-full px-6 lg:px-8">
