@@ -132,8 +132,8 @@
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 			<div class="bg-blue-900 p-6 rounded-lg shadow-md">
 				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/c_scale,w_576/v1726534753/cccd/cccd-jamaica-kingston.webp"
-					alt="Leon Samms"
+					src="https://res.cloudinary.com/shinkirin/image/upload/v1735497715/leon-cccd_qspc07.webp"
+					alt="Leon Samms - CCCD Jamaica CEO and Company Secretary"
 					width="300"
 					height="300"
 					class="w-full h-auto rounded-full mb-4"
@@ -145,7 +145,7 @@
 			<div class="bg-blue-900 p-6 rounded-lg shadow-md">
 				<CldImage
 					src="https://res.cloudinary.com/shinkirin/image/upload/v1726535311/cccd/ben-beukema.webp"
-					alt="Ben Beukema"
+					alt="Ben Beukema - CCCD Jamaica Director"
 					width="300"
 					height="300"
 					class="w-full h-auto rounded-full mb-4"
@@ -157,7 +157,7 @@
 			<div class="bg-blue-900 p-6 rounded-lg shadow-md">
 				<CldImage
 					src="https://res.cloudinary.com/shinkirin/image/upload/v1726534357/cccd/Kent_Mogler_Headshot.webp"
-					alt="Kent Mogler"
+					alt="Kent Mogler - CCCD Jamaica Treasurer"
 					width="300"
 					height="300"
 					class="w-full h-auto rounded-full mb-4"
