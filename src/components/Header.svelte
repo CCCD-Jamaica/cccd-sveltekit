@@ -15,8 +15,8 @@
 </script>
 
 <header class="bg-gold-50 pb-4">
-  <div class="bg-red-800 text-white mx-auto flex max-w-7xl items-center justify-center lg:rounded-b-lg" aria-label="Global">
-    <h1 class="text-white uppercase font-bold p-2">Reach, Teach, and Nurture the Deaf</h1>
+  <div class="bg-red-800 text-white mx-auto flex max-w-7xl items-center justify-center lg:rounded-b-lg">
+    <span class="text-white uppercase font-bold p-2">Reach, Teach, and Nurture the Deaf</span>
 
   </div>
   <div class="hidden lg:flex justify-center py-4">
@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="mx-auto flex max-w-7xl items-center justify-between lg:py-4 lg:px-8">
-    <nav class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
+    <nav role="navigation" aria-label="Main Navigation" class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
       <ul class="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
         <li>
           <a href="/" aria-label="Homepage" class="hover:text-red-800">
