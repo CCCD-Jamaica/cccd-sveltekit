@@ -56,7 +56,7 @@
           </ul>
         </div>
       </div>
-      <nav role="button" class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+      <nav class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
             <h3 class="text-lg font-semibold leading-6 text-gray-900">Site</h3>

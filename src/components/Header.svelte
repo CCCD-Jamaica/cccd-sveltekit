@@ -32,7 +32,7 @@
     </div>
   </div>
   <div class="mx-auto flex max-w-7xl items-center justify-between lg:py-4 lg:px-8">
-    <nav role="navigation" class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
+    <nav class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
       <ul class="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
         <li>
           <a href="/" aria-label="Homepage" class="hover:text-red-800">
