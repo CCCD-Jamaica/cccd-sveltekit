@@ -1,7 +1,9 @@
 <section class="bg-gold-300 py-12 relative border-t-2 border-b border-red-900">
 	<div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://res.cloudinary.com/shinkirin/image/upload/v1726438628/cccd_wordpress/supportimage.webp');"></div>
 	<div class="container mx-auto px-4 relative z-10">
-		<h1 class="text-3xl font-extrabold mb-4 text-center text-red-900">Support Our Mission</h1>
+		<div class="p-4 text-center">
+			<span class="text-3xl font-extrabold mb-4 text-red-900">Support Our Mission</span>
+		</div>
 		<div class="flex flex-col items-center">
 			<div class="mb-6">
 				<img class="rounded-lg shadow-lg w-1/3 h-auto mx-auto border-2 border-white" src="https://res.cloudinary.com/shinkirin/image/upload/v1726438628/cccd_wordpress/supportimage.webp" alt="Supporting the Deaf community">

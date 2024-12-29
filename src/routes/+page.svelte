@@ -6,8 +6,11 @@
 </script>
 
 <!-- Accessibility Checks
-	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
-	2. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-09-22.
+	1. WCAG ContrastChecker: Does not meet Compliance due to video component.
+	2. Siteimprove: WCAG 2.0 AA and WCAG 2.0 AAA Compliance on 2024-12-29.
+	3. axe DevTools: Does not meet Compliance due to video component.
+	5. Alnspector: Does not meet Compliance do to video component due to Back to Top Circle Button.
+	6. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-12-29.
 -->
 
 <MetaTags
@@ -101,11 +104,11 @@
 		<div class="w-full md:w-2/3 flex flex-col md:flex-row bg-opacity-65 md:bg-opacity-90 rounded-lg overflow-hidden">
 			<div class="w-full md:w-1/2 p-8 flex flex-col justify-center bg-white opacity-75">
 				<!-- Content for the first column of the new centered layer -->
-				<h2 class="text-xl text-red-900 font-semibold mb-3 uppercase">Empowering the Deaf Community</h2>
-				<h3 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h3>
+				<h1 class="text-xl text-red-900 font-semibold mb-3 uppercase">Empowering the Deaf Community</h1>
+				<h2 class="text-lg text-black font-semibold mb-3">Reach Teach and Nurture</h2>
 				<p>Caribbean Christian Centre for the Deaf exists to reach, teach, and nurture the Deaf of Jamaica. Join us in our mission to provide education, vocational training transitional services and discipleship training to the Deaf community for their full integration into the society.  Together, we can create opportunities and foster a supportive environment for all.
 				</p>
-				<h4 class="text-lg text-black font-semibold mb-3 mt-4">Purpose</h4>
+				<h3 class="text-lg text-black font-semibold mb-3 mt-4">Purpose</h3>
 				<p class="mb-4 italic text-md sm:text-lg text-black font-semibold">To Steward God&apos;s Resources for His Glory - 1 Peter 4:7-11</p>
 				<div class="mt-4 flex justify-start space-x-4">
 					<a href="/fundraising" aria-label="Donate Now" class="inline-block bg-red-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-blue-800 transition duration-300">

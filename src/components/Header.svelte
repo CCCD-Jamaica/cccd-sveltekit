@@ -40,31 +40,31 @@
           </a>
         </li>
         <li>
-          <a href="about" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">About</a>
+          <a href="about" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">About</a>
         </li>
         <li>
-          <a href="education" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Education</a>
+          <a href="education" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Education</a>
         </li>
         <li>
-          <a href="stories" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Stories</a>
+          <a href="stories" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Stories</a>
         </li>
         <li>
-          <a href="get-involved" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Get Involved</a>
+          <a href="get-involved" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Get Involved</a>
         </li>
         <li>
-          <a href="fundraising" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Fundraising</a>
+          <a href="fundraising" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Fundraising</a>
         </li>
         <li>
-          <a href="resources" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Resources</a>
+          <a href="resources" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Resources</a>
         </li>
         <li>
-          <a href="contact" class="text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Contact</a>
+          <a href="contact" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Contact</a>
         </li>
         <!-- Add Search and icon later -->
       </ul>
     </nav>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="/get-involved#missionary" class="flex items-center text-md font-semibold leading-6 text-white bg-red-800 hover:bg-red-700 px-4 py-2 rounded-md transition duration-300">
+      <a href="/get-involved#missionary" class="flex items-center text-md font-semibold pt-4 pb-4 leading-6 text-white bg-red-800 hover:bg-red-700 px-4 py-2 rounded-md transition duration-300">
         <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
         Support Our Mission
       </a>
@@ -117,7 +117,7 @@
             </svg>
           </button>
         </div>
-        <div class="mt-6 flow-root">
+        <nav role="navigation" aria-label="Main Navigation" class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
               <a href="/" on:click={closeMenu} class="-mx-3  rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 flex items-center">
@@ -139,7 +139,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </nav>
       </div>
     </div>
   {/if}

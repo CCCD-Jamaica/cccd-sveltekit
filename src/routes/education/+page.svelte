@@ -41,7 +41,11 @@
 />
 
 <!-- Accessibility Checks
-	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+	1. WCAG ContrastChecker: WCAG 2.0 AA & AAA Compliance on 2024-12-29.
+	2. Siteimprove: WCAG 2.0 AA and WCAG 2.0 AAA Compliance on 2024-12-29.
+	3. axe DevTools: WCAG 2.1 AA Compliance on 2024-12-29.
+	5. Alnspector: WCAG 2.2 AA Compliance on 2024-12-29.
+	6. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-12-29.
 -->
 
 <section class="bg-white py-12">

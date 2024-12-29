@@ -5,12 +5,12 @@
 </script>
 
 <MetaTags
-    title="Support Our Cause - Caribbean Christian Centre for the Deaf"
+    title="Support Our Mission"
     description="Support the mission of Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Your donations help us provide education and support to the Deaf community in Jamaica."
     canonical="https://cccd.org.jm/fundraising"
     openGraph={{
         url: 'https://cccd.org.jm/fundraising',
-        title: 'Support CCCD Jamaica - Empower the Deaf Community',
+        title: 'Support Our Mission',
         description: 'Make a difference in the lives of Deaf individuals in Jamaica. Your support enables us to provide quality education, vocational training, and community support.',
     }}
     twitter={{
@@ -36,16 +36,20 @@
 />
 
 <!-- Accessibility Checks
-	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+	1. WCAG ContrastChecker: WCAG 2.0 AA & AAA Compliance on 2024-12-29.
+	2. Siteimprove: WCAG 2.0 AA and WCAG 2.0 AAA Compliance on 2024-12-29.
+	3. axe DevTools: WCAG 2.1 AA Compliance on 2024-12-29.
+	5. Alnspector: WCAG 2.2 AA Compliance on 2024-12-29.
+	6. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-12-29.
 -->
 
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Support Our Mission</h2>
+		<h1 class="text-3xl font-bold text-center mb-8 text-red-900">Support Our Mission</h1>
 		
 		<!-- Standard Donations -->
 		<div class="mb-16">
-			<h3 class="text-2xl font-semibold mb-6 text-red-800">Be a part of the amazing things God is doing!</h3>
+			<h2 class="text-2xl font-semibold mb-6 text-red-800">Be a part of the amazing things God is doing!</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="bg-gold-100 p-6 rounded-lg text-black font-bold text-md shadow-md">
 					<p class="mb-4">You are the reason we are here. Your gifts make our outreach to the Deaf possible. The Caribbean Christian Centre for the Deaf could not exist without the generous donations we receive from you and all our supporters. Feel free to contact us if you have any questions.</p>
@@ -72,7 +76,7 @@
 
 		<!-- Student Sponsorship -->
 		<div id="sponsor">
-			<h3 class="text-2xl font-semibold mb-6 text-red-800">Sponsor a Deaf Student</h3>
+			<h2 class="text-2xl font-semibold mb-6 text-red-800">Sponsor a Deaf Student</h2>
 			<p class="mb-4 text-lg font-semibold">Change a life by sponsoring a Deaf student. Your monthly contribution provides education, accommodation, and support for a student in need.</p>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
 				<!-- Student Mickaylia -->
@@ -128,7 +132,7 @@
 					<p class="mb-4 font-semibold">Ashley enjoys physical education, storytelling, and the Bible. Her favorite class is English, and she loves the colors pink and purple. She likes to try new foods but especially loves KFC. Ashley enjoys playing basketball and football with her friends.</p>
 					<p class="mb-4 font-semibold">Ashley is gifted at dramatizing stories and has a talent for music and dance. She is a good student who tries hard and doesn't give up.</p>
 					<p class="mb-4 font-semibold">At CCCD's Kingston Campus, Ashley receives an education, learns sign language, and is taught the Word of God.</p>
-					<a href="https://www.cccdjamaica.org/sponsor-a-student/dandrew-treasure/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Ashley" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
+					<a href="https://www.cccdjamaica.org/sponsor-a-student/ashley-gordon/" target="_blank" rel="noopener noreferrer" aria-label="Sponsor Ashley" class="block w-full bg-green-800 text-white text-center text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300 mb-2">
 						Sponsor Ashley
 					</a>
 				</div>
@@ -149,19 +153,19 @@
 						In order to generate sustained income streams to achieve its vision, mission, and objectives, CCCD operates various business/enterprise activities. These include:
 					</p>
 					<ul class="list-disc list-inside text-lg font-semibold mb-6 pl-4">
-					<li>Facility Rental</li>
-					<li>Textile and Sewing Projects</li>
-					<li>Business Lease Opportunities for Local Businesses</li>
-					<li>Agriculture - Crops and Livestock Production</li>
-					<li>Deaf Handmade Craft</li>
-								</ul>
+						<li>Facility Rental</li>
+						<li>Textile and Sewing Projects</li>
+						<li>Business Lease Opportunities for Local Businesses</li>
+						<li>Agriculture - Crops and Livestock Production</li>
+						<li>Deaf Handmade Craft</li>
+					</ul>
 				</div>
 		
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			<div class="bg-gray-100 p-6 rounded-lg">
 				<CldImage
 					src="https://res.cloudinary.com/shinkirin/image/upload/c_scale,w_1188/v1726956647/cccd/cows.webp"
-					alt="Deaf Village Retreat"
+					aria-label="Deaf Village Retreat"
 					width="700"
 					height="400"
 					class="w-full object-cover rounded-lg mb-4 shadow-md shadow-blue-800"
@@ -170,14 +174,14 @@
 				<p class="mb-4">
 					Support our eco-friendly lodging project that provides employment opportunities for Deaf individuals while offering unique cultural experiences to visitors.
 				</p>
-				<button class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
+				<button class="inline-block bg-blue-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-800 transition duration-300">
 					Learn More (Coming Soon)
 				</button>
 			</div>
 			<div class="bg-gray-100 p-6 rounded-lg">
 				<CldImage
 					src="https://res.cloudinary.com/shinkirin/image/upload/c_scale,w_1035/v1726956594/cccd/crafts.webp"
-					alt="CCCD Handmade Crafts"
+					aria-label="CCCD Handmade goods created by Deaf artisans"
 					width="700"
 					height="400"
 					class="w-full object-cover rounded-lg mb-4 shadow-md shadow-blue-800"
@@ -186,7 +190,7 @@
 				<p class="mb-4">
 					Purchase handmade crafts created by our talented Deaf artisans. Your support helps provide sustainable income and preserves traditional Jamaican craftsmanship.
 				</p>
-				<button class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">
+				<button class="inline-block bg-blue-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-800 transition duration-300">
 					Shop Now (Coming Soon)
 				</button>
 			</div>

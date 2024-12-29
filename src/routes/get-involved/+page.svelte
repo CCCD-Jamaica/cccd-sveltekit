@@ -41,12 +41,16 @@
 />
 
 <!-- Accessibility Checks
-	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
+	1. WCAG ContrastChecker: WCAG 2.0 AA & AAA Compliance on 2024-12-29.
+	2. Siteimprove: WCAG 2.0 AA and WCAG 2.0 AAA Compliance on 2024-12-29.
+	3. axe DevTools: WCAG 2.1 AA Compliance on 2024-12-29.
+	5. Alnspector: WCAG 2.2 AA Compliance on 2024-12-29.
+	6. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-12-29.
 -->
 	
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Get Involved</h2>
+		<h1 class="text-3xl font-bold text-center mb-8 text-red-900">Get Involved</h1>
 		
 		<!-- Missionary Duty -->
 		<div id="missionary" class="mb-16">
@@ -64,7 +68,7 @@
 						<li>Learning from and creating lasting impacts with the Deaf</li>
 
 					</ul>
-					<a href="/contact" class="inline-block bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 transition duration-300">Apply Now</a>
+					<a href="/contact" class="inline-block bg-blue-800 text-white font-bold py-2 px-4 rounded-md hover:bg-red-800 transition duration-300" aria-label="Apply to become a missionary">Apply Now</a>
 				</div>
 				<div>
 					<CldImage
@@ -80,7 +84,7 @@
 
 		<!-- Volunteering -->
 		<div id="volunteer" class="mb-16">
-			<h3 class="text-2xl font-semibold mb-6 text-red-900">Volunteer Opportunities</h3>
+			<h2 class="text-2xl font-semibold mb-6 text-red-900">Volunteer Opportunities</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div>
 					<CldImage
@@ -99,7 +103,7 @@
 						<li>Event planning and fundraising</li>
 						<li>Virtual volunteering options</li>
 					</ul>
-					<a href="/contact" class="inline-block bg-green-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300">Sign Up to Volunteer</a>
+					<a href="https://cccd.org.jm/contact" class="inline-block bg-green-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-green-700 transition duration-300" aria-label="Sign up to become a volunteer">Sign Up to Volunteer</a>
 					<p class="text-md text-black mt-4">Volunteering with CCCD Jamaica is a rewarding experience that allows you to make a positive impact on the lives of the Deaf community.</p>
 					<h3 class="text-2xl font-semibold mb-4 pt-6 text-red-900">US Peace Corps Volunteer Opportunities</h3>
 					<p class="text-md text-black mb-4">The US Peace Corps Virtual Service Pilot is a program that allows Americans to serve in Jamaica remotely. Visit the US Peace Corps website to learn about any opportunities available in Jamaica.</p>
@@ -119,7 +123,7 @@
 
 		<!-- Learn Jamaican Sign Language -->
 		<div class="mb-16">
-			<h2 class="text-2xl font-semibold mb-6 text-red-900">Volunteer and Learn Jamaican Sign Language (JSL)</h2>
+			<h3 class="text-2xl font-semibold mb-6 text-red-900">Volunteer and Learn Jamaican Sign Language (JSL)</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Enhance your ability to communicate with the Deaf community by learning JSL:</p>
@@ -145,7 +149,7 @@
 
 		<!-- Donation and Sponsorship -->
 		<div id="donate">
-			<h2 class="text-2xl font-semibold mb-6 text-red-900">Donate or Sponsor a Student</h2>
+			<h3 class="text-2xl font-semibold mb-6 text-red-900">Donate or Sponsor a Student</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="text-md font-semibold">
 					<p class="mb-4">Your financial support can make a lasting impact:</p>
@@ -157,7 +161,7 @@
 					</ul>
 					<div class="flex space-x-4">
 						<a href="/fundraising" class="inline-block bg-red-900 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-red-700 transition duration-300">Donate Now</a>
-						<a href="/fundraising#sponsor" class="inline-block bg-purple-600 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-purple-700 transition duration-300">Sponsor a Student</a>
+						<a href="/fundraising#sponsor" class="inline-block bg-blue-800 text-white text-lg font-extrabold py-2 px-4 rounded-md hover:bg-red-800 transition duration-300">Sponsor a Student</a>
 					</div>
 				</div>
 				<div>

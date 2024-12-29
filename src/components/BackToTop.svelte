@@ -51,14 +51,14 @@
 <div 
   role="button" 
   tabindex="0" 
-  aria-label="Back to Top" 
+  aria-label="Back to Top Circle Button" 
   class="back-to-top z-40" 
   on:click={goTop}
   on:keydown={handleKeydown}
   class:hidden
 >
-  <div class="flex items-center justify-center text-center text-white bg-red-800 h-14 w-14 p-3 rounded-full shadow-lg hover:bg-red-700 transition-colors duration-300 z-99">
-    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <div role="button" aria-label="Back to Top" class="flex items-center justify-center text-center text-white bg-red-800 h-14 w-14 p-3 rounded-full shadow-lg hover:bg-red-700 transition-colors duration-300 z-99">
+    <svg role="img" aria-label="Back to Top" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
     </svg>
   </div>

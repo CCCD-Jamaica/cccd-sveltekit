@@ -46,8 +46,8 @@ This project is a modern, responsive website for [CCCD Jamaica](https://cccd.org
 This project is licensed under the [BSD 3-Clause License](LICENSE).
 
 ### Project Status
-- Project Production Version: 1.0.0
-- Project Development Version: 1.0.1
+- Project Production Version: 1.0.2
+- Project Development Version: 1.0.3
 
 ### Hosting
 
@@ -102,7 +102,6 @@ The goal for this project is to meet with [WCAG 2.1 AA standards](https://www.w3
 - [Lighthouse](https://developer.chrome.com/docs/lighthouse/) - Lighthouse accessibility evaluation tool for the project
 - [pa11y](https://pa11y.org/) - Automated accessibility testing tool
 - [Siteimprove Accessibility Checker](https://siteimprove.com/en-us/accessibility/) - Comprehensive accessibility checker
-- [SkillTide](https://skilltide.com) - SkillTide SEO and content optimization tool
 - [WAVE Evaluation Tool](https://wave.webaim.org/) - Web accessibility evaluation tool
 - [WCAG Contrast Checker](https://webaim.org/resources/contrastchecker/) - Color contrast checker for accessibility
 

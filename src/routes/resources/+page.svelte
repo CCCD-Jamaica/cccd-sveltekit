@@ -30,17 +30,20 @@
 />
 
 <!-- Accessibility Checks
-	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
-	2. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-09-22.
+	1. WCAG ContrastChecker: WCAG 2.0 AA & AAA Compliance on 2024-12-29.
+	2. Siteimprove: WCAG 2.0 AA and WCAG 2.0 AAA Compliance on 2024-12-29.
+	3. axe DevTools: WCAG 2.1 AA Compliance on 2024-12-29.
+	5. Alnspector: WCAG 2.2 AA Compliance on 2024-12-29.
+	6. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-12-29.
 -->
 
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Jamaican Sign Language Resources</h2>
+		<h1 class="text-3xl font-bold text-center mb-8 text-red-900">Jamaican Sign Language Resources</h1>
 		
 		<!-- Online Resources -->
 		<div class="mb-16">
-			<h3 class="text-2xl font-semibold mb-6">Online Learning Materials</h3>
+			<h2 class="text-2xl font-semibold mb-6">Online Learning Materials</h2>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 				<div class="bg-gold-100 p-6 rounded-lg border-2 border-red-900 font-semibold text-md">
 					<p class="mb-4">Explore our collection of online resources to start learning Jamaican Sign Language (JSL) from the comfort of your home:</p>
@@ -75,12 +78,12 @@
 
 		<!-- JSL Programs -->
 		<div id="jsl-programs">
-			<h2 class="text-2xl font-semibold mb-6 text-red-900">JSL Programs: In-Person and Virtual</h2>
+			<h3 class="text-2xl font-semibold mb-6 text-red-900">JSL Programs: In-Person and Virtual</h3>
 			<p class="mb-4 font-semibold text-md">Join our comprehensive JSL programs designed for various skill levels and learning preferences:</p>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
 				<!-- In-Person Programs -->
 				<div class="bg-gray-100 p-6 rounded-lg">
-					<h3 class="text-xl font-semibold mb-2">In-Person JSL Classes</h3>
+					<h4 class="text-xl font-semibold mb-2">In-Person JSL Classes</h4>
 					<p class="mb-4">Attend our immersive in-person classes at CCCD campuses:</p>
 					<ul class="list-disc list-inside mb-4">
 						<li>Beginner, Intermediate, and Advanced levels</li>
@@ -95,7 +98,7 @@
 				</div>
 				<!-- Virtual Programs -->
 				<div class="bg-gray-100 p-6 rounded-lg">
-					<h3 class="text-xl font-semibold mb-2">Virtual JSL Courses</h3>
+					<h4 class="text-xl font-semibold mb-2">Virtual JSL Courses</h4>
 					<p class="mb-4">Join our flexible online JSL courses from anywhere in the world:</p>
 					<ul class="list-disc list-inside mb-4">
 						<li>Live virtual classes with expert instructors</li>
@@ -113,22 +116,22 @@
 </section>
 <section class="bg-gray-100 py-12">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Additional JSL Resources</h2>
+		<h3 class="text-3xl font-bold text-center mb-8 text-red-900">Additional JSL Resources</h3>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 			<div class="bg-white p-6 rounded-lg shadow-md">
-				<h3 class="text-xl font-semibold mb-4 text-red-900">JSL Literature</h3>
+				<h4 class="text-xl font-semibold mb-4 text-red-900">JSL Literature</h4>
 				<p class="mb-4 font-semibold text-md">Explore our collection of JSL stories, poems, and literature to enhance your language skills and cultural understanding.</p>
-				<p class="text-blue-600">Browse JSL Literature (coming soon)</p>
+				<p class="text-blue-800">Browse JSL Literature (coming soon)</p>
 			</div>
 			<div class="bg-white p-6 rounded-lg shadow-md">
-				<h3 class="text-xl font-semibold mb-4 text-red-900">JSL Community Events</h3>
+				<h4 class="text-xl font-semibold mb-4 text-red-900">JSL Community Events</h4>
 				<p class="mb-4 font-semibold text-md">Join our regular community events to practice JSL, meet native signers, and immerse yourself in Deaf culture.</p>
-				<p class="text-blue-600">View Upcoming Events (coming soon)</p>
+				<p class="text-blue-800">View Upcoming Events (coming soon)</p>
 			</div>
 			<div class="bg-white p-6 rounded-lg shadow-md">
-				<h3 class="text-xl font-semibold mb-4 text-red-900">JSL Research and Publications</h3>
+				<h4 class="text-xl font-semibold mb-4 text-red-900">JSL Research and Publications</h4>
 				<p class="mb-4 font-semibold text-md">Access academic resources and publications related to Jamaican Sign Language linguistics and education.</p>
-				<p class="text-blue-600">Explore JSL Research (coming soon)</p>
+				<p class="text-blue-800">Explore JSL Research (coming soon)</p>
 			</div>
 		</div>
 	</div>
@@ -180,6 +183,6 @@
 				/>
 			</div>
 		</div>
-		<p class="text-center mt-4 text-lg text-gray-700 font-semibold">Embracing the beauty of Jamaican Sign Language, a gift from God, in our community</p>
+		<p class="text-center mt-4 text-lg text-gray-900 font-semibold">Embracing the beauty of Jamaican Sign Language, a gift from God, in our community</p>
 	</div>
 </section>

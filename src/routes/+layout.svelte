@@ -6,10 +6,10 @@
 </script>
 
 <div class="app">
-	<Header />
-	<main>
+	<Header role="banner" aria-label="Header" />
+	<main role="main" aria-label="Main Content">
 		<slot />
 	</main>
-	<BackToTop />
-	<Footer />
+	<BackToTop role="button" aria-label="Back to Top" />
+	<Footer role="contentinfo" aria-label="Footer" />
 </div>

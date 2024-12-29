@@ -58,20 +58,59 @@
 	});
 </script>
 
+<MetaTags
+    title="Contact Us - Caribbean Christian Centre for the Deaf"
+    description="Get in touch with Caribbean Christian Centre for the Deaf (CCCD) Jamaica. We're here to answer your questions and provide support."
+    canonical="https://cccd.org.jm/contact"
+    openGraph={{
+        url: 'https://cccd.org.jm/contact',
+        title: 'Contact CCCD Jamaica',
+        description: 'Reach out to Caribbean Christian Centre for the Deaf. We\'re here to assist you with any inquiries about our programs, donations, or volunteer opportunities.',
+    }}
+    twitter={{
+        handle: '@CCCDJamaica',
+        site: '@CCCDJamaica',
+        cardType: 'summary',
+    }}
+/>
+
+<JsonLd
+    schema={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        name: "Contact Us",
+        description: "Get in touch with Caribbean Christian Centre for the Deaf (CCCD) Jamaica. We're here to answer your questions and provide support.",
+        url: "https://cccd.org.jm/contact",
+        inLanguage: "en-US",
+        isAccessibleForFree: "True",
+        publisher: {
+            "@type": "Organization",
+            name: "Caribbean Christian Centre for the Deaf",
+            logo: {
+                "@type": "ImageObject",
+                url: "https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+            }
+        }
+    }}
+/>
+
 <!-- Accessibility Checks
-	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
-	2. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-09-22.
+	1. WCAG ContrastChecker: WCAG 2.0 AA & AAA Compliance on 2024-12-29.
+	2. Siteimprove: WCAG 2.0 AA and WCAG 2.0 AAA Compliance on 2024-12-29.
+	3. axe DevTools: WCAG 2.1 AA Compliance on 2024-12-29.
+	5. Alnspector: WCAG 2.2 AA Compliance on 2024-12-29.
+	6. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-12-29.
 -->
 
 <section class="bg-white py-12">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold mb-4 text-center text-red-900">Contact Us</h2>
+		<h1 class="text-3xl font-bold mb-4 text-center text-red-900">Contact Us</h1>
 		
 		<div class="flex flex-col md:flex-row items-center md:items-start justify-center gap-8">
 			<div class="w-full md:w-1/3">
 				<CldImage
 					src="https://res.cloudinary.com/shinkirin/image/upload/v1720371983/cccd/android-chrome-512x512.webp"
-					alt="CCCD Logo"
+					alt="CCCD Contact Logo"
 					width="300"
 					height="300"
 					class="mx-auto border-2 border-blue-500 rounded-lg p-2"
