@@ -171,7 +171,7 @@
 </div>
 <!-- End of Our Mission and Vision Component-->
 <!-- Statement of Faith Component-->
-<div class="overflow-hidden bg-gold-50 py-12 sm:py-16 border-t-2 border-blue-800">
+<div id="statement-of-faith" class="overflow-hidden bg-gold-50 py-12 sm:py-16 border-t-2 border-blue-800">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 			<div class="lg:ml-auto lg:pt-4 lg:pl-4">
