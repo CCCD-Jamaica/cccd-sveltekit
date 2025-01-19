@@ -1,0 +1,93 @@
+{
+  "typescript": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "jsx": "preserve"
+  },
+  "svelte": {
+    "indent_style": "space",
+    "indent_size": 2,
+    "trailing_comma": "all",
+    "quote_style": "double",
+    "attribute_order": [
+      "bind",
+      "class",
+      "style",
+      "aria",
+      "data",
+      "on",
+      "slot",
+      "other"
+    ],
+    "sort_attributes": true,
+    "enforce_accessibility": true,
+    "wcag_level": "2.2-AA",
+    "ssr": {
+      "enabled": true,
+      "static_fallback": true
+    },
+    "animations": {
+      "use_svelte_animation": true,
+      "default_duration": 300,
+      "easing_function": "ease-in-out"
+    },
+    "dropdowns": {
+      "close_on_outside_click": true,
+      "close_on_link_click": true,
+      "keyboard_navigation": true
+    }
+  },
+  "tailwindcss": {
+    "enforce_class_order": true,
+    "no_custom_colors": true,
+    "screen_reader_classes": true,
+    "minify_classes": true,
+    "group_classes_by_functionality": true
+  },
+  "graphql": {
+    "max_query_depth": 5,
+    "validate_schema": true,
+    "use_fragments": true,
+    "require_typename": true,
+    "fetch_policy": "no-cache"
+  },
+  "rest": {
+    "validate_endpoints": true,
+    "require_https": true,
+    "timeout": 5000,
+    "retry_on_failure": true
+  },
+  "accessibility": {
+    "ensure_alt_text": true,
+    "aria_roles_required": true,
+    "color_contrast_check": true,
+    "keyboard_navigation": true,
+    "focus_visible": true
+  },
+  "build": {
+    "output_directory": "build",
+    "static_pages": {
+      "enabled": true,
+      "cache_max_age": 86400
+    },
+    "ssr_pages": {
+      "enabled": true,
+      "hydrate_on_client": true
+    }
+  },
+  "global": {
+    "line_length": 80,
+    "semi": true,
+    "tab_width": 2,
+    "max_classes_per_element": 5,
+    "file_naming_convention": "kebab-case",
+    "trailing_newline": true
+  }
+}

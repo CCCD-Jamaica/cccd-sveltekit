@@ -1,8 +1,8 @@
 <script>
-  import { CldImage } from 'svelte-cloudinary';
   import { slide, fade } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
   import Icon from '@iconify/svelte';
+  import { page } from '$app/stores';
   let isMenuOpen = false;
 
   function toggleMenu() {
@@ -12,135 +12,110 @@
   function closeMenu() {
     isMenuOpen = false;
   }
+
+  $: path = $page.url.pathname;
 </script>
 
-<header class="bg-gold-50 pb-4">
-  <div class="bg-red-800 text-white mx-auto flex max-w-7xl items-center justify-center lg:rounded-b-lg">
-    <span class="text-white uppercase font-bold p-2">Reach, Teach, and Nurture the Deaf</span>
-
+<div class="fixed top-0 left-0 right-0 bg-white z-50 w-full">
+  <div class="bg-red-800 text-white text-center py-1">
+    <p class="text-sm font-semibold uppercase">REACH, TEACH, and NURTURE THE DEAF</p>
   </div>
-  <div class="hidden lg:flex justify-center py-4">
-    <div class="-m-1.5 p-1.5">
-      <span class="sr-only"><abbr title="Caribbean Christian Center for the Deaf">CCCD</abbr> Jamaica</span>
-      <CldImage 
-        class="border-2 border-blue-600 rounded-md" 
-        src="v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
-        alt="CCCD Jamaica logo" 
-        width="200"
-        height="200"
-      />
-    </div>
-  </div>
-  <div class="mx-auto flex max-w-7xl items-center justify-between lg:py-4 lg:px-8">
-    <nav role="navigation" aria-label="Main Navigation" class="hidden lg:flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
-      <ul class="flex sm:gap-x-2 md:gap-x-6 lg:gap-x-12">
-        <li>
-          <a href="/" aria-label="Homepage" class="hover:text-red-800">
+  <div class="pointer-events-none absolute inset-0 z-30 shadow-md" aria-hidden="true"></div>
+  <div class="relative z-20">
+    <div class="mx-auto flex max-w-[90rem] items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <div class="-my-2 -mr-2 md:hidden">
+        <button on:click={toggleMenu} type="button" class="relative inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:ring-2 focus:ring-red-700 focus:outline-hidden focus:ring-inset">
+          <span class="absolute -inset-0.5"></span>
+          <span class="sr-only">OPEN MENU</span>
+          <svg class="size-7" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+      </div>
+      <div class="hidden md:flex md:flex-1 md:items-center md:justify-between">
+        <nav class="flex space-x-4 lg:space-x-6">
+          <a href="/" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 {path === '/' ? 'text-red-800' : ''} whitespace-nowrap" aria-label="Home">
             <Icon icon="material-symbols:church" aria-label="Church" width="24" height="24" />
+            <span class="sr-only">Home</span>
           </a>
-        </li>
-        <li>
-          <a href="about" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">About</a>
-        </li>
-        <li>
-          <a href="education" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Education</a>
-        </li>
-        <li>
-          <a href="stories" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Stories</a>
-        </li>
-        <li>
-          <a href="get-involved" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Get Involved</a>
-        </li>
-        <li>
-          <a href="fundraising" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Fundraising</a>
-        </li>
-        <li>
-          <a href="resources" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Resources</a>
-        </li>
-        <li>
-          <a href="contact" class="pt-4 pb-4 text-md font-semibold leading-6 text-gray-900 hover:text-red-800">Contact</a>
-        </li>
-        <!-- Add Search and icon later -->
-      </ul>
-    </nav>
-    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="/get-involved#missionary" class="flex items-center text-md font-semibold pt-4 pb-4 leading-6 text-white bg-red-800 hover:bg-red-700 px-4 py-2 rounded-md transition duration-300">
-        <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
-        Support Our Mission
-      </a>
-    </div>
-  </div>  
-  <!-- Mobile menu, show/hide based on menu open state. -->
-  <div class="lg:hidden flex items-center justify-between p-4">
-    <a href="/" class="-m-1.5 p-1.5">
-      <span class="sr-only"><abbr title="Caribbean Christian Center for the Deaf">CCCD</abbr> Jamaica</span>
-      <CldImage  
-        class="border-2 border-blue-600 rounded-md" 
-        src="v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
-        alt="CCCD Jamaica logo" 
-        width="100"
-        height="100"
-      />
-    </a>
-    <button on:click={toggleMenu} type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
-      <span class="sr-only">Open main menu</span>
-      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-      </svg>
-    </button>
-  </div>
-  {#if isMenuOpen}
-    <div class="lg:hidden" role="dialog" aria-modal="true" transition:fade={{ duration: 300 }}>
-      <!-- Background backdrop, show/hide based on slide-over state. -->
-      <div class="fixed inset-0 z-30"><button on:click={toggleMenu} type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Close menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button></div>
-      <div class="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10" transition:slide={{ duration: 300, easing: quintOut }}>
-        <div class="flex items-center justify-between">
-          <a href="/" class="-m-1.5 p-1.5">
-            <span class="sr-only"><abbr title="">CCCD</abbr> Jamaica</span>
-            <CldImage  
-              class="border-2 border-blue-600 rounded-md" 
-              src="v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
-              alt="CCCD Jamaica logo" 
-              width="100"
-              height="100"
-            />
-          </a>
-          <button on:click={toggleMenu} type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
-            <span class="sr-only">Close menu</span>
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-        <nav role="navigation" aria-label="Main Navigation" class="mt-6 flow-root">
-          <div class="-my-6 divide-y divide-gray-500/10">
-            <div class="space-y-2 py-6">
-              <a href="/" on:click={closeMenu} class="-mx-3  rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 flex items-center">
-                <Icon icon="material-symbols:church" width="24" height="24" class="mr-2" />
-              </a>
-              <a href="about" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
-              <a href="education" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Education</a>
-              <a href="stories" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Stories</a>
-              <a href="get-involved" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Get Involved</a>
-              <a href="fundraising" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Fundraising</a>
-              <a href="resources" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Resources</a>
-              <a href="contact" on:click={closeMenu} class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
-              <!-- Add Search and icon later -->
-            </div>
-            <div class="py-6">
-              <a href="/get-involved#missionary" on:click={closeMenu} class="-mx-3 flex items-center justify-center rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white bg-red-600 hover:bg-red-700 transition duration-300">
-                <Icon icon="mdi:cross" class="mr-2 text-2xl font-bold" />
-                Support Our Mission
-              </a>
-            </div>
-          </div>
+          <a href="about" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 hover:underline decoration-red-800 decoration-2 underline-offset-4 {path === '/about' ? 'text-red-800' : ''} whitespace-nowrap">ABOUT</a>
+          <a href="education" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 hover:underline decoration-red-800 decoration-2 underline-offset-4 {path === '/education' ? 'text-red-800' : ''} whitespace-nowrap">EDUCATION</a>
+          <a href="stories" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 hover:underline decoration-red-800 decoration-2 underline-offset-4 {path === '/stories' ? 'text-red-800' : ''} whitespace-nowrap">STORIES</a>
+          <a href="get-involved" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 hover:underline decoration-red-800 decoration-2 underline-offset-4 {path === '/get-involved' ? 'text-red-800' : ''} whitespace-nowrap">GET INVOLVED</a>
+          <a href="fundraising" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 hover:underline decoration-red-800 decoration-2 underline-offset-4 {path === '/fundraising' ? 'text-red-800' : ''} whitespace-nowrap">FUNDRAISING</a>
+          <a href="resources" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 hover:underline decoration-red-800 decoration-2 underline-offset-4 {path === '/resources' ? 'text-red-800' : ''} whitespace-nowrap">RESOURCES</a>
+          <a href="contact" class="text-base font-bold uppercase text-blue-900 hover:text-blue-950 hover:underline decoration-red-800 decoration-2 underline-offset-4 {path === '/contact' ? 'text-red-800' : ''} whitespace-nowrap">CONTACT</a>
         </nav>
+        <div class="flex items-center md:ml-12">
+          <a href="/get-involved#missionary" class="ml-8 inline-flex items-center justify-center rounded-md border border-transparent bg-red-900 px-6 py-2 text-base font-bold uppercase text-white shadow-md hover:bg-red-950 whitespace-nowrap">
+            <Icon icon="mdi:cross" class="mr-2 text-xl font-bold" />
+            SUPPORT OUR MISSION
+          </a>
+        </div>
       </div>
     </div>
+  </div>
+
+  {#if isMenuOpen}
+  <div class="absolute inset-x-0 top-0 z-30 origin-top-right transform p-2 transition md:hidden" transition:fade={{ duration: 200 }}>
+    <div class="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black/5 w-full" transition:slide={{ duration: 300, easing: quintOut }}>
+      <div class="px-5 pt-5 pb-6 sm:pb-8">
+        <div class="flex items-center justify-end">
+          <div class="-mr-2">
+            <button on:click={toggleMenu} type="button" class="relative inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:ring-2 focus:ring-red-700 focus:outline-hidden focus:ring-inset">
+              <span class="absolute -inset-0.5"></span>
+              <span class="sr-only">CLOSE MENU</span>
+              <svg class="size-7" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="mt-6">
+          <nav class="grid gap-y-4">
+            <a href="/" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">HOME</span>
+            </a>
+            <a href="about" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">ABOUT</span>
+            </a>
+            <a href="education" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">EDUCATION</span>
+            </a>
+            <a href="stories" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">STORIES</span>
+            </a>
+            <a href="get-involved" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">GET INVOLVED</span>
+            </a>
+            <a href="fundraising" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">FUNDRAISING</span>
+            </a>
+            <a href="resources" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">RESOURCES</span>
+            </a>
+            <a href="contact" on:click={closeMenu} class="-m-3 flex items-center rounded-lg p-3 hover:bg-gray-50">
+              <span class="text-base font-bold uppercase text-blue-900 hover:text-blue-950">CONTACT</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="px-5 py-6">
+        <div class="mt-6">
+          <a href="/get-involved#missionary" on:click={closeMenu} class="flex w-full items-center justify-center rounded-md border border-transparent bg-red-900 px-6 py-2 text-base font-bold uppercase text-white shadow-md hover:bg-red-950">
+            <Icon icon="mdi:cross" class="mr-2 text-xl font-bold" />
+            SUPPORT OUR MISSION
+          </a>
+        </div>
+        <div class="mt-6 flex justify-center">
+          <img 
+            src="https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+            alt="CCCD Logo"
+            class="w-36 h-36"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
   {/if}
-</header>
+</div>

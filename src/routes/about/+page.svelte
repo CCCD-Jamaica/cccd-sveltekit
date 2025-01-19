@@ -2,6 +2,14 @@
 	import { CldImage } from 'svelte-cloudinary';
 	import Support from '$components/Support.svelte';
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
+	export let data;
+	const { pageBy, boardOfDirectors, cccdHistories } = data;
+	const aboutContent = pageBy?.aboutPageContent || {};
+	let shouldAnimate = false;
+	import { onMount } from 'svelte';
+	onMount(() => {
+		shouldAnimate = true;
+	});
 </script>
 
 <!-- Accessibility Checks
@@ -13,7 +21,7 @@
 -->
 
 <svelte:head>
-	<title>About</title>
+	<title>{pageBy.title} Jamaica</title>
 	<meta name="description" content="About CCCD Jamaica - Our Mission, Vision, and Beliefs" />
 </svelte:head>
 
@@ -57,252 +65,265 @@
         description: "Caribbean Christian Centre for the Deaf (CCCD) is dedicated to empowering the Deaf community in Jamaica through education, vocational training, and spiritual nurturing.",
     }}
 />
-
-<!-- Accessibility Checks
-	1. silktide: WCAG 2.2 AA Compliance on 2024-09-22.
--->
-
-<section class="bg-white py-12">
-	<div class="container mx-auto px-4">
-		<h1 class="text-3xl font-bold text-center mb-8 text-red-900">Our Mission and Vision</h1>
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-			<div>
-				<h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
-				<p class="text-black text-md font-semibold">
-					At CCCD Jamaica, our mission is to Reach, Teach, and Nurture the Deaf community across the island. We strive to provide comprehensive education, vocational training, and spiritual guidance to ensure that every Deaf individual can lead a fulfilling and independent life.
-				</p>
-				<div class="mt-4 flex flex-col items-center">
-					<CldImage
-						src="https://res.cloudinary.com/shinkirin/image/upload/v1726533553/cccd_wordpress/cccdstudent1.webp"
-						aria-label="Our students achieving their goals through education"
-						width="400"
-						height="400"
-						class="w-full h-auto rounded-lg border-2 border-blue-800"
-					/>
-					<p class="text-md text-gray-900 mt-2">Our students achieving their goals through education</p>
-				</div>
-			</div>
-			<div>
-				<h2 class="text-2xl font-semibold mb-4">Our Vision</h2>
-				<p class="text-black text-md font-semibold">
-					Our vision is a Jamaica where the Deaf community is fully integrated, empowered, and able to contribute meaningfully to society. We believe in the potential of every Deaf person and are committed to creating opportunities for growth and development.
-				</p>
-				<div class="mt-4 flex flex-col items-center">
-					<CldImage
-						src="https://res.cloudinary.com/shinkirin/image/upload/v1726533554/cccd_wordpress/cccdstudent2.webp"
-						aria-label="Empowering the Deaf community for a brighter future"
-						width="400"
-						height="400"
-						class="w-full h-auto rounded-lg border-2 border-blue-800"
-					/>
-					<p class="text-md text-gray-900 mt-2">Empowering the Deaf community for a brighter future</p>
-				</div>
-			</div>
+{#if pageBy} <!-- If pageBy is defined, show the content -->
+<!-- About Header Component-->
+<section class="bg-white py-20">
+	<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+		<img src="{aboutContent.headerimage.node.sourceUrl}" alt="{aboutContent.headerimage.node.altText}" aria-describedby="{aboutContent.headerimage.node.altText}" class="absolute inset-0 -z-10 size-full object-cover brightness-85 saturate-200 contrast-125 bg-blend-multiply bg-blue-700">
+		<p id="{aboutContent.headerimage.node.altText}" class="sr-only bg-white text-black">{aboutContent.headerimage.node.description}</p>
+		<div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+			<div class="aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#991b1b] to-[#1e3a8a] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
 		</div>
-		<div class="mt-8">
-			<blockquote class="text-red-800  text-lg font-semibold text-center italic pl-4 py-2">
-				&quot;Through our dedicated programs and initiatives, we aim to break down barriers and build a more inclusive and supportive environment for the Deaf in Jamaica.&quot;
-			</blockquote>
+		<div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+			<div class="aspect-1097/845 w-[68.5625rem] bg-linear-to-tr from-[#991b1b] to-[#1e3a8a] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+		</div>
+		<div class="mx-auto max-w-5xl bg-blue-950/90 pt-8 rounded-lg backdrop-blur-sm" role="banner">
+			<div class="flex items-center gap-8 px-8">
+				<div class="relative w-24 h-24">
+					<img 
+						src="https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
+						alt="CCCD Logo" 
+						class="w-24 h-24 rounded-md {shouldAnimate ? 'animate-[zoom_1s_ease-out] motion-reduce:animate-none' : ''}"
+						style="animation-iteration-count: 1;"
+					/>
+					<style>
+						@keyframes zoom {
+							0% { transform: scale(1); }
+							50% { transform: scale(1.5); }
+							100% { transform: scale(1); }
+						}
+					</style>
+				</div>
+				<h1 class="flex-1 text-4xl font-bold tracking-tight text-white text-center sm:text-6xl uppercase" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5)">{pageBy.title}</h1>
+			</div>
+			<p class="mt-8 text-lg font-bold text-pretty text-white text-center bg-red-800 p-4 rounded-bl-lg rounded-br-lg backdrop-blur-sm sm:text-xl/8 leading-relaxed">{aboutContent.quotes}</p>
 		</div>
 	</div>
 </section>
-<section id="statement-of-faith" class="bg-blue-50 py-12 border-t-2 border-blue-800">
-	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Our Beliefs</h2>
-		<div class="flex flex-col md:flex-row items-start gap-8">
-			<div class="w-full md:w-1/3">
+<!-- End of About Header Component-->
+<!-- Our Mission and Vision Component-->
+<div class="relative overflow-hidden bg-white pb-16">
+    <h2 class="text-4xl font-bold text-center mb-8 text-red-800">{aboutContent.mainHeader}</h2>
+    <div class="relative">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+            <div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:flex lg:flex-col lg:justify-center">
+                <div class="mt-6">
+                    <h2 class="text-3xl font-bold tracking-tight text-center text-blue-800 uppercase">{aboutContent.leftHeading2}</h2>
+                    <div class="mt-4 text-lg font-semibold text-white text-center bg-red-800 p-4 rounded-lg border-2 border-gold-800">
+                        {@html aboutContent.leftContent}
+                    </div>
+                </div>
+                <div class="flex justify-center mt-4">
+                    <img 
+                        src="https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+                        alt="CCCD Logo"
+                        class="w-48 h-48"
+                    />
+                </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:mt-0 lg:flex lg:items-center">
+                <div class="lg:relative lg:m-0">
+                    <CldImage
+                        src="{aboutContent.leftImage.node.sourceUrl}"
+                        aria-label="{aboutContent.leftImage.node.altText}"
+                        width="600"
+                        height="600"
+                        class="w-full rounded-xl ring-2 shadow-xl ring-gold-800"
+                    />
+                    <p class="mt-4 text-base text-white font-semibold text-center bg-blue-800 p-2 rounded-md">{@html aboutContent.leftImage.node.caption}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-24">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+            <div class="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:px-0 lg:flex lg:flex-col lg:justify-center">
+                <div>
+                    <div class="mt-6">
+                        <h2 class="text-3xl font-bold tracking-tight text-center text-blue-800 uppercase">{aboutContent.rightHeading2}</h2>
+                        <div class="mt-4 text-lg font-semibold text-white text-center bg-red-800 p-4 rounded-lg border-2 border-gold-800">
+                            {aboutContent.rightContent}
+                        </div>
+                    </div>
+                    <div class="flex justify-center mt-4">
+                        <img 
+                            src="https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+                            alt="CCCD Logo"
+                            class="w-48 h-48"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0 lg:flex lg:items-center">
+                <div class="lg:relative lg:m-0">
+                    <CldImage
+                        src="{aboutContent.rightImage.node.sourceUrl}"
+                        aria-label="{aboutContent.rightImage.node.altText}" 
+                        width="600"
+                        height="600"
+                        class="w-full rounded-xl ring-2 shadow-xl ring-gold-800"
+                    />
+                    <p class="mt-4 text-base text-white font-semibold text-center bg-blue-800 p-2 rounded-md">{@html aboutContent.rightImage.node.caption}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of Our Mission and Vision Component-->
+<!-- Statement of Faith Component-->
+<div class="overflow-hidden bg-gold-50 py-12 sm:py-16 border-t-2 border-blue-800">
+	<div class="mx-auto max-w-7xl px-6 lg:px-8">
+		<div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+			<div class="lg:ml-auto lg:pt-4 lg:pl-4">
+				<div class="lg:max-w-lg prose prose-lg prose-li:list-none prose-li:relative prose-li:pl-9">
+					<h2 class="text-4xl font-bold text-center text-red-900">{aboutContent.secondComponentHeader}</h2>
+					<h3 class="text-xl text-gold-900 uppercase font-bold">{aboutContent.weBelieve}</h3>
+					<div class="mt-4 max-w-xl space-y-4 text-base font-semibold text-blue-900 lg:max-w-none">
+						{@html aboutContent.beliefsContent.replace(/<li>/g, '<li><svg class="absolute top-1 left-1 size-5 text-red-800" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>')}
+					</div>
+				</div>
+			</div>
+			<div class="flex flex-col items-start justify-end lg:order-first">
 				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726422136/cccd/christ-dall-e-jamaica.webp"
-					aria-label="Image of Christ generated by Dall-E with Jamaican students in the background"
-					width="400"
+					src="{aboutContent.beliefsImage.node.sourceUrl}"
+					aria-label="{aboutContent.beliefsImage.node.altText}"
+					width="600"
 					height="600"
-					class="w-full h-auto rounded-lg shadow-md border-2 border-blue-800"
+					class="w-[48rem] max-w-none rounded-xl ring-2 shadow-3xl ring-red-900 sm:w-[57rem]"
 				/>
-			</div>
-			<div class="w-full md:w-2/3 prose max-w-none">
-				<p class="mb-4 text-black text-md font-semibold">We believe:</p>
-				<ul class="list-disc list-inside text-black text-md font-semibold pl-4 space-y-4 marker:text-red-800">
-					<li>In One God, who has revealed Himself in Scripture through the Old and New Testaments as three Persons; Father, Son and Holy Spirit</li>
-					<li>God is Creator and Sustainer of all seen and unseen. God is eternal, unchanging, all-knowing, and good. God is continually at work guiding His creation.</li>
-					<li>In God the Father - who loves each of us with unconditional and eternal love.</li>
-					<li>In Jesus - the Son of God, Word became flesh. Jesus is our Savior - He came to earth fully God and fully man - He suffered, died, was buried, and rose victorious over sin and death. Through Jesus and His perfect obedience to God, we are offered forgiveness and redemption.</li>
-					<li>In the Holy Spirit - sent by the Father and Son to convict and renew. Counselor, teacher, comforter, helper, advocate - uniting us for the glory of God.</li>
-					<li>That following Jesus Christ brings new life and we are empowered to live as we were created to as sons and daughters of God, accomplishing all for His glory.</li>
-					<li>In the promises of God giving us a hope and future, both now and life everlasting – Where someday every tribe, tongue, and nation will join together to worship God and enjoy Him forever!</li>
-				</ul>
+				<div class="flex justify-center w-full mt-4">
+					<img 
+						src="https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+						alt="CCCD Logo"
+						class="w-48 h-48 rounded-md border border-blue-800"
+					/>
+				</div>
 			</div>
 		</div>
 	</div>
-</section>
-<section id="board" class="bg-gold-100 py-12 border-t-2 border-blue-800">
-	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">Our Board Members</h2>
-		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-			<div class="bg-blue-900 text-white p-6 rounded-lg shadow-md">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1735497715/leon-cccd_qspc07.webp"
-					alt="Leon Samms - CCCD Jamaica CEO and Company Secretary"
-					width="300"
-					height="300"
-					class="w-full h-auto rounded-full mb-4"
+</div>
+<!-- End of Statement of Faith Component-->
+<!-- Board of Directors Component-->
+<section id="board" class="bg-white py-12 md:py-16 border-t-2 border-blue-800">
+	<div class="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-6 lg:px-8 xl:grid-cols-5">
+		<div class="max-w-2xl xl:col-span-2">
+			<h2 class="text-4xl font-semibold tracking-tight text-pretty text-red-900">{boardOfDirectors.edges[0].node.bod.bodHeader}</h2>
+			<p class="mt-6 text-md font-semibold text-gray-900">{@html boardOfDirectors.edges[0].node.bod.bodDescription}</p>
+			<div class="mt-8 flex justify-center">
+				<img 
+					src="https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp"
+					alt="CCCD Logo"
+					class="w-64 h-64"
 				/>
-				<h3 class="text-xl font-semibold mb-2 text-white">Leon Samms</h3>
-				<p class="text-white font-semibold">CEO and Company Secretary</p>
-				<p class="mt-2 text-white">Leon is a trained project management and development specialist with over 7 years of experience,  and with over 15 years of Christian Ministry experience. His heart for Ministry has led him to join the CCCD Family in 2021 as its CEO. He hold a Bachelor of Business Administration from the University of Technology, Jamaica and a Master's Degree in Public Administration (community and rural development), form the Yeungnam University, South Korea.</p>
-		</div>
-			<div class="bg-blue-900 text-white p-6 rounded-lg shadow-md">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726535311/cccd/ben-beukema.webp"
-					alt="Ben Beukema - CCCD Jamaica Director"
-					width="300"
-					height="300"
-					class="w-full h-auto rounded-full mb-4"
-				/>
-				<h3 class="text-xl font-semibold mb-2 text-white">Ben Beukema</h3>
-				<p class="text-white font-semibold">Director</p>
-				<p class="mt-2 text-md text-white">Ben&apos;s first trip to Jamaica to serve with the ministry was in 2003 when he was still in high school. He began serving full-time with the ministry in January of 2012 as a missionary at the Jamaica Deaf Village. In 2018 he changed roles and began leading the CCCD US Office. He has served on the board of directors since December 2019.</p>
-			</div>
-			<div class="bg-blue-900 text-white p-6 rounded-lg shadow-md">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726534357/cccd/Kent_Mogler_Headshot.webp"
-					alt="Kent Mogler - CCCD Jamaica Treasurer"
-					width="300"
-					height="300"
-					class="w-full h-auto rounded-full mb-4"
-				/>
-				<h3 class="text-xl font-semibold mb-2 text-white">Kent Mogler</h3>
-				<p class="font-semibold mb-2 text-white">Treasurer, Finance Committee chairperson.</p>
-				<p class="mt-2 text-md text-white">Kent&apos;s engagement with CCCD cam about through his missionary engagement with Harvest Call Jamaica.  He and his wife Mary reside in St. Paul, Minnesota.   He has 42 years of professional finance and operations positions, all within the food production industry.  Kent enjoys mentoring and supporting the CCCD finance team members at each campus.</p>
 			</div>
 		</div>
+		<ul role="list" class="-mt-12 space-y-12 divide-y divide-blue-800 xl:col-span-3">
+			{#each boardOfDirectors.edges.sort((a, b) => a.node.bod.listOrder - b.node.bod.listOrder) as { node }}
+				<li class="flex flex-col gap-10 pt-12 sm:flex-row">
+					<CldImage
+						src={node.bod.bodPhoto.node.sourceUrl}
+						alt={node.bod.bodPhoto.node.altText}
+						width="208"
+						height="260"
+						class="aspect-4/5 w-52 flex-none rounded-2xl object-cover border border-blue-800"
+					/>
+					<div class="max-w-xl flex-auto">
+						<h3 class="text-lg font-semibold tracking-tight text-blue-900">{node.title}</h3>
+						<p class="text-base font-semibold text-red-900">{node.bod.bodTitle}</p>
+						<p class="mt-6 text-base font-semibold text-gray-900">{@html node.content}</p>
+						<ul role="list" class="mt-6 flex gap-x-6">
+							{#if node.bod.linkedin}
+							<li>
+								<a href="{node.bod.linkedin}" class="text-blue-900 hover:text-red-900">
+									<span class="sr-only">LinkedIn</span>
+									<svg class="size-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+										<path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />
+									</svg>
+								</a>
+							</li>
+							{/if}
+							{#if node.bod.instagram}
+							<li>
+								<a href="{node.bod.instagram}" class="text-blue-900 hover:text-red-900">
+									<span class="sr-only">Instagram</span>
+									<svg class="size-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+										<path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" />
+									</svg>
+								</a>
+							</li>
+							{/if}
+						</ul>
+					</div>
+				</li>
+			{/each}
+		</ul>
 	</div>
 </section>
-<section class="bg-white py-12 border-t-2 border-blue-800">
+<!-- End of Board of Directors Component-->
+<!-- History Component-->
+<section class="bg-gold-100 py-12 border-t-2 border-blue-800">
 	<div class="container mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-8 text-red-900">History of CCCD</h2>
+		<h2 class="text-4xl font-bold text-center mb-8 text-red-900">{cccdHistories.nodes[0].categories.nodes[0].name}</h2>
 		
-		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
-			<div class="w-full md:w-1/2">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1720369817/cccd/cccdhistory.webp"
-					alt="Early photos of CCCD in Jamaica"
-					width="600"
-					height="450"
-					class="w-full h-auto rounded-lg shadow-md"
-				/>
+		{#each cccdHistories.nodes.filter(h => h.history?.historyOrder >= 1 && h.history?.historyOrder <= 6).sort((a, b) => {
+			return (a.history?.historyOrder ?? 0) - (b.history?.historyOrder ?? 0);
+		}) as history}
+			<div class="mb-8">
+				<div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+					{#if history.history.historyOrder % 2 === 0}
+						<div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:flex lg:flex-col lg:justify-center">
+							{#if history.categories.nodes.length > 0}
+								<h3 class="text-3xl font-semibold mb-4 text-red-800">{history.title}</h3>
+							{/if}
+							<div class="prose prose-lg font-semibold prose-headings:text-blue-900 prose-p:text-gray-900 prose-a:text-red-800 hover:prose-a:text-red-900 prose-strong:text-blue-900 prose-em:text-red-800 prose-li:text-gray-700 prose-li:marker:text-red-800 max-w-none">
+								{@html history.content}
+							</div>
+						</div>
+						<div class="mt-12 sm:mt-16 lg:mt-0 lg:flex lg:items-center">
+							<div class="lg:relative lg:m-0">
+								<CldImage
+									src={history.history.historyImage.node.sourceUrl}
+									alt={history.history.historyImage.node.altText}
+									width="600"
+									height="600"
+									class="w-full rounded-xl ring-2 shadow-xl ring-gold-800"
+								/>
+								{#if history.history.historyImage.node.caption}
+									<p class="mt-4 text-base text-white font-semibold text-center bg-red-800 p-2 rounded-md">{@html history.history.historyImage.node.caption}</p>
+								{/if}
+							</div>
+						</div>
+					{:else}
+						<div class="mt-12 sm:mt-16 lg:mt-0 lg:flex lg:items-center">
+							<div class="lg:relative lg:m-0">
+								<CldImage
+									src={history.history.historyImage.node.sourceUrl}
+									alt={history.history.historyImage.node.altText}
+									width="600"
+									height="600"
+									class="w-full rounded-xl ring-2 shadow-xl ring-gold-800"
+								/>
+								{#if history.history.historyImage.node.caption}
+									<p class="mt-4 text-base text-white font-semibold text-center bg-red-800 p-2 rounded-md">{@html history.history.historyImage.node.caption}</p>
+								{/if}
+							</div>
+						</div>
+						<div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:flex lg:flex-col lg:justify-center">
+							{#if history.categories.nodes.length > 0}
+								<h3 class="text-3xl font-semibold mb-4 text-red-800">{history.title}</h3>
+							{/if}
+							<div class="prose prose-lg prose-li:list-none prose-li:relative prose-li:pl-9 font-semibold prose-headings:text-blue-900 prose-p:text-gray-900 prose-a:text-red-800 hover:prose-a:text-red-900 prose-strong:text-blue-900 prose-em:text-red-800 prose-li:text-gray-700 max-w-none">
+								{@html history.content}
+							</div>
+						</div>
+					{/if}
+				</div>
 			</div>
-			<div class="w-full md:w-1/2">
-				<h3 class="text-2xl font-semibold mb-4 text-red-700">Founded in 1958</h3>
-				<p class="mb-4 text-md font-semibold">In February of 1957, Reverend Willis Ethridge and his wife, Mildred, left their home in Ontario, Canada. Their mission was to start the Christian Deaf Fellowship Center in Kingston, Jamaica. Upon arrival in Jamaica, they found a greater need than they had imagined, and felt the Lord calling them to open a school. They were soon joined by Paula Montgomery, the first Deaf American missionary.</p>
-				<p class="mb-4 text-md font-semibold">Together, the three missionaries were offered a one-year lease of a property in Manchester Parish, Jamaica, where they opened a school with eight students and a staff of three.</p>
-			</div>
-		</div>
-
-		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
-			<div class="w-full md:w-1/2">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611569/cccd/knockpatrickcampus.jpg"
-					alt="Deaf student and her mother at the Knockpatrick Campus"
-					width="600"
-					height="450"
-					class="w-full h-auto rounded-lg shadow-md"
-				/>
-			</div>
-			<div class="w-full md:w-1/2">
-				<h3 class="text-2xl font-semibold mb-4">The Knockpatrick Campus</h3>
-				<p class="mb-4 text-md font-semibold">The school continued to gain momentum, and in September 1962 moved to its present location in Knockpatrick. By 1967 there were 40 students, and today this beautiful campus serves around 70 students.</p>
-			</div>
-		</div>
-
-		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
-			<div class="w-full md:w-1/2">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611096/cccd/montegobaycccd.webp"
-					alt="Active Deaf students at CCCD in Montego Bay Campus, Montego Bay, Jamaica"
-					width="600"
-					height="450"
-					class="w-full h-auto rounded-lg shadow-md"
-				/>
-			</div>
-			<div class="w-full md:w-1/2">
-				<h3 class="text-2xl font-semibold mb-4">The Montego Bay Campus</h3>
-				<p class="mb-4 text-md font-semibold">In 1990, a second campus was added in Montego Bay, Jamaica, built on 7.5 acres of generously donated land. This school opened in August 1994 with three children. Today it serves around 40 students in our furthering education program (CADE).</p>
-			</div>
-		</div>
-
-		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
-			<div class="w-full md:w-1/2">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726536326/cccd/cccdstudents4.webp"
-					alt="Jamaica Deaf Students studying at CCCD"
-					width="600"
-					height="450"
-					class="w-full h-auto rounded-lg shadow-md"
-				/>
-			</div>
-			<div class="w-full md:w-1/2">
-				<h3 class="text-2xl font-semibold mb-4">The Kingston Campus</h3>
-				<p class="mb-4 text-md font-semibold">In July 1994, the CCCD reopened the old Christian Deaf Fellowship campus in the heart of Kingston as a new CCCD school. Kingston is home to half the population of Jamaica, as well as many Deaf who do not have access to the Knockpatrick and MoBay campuses. Today, the Kingston campus serves around 40 students and is home to the Deaf Can! Coffee enterprise.</p>
-			</div>
-		</div>
-
-		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
-			<div class="w-full md:w-1/2">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726536329/cccd/jamaicaDeafvillage.webp"
-					aria-label="Jamaica Deaf Village"
-					width="600"
-					height="450"
-					class="w-full h-auto rounded-lg shadow-md"
-				/>
-			</div>
-			<div class="w-full md:w-1/2">
-				<h3 class="text-2xl font-semibold mb-4">The Jamaica Deaf Village</h3>
-				<p class="mb-4 text-md font-semibold">The three school campuses continued to run smoothly, and graduated class after class -- but the Deaf graduating from high school still struggled to find employment. Employers did not have the time or resources to devote to learning to communicate with the Deaf, and did not hire them.</p>
-				<p class="mb-4 text-md font-semibold">No job means no money, and no money means that, despite their education and potential, the Deaf graduates were unable to provide for their own basic needs. Many turned to desperate means to obtain food, clothing, and shelter.</p>
-				<p class="	mb-4 text-md font-semibold">And so in June of 1984, the CCCD ministry began development of the 100-acre Jamaica Deaf Village, which would serve as a safe place where Deaf adults and their families could live in community, attend worship, and find meaningful employment.</p>
-			</div>
-		</div>
-
-		<div class="mb-8 flex flex-col md:flex-row items-start gap-8">
-			<div class="w-full md:w-1/2">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/v1726611183/cccd/Deafvillagechurch.webp"
-					aria-label="Church at the Deaf Village outside Knockpatrick, Jamaica"
-					width="600"
-					height="450"
-					class="w-full h-auto rounded-lg shadow-md"
-				/>
-			</div>
-			<div class="w-full md:w-1/2">
-				<h3 class="text-2xl font-semibold mb-4">The Factory & Church</h3>
-				<p class="mb-4 text-md font-semibold">The Jamaica Deaf Village (JDV) campus continued to grow with the addition of a church, a woodworking factory, apartment complexes for the Deaf, and more -- none of which could have been constructed without the assistance of mission teams.</p>
-				<p class="mb-4 text-md font-semibold">Finally, in 2002, after many years of miracles mixed with trying circumstances, the first villagers moved onto campus, and the first steam-bent wooden rocking chair was manufactured in the factory.</p>
-				<p class="mb-4 text-md font-semibold">Shortly thereafter, the first church service was held at the village, led by Rev. Gary Williams, who plants Deaf churches within the hearing churches of Kingston. There were nearly 60 Deaf present that Sunday, and ever since, the Deaf have been worshipping, fellowshipping, and growing in Christ Jesus at JDV.</p>
-			</div>
-		</div>
-
-		<div>
-			<h3 class="text-2xl font-semibold mb-4 text-red-900">The Future</h3>
-			<p class="mb-4 text-md font-semibold">We have the privilege of knowing, serving, and trusting in a God who loves us. Help us to spread the word of Jesus Christ to the Deaf in Jamaica. You can do this in many ways:</p>
-			<ul class="list-disc list-inside mb-4 pl-4 text-md font-semibold">
-				<li>Keep us operating by giving to our General Fund</li>
-				<li>Sponsor one of the children on our campuses</li>
-				<li>Bring a team to visit and help us continue to build and grow our campuses</li>
-				<li>Continue to spread the word of the work we're doing here in Jamaica</li>
-			</ul>
-			<p class="mb-4 text-md font-semibold">We hope that, with your help, the mission of the CCCD can continue to expand and grow.</p>
-			<div class="mt-8 flex flex-col items-center">
-				<CldImage
-					src="https://res.cloudinary.com/shinkirin/image/upload/c_scale,w_1200/v1726536841/cccd/20240725_105724.webp"
-					alt="CCCD Deaf Village"
-					width="1200"
-					height="400"
-					class="w-full max-w-4xl h-auto rounded-lg shadow-md"
-				/>
-				<p class="mt-2 text-md text-gray-900 font-semibold">Together, we can build a brighter future for the Deaf community in Jamaica</p>
-			</div>
-		</div>
+		{/each}
 	</div>
 </section>
+<!-- End of History Component-->
+<!-- Support Component-->
 <Support />
+<!-- End of Support Component-->
+{/if} <!-- End of if pageBy -->
