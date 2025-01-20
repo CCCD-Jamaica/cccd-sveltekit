@@ -68,7 +68,7 @@
 {#if pageBy} <!-- If pageBy is defined, show the content -->
 <!-- About Header Component-->
 <section class="bg-white py-20">
-	<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8">
+	<div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:px-8 border-b-4 border-black">
 		<img src="{aboutContent.headerimage.node.sourceUrl}" alt="{aboutContent.headerimage.node.altText}" aria-describedby="{aboutContent.headerimage.node.altText}" class="absolute inset-0 -z-10 size-full object-cover brightness-85 saturate-200 contrast-125 bg-blend-multiply bg-blue-700">
 		<p id="{aboutContent.headerimage.node.altText}" class="sr-only bg-white text-black">{aboutContent.headerimage.node.description}</p>
 		<div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
