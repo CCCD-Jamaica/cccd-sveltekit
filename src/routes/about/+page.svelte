@@ -273,11 +273,12 @@
 					{#if history.history.historyOrder % 2 === 0}
 						<div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:flex lg:flex-col lg:justify-center">
 							{#if history.categories.nodes.length > 0}
-								<h3 class="text-3xl font-semibold mb-4 text-red-800">{history.title}</h3>
+								<h3 class="text-3xl font-semibold mb-4 mt-4 lg:mt-0 text-red-800">{history.title}</h3>
 							{/if}
 							<div class="prose prose-lg font-semibold prose-headings:text-blue-900 prose-p:text-gray-900 prose-a:text-red-800 hover:prose-a:text-red-900 prose-strong:text-blue-900 prose-em:text-red-800 prose-li:text-gray-700 prose-li:marker:text-red-800 max-w-none">
 								{@html history.content}
 							</div>
+					
 						</div>
 						<div class="mt-12 sm:mt-16 lg:mt-0 lg:flex lg:items-center">
 							<div class="lg:relative lg:m-0">
@@ -310,11 +311,12 @@
 						</div>
 						<div class="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:px-0 lg:flex lg:flex-col lg:justify-center">
 							{#if history.categories.nodes.length > 0}
-								<h3 class="text-3xl font-semibold mb-4 text-red-800">{history.title}</h3>
+								<h3 class="text-3xl font-semibold mb-4 mt-4 lg:mt-0 text-red-800">{history.title}</h3>
 							{/if}
 							<div class="prose prose-lg prose-li:list-none prose-li:relative prose-li:pl-9 font-semibold prose-headings:text-blue-900 prose-p:text-gray-900 prose-a:text-red-800 hover:prose-a:text-red-900 prose-strong:text-blue-900 prose-em:text-red-800 prose-li:text-gray-700 max-w-none">
 								{@html history.content}
 							</div>
+							<hr class="my-4 border-blue-800 lg:hidden" />
 						</div>
 					{/if}
 				</div>

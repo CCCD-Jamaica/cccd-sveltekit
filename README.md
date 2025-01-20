@@ -47,7 +47,7 @@ This project is licensed under the [BSD 3-Clause License](LICENSE).
 
 ### Project Status
 - Project Production Version: 1.0.2
-- Project Development Version: 1.1.0
+- Project Development Version: 1.1.2
 
 ### Hosting
 
