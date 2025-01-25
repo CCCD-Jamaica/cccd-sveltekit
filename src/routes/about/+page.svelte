@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import { CldImage } from 'svelte-cloudinary';
 	import Support from '$components/Support.svelte';
-	import { MetaTags, JsonLd } from 'svelte-meta-tags';
+	import SEO from '$components/SEO.svelte';
 	export let data;
 	const { pageBy, boardOfDirectors, cccdHistories } = data;
 	const aboutContent = pageBy?.aboutPageContent || {};
@@ -11,7 +11,6 @@
 		shouldAnimate = true;
 	});
 </script>
-
 <!-- Accessibility Checks
 	1. WCAG ContrastChecker: WCAG 2.0 AA & AAA Compliance on 2024-12-29.
 	2. Siteimprove: WCAG 2.0 AA and WCAG 2.0 AAA Compliance on 2024-12-29.
@@ -19,52 +18,13 @@
 	5. Alnspector: WCAG 2.2 AA Compliance on 2024-12-29.
 	6. Wave Evaluation Tool: WCAG 2.2 AA and WCAG 2.2 AAA Compliance on 2024-12-29.
 -->
-
 <svelte:head>
 	<title>{pageBy.title} Jamaica</title>
 	<meta name="description" content="About CCCD Jamaica - Our Mission, Vision, and Beliefs" />
 </svelte:head>
 
-<MetaTags
-    title="About Us - Caribbean Christian Centre for the Deaf"
-    description="Learn about the mission, vision, and history of Caribbean Christian Centre for the Deaf (CCCD) Jamaica. Discover how we're empowering the Deaf community through education and support."
-    canonical="https://cccd.org.jm/about"
-    openGraph={{
-        url: 'https://cccd.org.jm/about',
-        title: 'About CCCD Jamaica - Empowering the Deaf Community',
-        description: 'Discover the mission and impact of Caribbean Christian Centre for the Deaf. Learn how we\'re transforming lives through education and support for the Deaf in Jamaica.',
-        images: [
-            {
-                url: 'https://res.cloudinary.com/shinkirin/image/upload/v1726612157/cccd/graduatesfromcccd.webp',
-                width: 800,
-                height: 600,
-                alt: 'CCCD Jamaica Deaf Students'
-            }
-        ],
-    }}
-    twitter={{
-        handle: '@CCCDJamaica',
-        site: '@CCCDJamaica',
-        cardType: 'summary_large_image',
-    }}
-/>
+<SEO />
 
-<JsonLd
-    schema={{
-        "@context": "https://schema.org",
-        "@type": "NGO",
-        name: "Caribbean Christian Centre for the Deaf",
-        alternateName: "CCCD Jamaica",
-        url: "https://cccd.org.jm",
-        logo: "https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp",
-        sameAs: [
-            "https://www.facebook.com/cccdjamaica",
-            "https://www.instagram.com/cccdjamaica/",
-            "https://www.youtube.com/@caribbeanchristiancentre"
-        ],
-        description: "Caribbean Christian Centre for the Deaf (CCCD) is dedicated to empowering the Deaf community in Jamaica through education, vocational training, and spiritual nurturing.",
-    }}
-/>
 {#if pageBy} <!-- If pageBy is defined, show the content -->
 <!-- About Header Component-->
 <section class="bg-white py-20">

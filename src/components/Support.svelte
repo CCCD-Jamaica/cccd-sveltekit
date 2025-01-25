@@ -104,7 +104,7 @@ fetchData();
 </div>
 <div class="container mx-auto px-4 relative z-10">
 	<div class="p-4 text-center">
-	<span class="text-3xl font-extrabold mb-4 text-red-900">{componentBy.title}</span>
+	<span class="text-4xl font-extrabold mb-4 text-red-800">{componentBy.title}</span>
 	</div>
 	<div class="flex flex-col items-center">
 	<div class="mb-6">
