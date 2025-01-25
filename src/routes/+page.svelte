@@ -605,7 +605,7 @@
 				src="https://res.cloudinary.com/shinkirin/image/upload/v1722901294/cccd_wordpress/cropped-cccdLogo-drupal.webp" 
 				alt="CCCD Logo" 
 				aria-describedby="cccd-logo"
-				class="h-36 w-auto"
+				class="h-36 w-auto rounded-md border-2 border-blue-900"
 				loading="lazy"
 			/>
 			<p id="cccd-logo" class="sr-only">CCCD Logo with Carribean Christian Centre for the Deaf wrapped around three people each with a different color of the CCCD. The slogan "Reach, Teach, and Nurture" is written below the logo. 1 Peter 4:7-11 is written below the slogan.</p>
